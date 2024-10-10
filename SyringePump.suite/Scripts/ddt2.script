@@ -1,0 +1,17 @@
+﻿to LoadData
+	Set varExcelDB to {type: "excel", file: ResourcePath("Syringe_Pump.xlsx"), name: "Data"}
+	Set Data to the records of varExcelDB
+	Repeat with each item DataSet of Data
+		Set varData to {}
+		Set global varSyringe_Number to DataSet's Syringe_Number
+		Set global varMedication to DataSet's Medication
+		Set global varDose to DataSet's Dose
+		Set global varInfusionRate to DataSet's Infusion_Rate
+		Set varDose1 to {(second item of varList): (TrimAll(first item of varList)), \
+					(fourth item of varList): (TrimAll(third item of varList)), \
+					(sixth item of varList): (TrimAll(fifth item of varList)), \
+					(eighth item of varList): (TrimAll(eighth item of varList))}
+
+	End Repeat
+	Wait 1
+end LoadData

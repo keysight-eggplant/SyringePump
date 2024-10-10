@@ -1,0 +1,18 @@
+﻿2024-08-15 19:51:24.623 -0400	START		Running _Master.script
+2024-08-15 19:51:24.925 -0400	Connect		Windows 11:(null)	4	on_connect_to_sut	Connect to SUT.script
+2024-08-15 19:51:25.028 -0400	startmovie		/Users/stevbarr/Keysight Sandbox/Suites/Syringe_Pump.suite/Results/_Master/20240815_195124.621/Syringe Pump.mp4	5	on__master	_Master.script
+2024-08-15 19:51:27.408 -0400	imagefound	button_Windows_Start	Unable to Find Image button_Windows_Start	1	on_launch_pump	Launch Pump.script
+2024-08-15 19:51:29.896 -0400	imagefound	window_SyringePumpStack	Unable to Find Image window_SyringePumpStack	11	on_launch_pump	Launch Pump.script
+2024-08-15 19:51:34.004 -0400	moveto		at (1536, 864)	9	on_run_an_os_command	/Users/stevbarr/Keysight Sandbox/Suites/Helper Suites/[Run Command Helper].suite/Scripts/Run an OS Command.script
+2024-08-15 19:51:34.734 -0400	typetext		[controlKey]W	13	on_run_an_os_command	/Users/stevbarr/Keysight Sandbox/Suites/Helper Suites/[Run Command Helper].suite/Scripts/Run an OS Command.script
+2024-08-15 19:51:36.771 -0400	typetext		[windowsKey]r	17	on_run_an_os_command	/Users/stevbarr/Keysight Sandbox/Suites/Helper Suites/[Run Command Helper].suite/Scripts/Run an OS Command.script
+2024-08-15 19:51:39.751 -0400	waitfor	OS/Windows/Run Window	found at (67, 8)	19	on_run_an_os_command	/Users/stevbarr/Keysight Sandbox/Suites/Helper Suites/[Run Command Helper].suite/Scripts/Run an OS Command.script
+2024-08-15 19:51:39.794 -0400	typetext		[backspace]	21	on_run_an_os_command	/Users/stevbarr/Keysight Sandbox/Suites/Helper Suites/[Run Command Helper].suite/Scripts/Run an OS Command.script
+2024-08-15 19:51:42.407 -0400	typetext		C:\Program Files\Syringe Pump\syringe_pump.exe[returnKey]	24	on_run_an_os_command	/Users/stevbarr/Keysight Sandbox/Suites/Helper Suites/[Run Command Helper].suite/Scripts/Run an OS Command.script
+2024-08-15 19:51:47.455 -0400	typetext		[windowsAltKey] 	29	on_run_an_os_command	/Users/stevbarr/Keysight Sandbox/Suites/Helper Suites/[Run Command Helper].suite/Scripts/Run an OS Command.script
+2024-08-15 19:51:51.262 -0400	imagefound	OS/Windows/System Menu/Maximize	Unable to Find Image OS/Windows/System Menu/Maximize	30	on_run_an_os_command	/Users/stevbarr/Keysight Sandbox/Suites/Helper Suites/[Run Command Helper].suite/Scripts/Run an OS Command.script
+2024-08-15 19:51:51.370 -0400	imagefound	OS/Windows/Window Icons/Maximize	found at (1173, 152)	34	on_run_an_os_command	/Users/stevbarr/Keysight Sandbox/Suites/Helper Suites/[Run Command Helper].suite/Scripts/Run an OS Command.script
+2024-08-15 19:51:51.561 -0400	click	OS/Windows/Window Icons/Maximize	at (1173, 152)	35	on_run_an_os_command	/Users/stevbarr/Keysight Sandbox/Suites/Helper Suites/[Run Command Helper].suite/Scripts/Run an OS Command.script
+2024-08-15 19:51:52.613 -0400	moveto		at (1536, 864)	96	on_run_an_os_command	/Users/stevbarr/Keysight Sandbox/Suites/Helper Suites/[Run Command Helper].suite/Scripts/Run an OS Command.script
+2024-08-15 19:52:02.202 -0400	EndTestCase		(Duration:"37.577968", Errors:"1", Exceptions:"0", StartTime:"2024-08-15 19:51:24 -0400", Successes:"0", TestCase:"_Master.script", Warnings:"0")
+2024-08-15 19:52:02.204 -0400	ABORTED		Execution Time 0:00:37 _Master.script

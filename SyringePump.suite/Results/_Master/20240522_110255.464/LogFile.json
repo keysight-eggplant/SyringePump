@@ -1,0 +1,184 @@
+{
+  "entries" : [
+    {
+      "identifier" : "START",
+      "message" : "Running _Master.script",
+      "timestamp" : "2024-05-22 11:02:55.467 -0400"
+    },
+    {
+      "handlerName" : "on_connect_to_sut",
+      "message" : "Syringe Pump Stack:(null)",
+      "timestamp" : "2024-05-22 11:02:55.558 -0400",
+      "identifier" : "Connect",
+      "scriptName" : "Connect to SUT.script",
+      "handlerLine" : 1
+    },
+    {
+      "handlerName" : "on_run_an_os_command",
+      "message" : "at (1536, 864)",
+      "timestamp" : "2024-05-22 11:02:55.670 -0400",
+      "identifier" : "moveto",
+      "scriptName" : "\/Users\/stevbarr\/Keysight Sandbox\/Suites\/Helper Suites\/[Run Command Helper Suite].suite\/Scripts\/Run an OS Command.script",
+      "handlerLine" : 9
+    },
+    {
+      "handlerName" : "on_run_an_os_command",
+      "message" : "[controlKey]W",
+      "timestamp" : "2024-05-22 11:02:56.402 -0400",
+      "identifier" : "typetext",
+      "scriptName" : "\/Users\/stevbarr\/Keysight Sandbox\/Suites\/Helper Suites\/[Run Command Helper Suite].suite\/Scripts\/Run an OS Command.script",
+      "handlerLine" : 13
+    },
+    {
+      "handlerName" : "on_run_an_os_command",
+      "message" : "[windowsKey]r",
+      "timestamp" : "2024-05-22 11:02:58.441 -0400",
+      "identifier" : "typetext",
+      "scriptName" : "\/Users\/stevbarr\/Keysight Sandbox\/Suites\/Helper Suites\/[Run Command Helper Suite].suite\/Scripts\/Run an OS Command.script",
+      "handlerLine" : 17
+    },
+    {
+      "handlerName" : "on_run_an_os_command",
+      "message" : "found at (37, 841)",
+      "identifier" : "waitfor",
+      "image" : "OS\/Windows\/Run Window",
+      "handlerLine" : 18,
+      "timestamp" : "2024-05-22 11:02:59.180 -0400",
+      "scriptName" : "\/Users\/stevbarr\/Keysight Sandbox\/Suites\/Helper Suites\/[Run Command Helper Suite].suite\/Scripts\/Run an OS Command.script"
+    },
+    {
+      "handlerName" : "on_run_an_os_command",
+      "message" : "[backspace]",
+      "timestamp" : "2024-05-22 11:02:59.202 -0400",
+      "identifier" : "typetext",
+      "scriptName" : "\/Users\/stevbarr\/Keysight Sandbox\/Suites\/Helper Suites\/[Run Command Helper Suite].suite\/Scripts\/Run an OS Command.script",
+      "handlerLine" : 19
+    },
+    {
+      "handlerName" : "on_run_an_os_command",
+      "message" : "C:\\Syringe Pump\\syringe_pump.exe[returnKey]",
+      "timestamp" : "2024-05-22 11:03:01.714 -0400",
+      "identifier" : "typetext",
+      "scriptName" : "\/Users\/stevbarr\/Keysight Sandbox\/Suites\/Helper Suites\/[Run Command Helper Suite].suite\/Scripts\/Run an OS Command.script",
+      "handlerLine" : 22
+    },
+    {
+      "handlerName" : "on_run_an_os_command",
+      "message" : "[windowsAltKey] ",
+      "timestamp" : "2024-05-22 11:03:06.783 -0400",
+      "identifier" : "typetext",
+      "scriptName" : "\/Users\/stevbarr\/Keysight Sandbox\/Suites\/Helper Suites\/[Run Command Helper Suite].suite\/Scripts\/Run an OS Command.script",
+      "handlerLine" : 26
+    },
+    {
+      "handlerName" : "on_run_an_os_command",
+      "message" : "Unable to Find Image OS\/Windows\/System Menu\/Maximize",
+      "identifier" : "imagefound",
+      "image" : "OS\/Windows\/System Menu\/Maximize",
+      "handlerLine" : 27,
+      "timestamp" : "2024-05-22 11:03:11.200 -0400",
+      "scriptName" : "\/Users\/stevbarr\/Keysight Sandbox\/Suites\/Helper Suites\/[Run Command Helper Suite].suite\/Scripts\/Run an OS Command.script"
+    },
+    {
+      "handlerName" : "on_run_an_os_command",
+      "message" : "[escape]",
+      "timestamp" : "2024-05-22 11:03:11.221 -0400",
+      "identifier" : "typetext",
+      "scriptName" : "\/Users\/stevbarr\/Keysight Sandbox\/Suites\/Helper Suites\/[Run Command Helper Suite].suite\/Scripts\/Run an OS Command.script",
+      "handlerLine" : 31
+    },
+    {
+      "handlerName" : "on_run_an_os_command",
+      "message" : "at (1536, 864)",
+      "timestamp" : "2024-05-22 11:03:12.290 -0400",
+      "identifier" : "moveto",
+      "scriptName" : "\/Users\/stevbarr\/Keysight Sandbox\/Suites\/Helper Suites\/[Run Command Helper Suite].suite\/Scripts\/Run an OS Command.script",
+      "handlerLine" : 88
+    },
+    {
+      "handlerName" : "on_launch_pump",
+      "message" : "at (152, 144)",
+      "identifier" : "click",
+      "image" : "window_SyringePumpStack",
+      "handlerLine" : 5,
+      "timestamp" : "2024-05-22 11:03:13.592 -0400",
+      "scriptName" : "Launch Pump.script"
+    },
+    {
+      "handlerName" : "on_launch_pump",
+      "message" : "at (185, 261)",
+      "identifier" : "click",
+      "image" : "menu_Maximize",
+      "handlerLine" : 6,
+      "timestamp" : "2024-05-22 11:03:14.902 -0400",
+      "scriptName" : "Launch Pump.script"
+    },
+    {
+      "handlerName" : "on_syringe",
+      "message" : "SEARCHRECTANGLE = [\"Syringe\/1\/Area\/rect_A\",\"Syringe\/1\/Area\/rect_B\"]",
+      "timestamp" : "2024-05-22 11:03:17.131 -0400",
+      "identifier" : "set",
+      "scriptName" : "Syringe.script",
+      "handlerLine" : 2
+    },
+    {
+      "handlerName" : "on_syringe",
+      "message" : "(202,74,406,139)",
+      "timestamp" : "2024-05-22 11:03:21.827 -0400",
+      "identifier" : "readtext",
+      "scriptName" : "Syringe.script",
+      "handlerLine" : 3
+    },
+    {
+      "handlerName" : "on_syringe",
+      "message" : "(1648,24,1906,133)",
+      "timestamp" : "2024-05-22 11:03:23.076 -0400",
+      "identifier" : "readtext",
+      "scriptName" : "Syringe.script",
+      "handlerLine" : 11
+    },
+    {
+      "handlerName" : "on_syringe",
+      "message" : "SEARCHRECTANGLE = ",
+      "timestamp" : "2024-05-22 11:04:14.683 -0400",
+      "identifier" : "set",
+      "scriptName" : "Syringe.script",
+      "handlerLine" : 20
+    },
+    {
+      "handlerName" : "on_syringe",
+      "message" : "SEARCHRECTANGLE = [\"Syringe\/2\/rect_A\",\"Syringe\/2\/rect_B\"]",
+      "timestamp" : "2024-05-22 11:04:27.184 -0400",
+      "identifier" : "set",
+      "scriptName" : "Syringe.script",
+      "handlerLine" : 24
+    },
+    {
+      "handlerName" : "on_syringe",
+      "message" : "(202,219,406,284)",
+      "timestamp" : "2024-05-22 11:04:28.746 -0400",
+      "identifier" : "readtext",
+      "scriptName" : "Syringe.script",
+      "handlerLine" : 25
+    },
+    {
+      "handlerName" : "on_syringe",
+      "message" : "(1648,169,1906,278)",
+      "timestamp" : "2024-05-22 11:04:29.969 -0400",
+      "identifier" : "readtext",
+      "scriptName" : "Syringe.script",
+      "handlerLine" : 33
+    },
+    {
+      "identifier" : "EndTestCase",
+      "message" : "(Duration:\"114.660394\", Errors:\"1\", Exceptions:\"0\", StartTime:\"2024-05-22 11:02:55 -0400\", Successes:\"0\", TestCase:\"_Master.script\", Warnings:\"0\")",
+      "timestamp" : "2024-05-22 11:04:50.129 -0400"
+    },
+    {
+      "identifier" : "ABORTED",
+      "message" : "Execution Time 0:01:54 _Master.script",
+      "timestamp" : "2024-05-22 11:04:50.131 -0400"
+    }
+  ],
+  "createdTimestamp" : "2024-05-22 11:02:55.468 -0400"
+}

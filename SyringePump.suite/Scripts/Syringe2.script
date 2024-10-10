@@ -1,0 +1,35 @@
+﻿Params parmSyringeNumber
+
+Set the SearchRectangle to ("Syringe/" & parmSyringeNumber & "/rect_A","Syringe/" & parmSyringeNumber & "/rect_B")
+Put ReadText("Syringe/Medication/rect_A","Syringe/Medication/rect_B", DPI:"144") into varList
+Split varList using return
+-- removing embedded spaces and colon character --
+Replace every occurrence of ":" in varList with ""
+Replace every occurrence of ". " in varList with "."
+----------------------------------------------------------------------
+Set global varMedicine&parmSyringeNumber to {(TrimAll(first item of varList)): (TrimAll(fifth item of varList)), \
+			(second item of varList): (sixth item of varList), \
+			(third item of varList): (seventh item of varList), \
+			(fourth item of varList): (eighth item of varList)}
+Delete variable varList
+Put ReadText("Syringe/Dose/rect_A","Syringe/Dose/rect_B", DPI:"144") into varList
+Replace every occurrence of tab&"[" in varList with " ["
+Replace every occurrence of tab in varList with return
+Split varList using return
+Set global varDose & parmSyringeNumber to {(fifth item of varList): (TrimAll(first item of varList)), \
+			(sixth item of varList): (TrimAll(second item of varList)), \
+			(seventh item of varList): (TrimAll(third item of varList)), \
+			(eighth item of varList): (TrimAll(fourth item of varList))}
+Delete variable varList
+-- action on the syringe needle --
+Repeat for each item of global varData whose "Syringe Number" is parmSyringeNumber
+	Click "Syringe/field_Dose"
+	TypeText it's Dose
+	Click "Syringe/Start Injection"
+	Wait 4
+	If it's Refill is "Y"
+		Click "Syringe/Refill Injection"
+	End If
+End Repeat--------------------------------------------
+Set the SearchRectangle to empty
+CaptureScreen (Name: "Status of Needle #" & parmSyringeNumber & "'s Injection")

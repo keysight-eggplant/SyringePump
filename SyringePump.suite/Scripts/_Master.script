@@ -1,0 +1,42 @@
+﻿Run "Set Global Variables"
+
+Run "Connect to SUT"
+
+-- StartMovie "Syringe Pump"
+
+Run "Launch Pump"
+
+Run ViewSettings.Dark_Mode
+
+PlotSyringeActivity
+
+ReadSyringeValues original
+
+AdministerMeds 4,7,3,1,5,6,11
+
+Wait 15
+
+ReadSyringeValues final
+
+VerifySyringeValues
+
+
+
+
+(*Run Syringe's Start_Injection_1
+
+Run Syringe's Start_Injection_2
+
+Run Syringe's Start_Injection_3
+
+Run Syringe's Start_Injection_4
+
+Run Syringe's Start_Injection_5
+
+Run Syringe's Start_Injection_6
+
+Run Syringe's Start_Injection_7*)
+
+Run "Turn Off Pump"
+
+--StopMovie

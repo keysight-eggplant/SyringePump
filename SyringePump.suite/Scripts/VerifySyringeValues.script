@@ -1,0 +1,10 @@
+﻿global myRectangle
+
+Repeat 7 times
+	Log "The dose value is"&&myRectangle.("DoseValue"&repeatIndex()&"final")&&"and the current value is"&&myRectangle.("CurrentValue"&repeatIndex()&"final")
+	If myRectangle.("DoseValue"&repeatIndex()&"final") + myRectangle.("CurrentValue"&repeatIndex()&"final") = 10 then
+		LogSuccess "All of the medicine was administered"
+	Else
+		LogWarning "All of the medicine was not administered. The syringe was exhausted with"&&myRectangle.("RemainingValue"&repeatIndex()&"final")&"mL remaining."
+	End If
+End repeat

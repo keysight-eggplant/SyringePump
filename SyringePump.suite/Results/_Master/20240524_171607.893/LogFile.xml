@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+ <testsuite name="_Master_script" package="Syringe_Pump.suite" timestamp="2024-05-24 17:16:07.893 -0400"
+ tests="1"  failures="1" errors="0" time="27.003130">
+  <properties>
+   <property name="RunDate" value="2024-05-24 17:16:07.893 -0400"/>
+   <property name="Status" value="Failure"/>
+  </properties>
+  <testcase name="_Master.script" assertions="1" status="failure"  time="27.000202">
+    <failure type="FAILURE" message="InvalidCommandOrRange: Not a valid command, or else incorrect types given for a range (must be numbers, date/times, or single characters -- got &quot;1&quot; TO &quot;{Concentration:&quot;0...&quot;) -- Execution Time 0:00:27 _Master.script" />
+  </testcase>
+ </testsuite>
+</testsuites>

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+ <testsuite name="PlotSyringeActivity_script" package="Syringe_Pump.suite" timestamp="2024-10-02 15:09:27.245 -0400"
+ tests="1"  failures="0" errors="0" time="13.234000">
+  <properties>
+   <property name="RunDate" value="2024-10-02 15:09:27.245 -0400"/>
+   <property name="Status" value="Aborted"/>
+  </properties>
+  <testcase name="PlotSyringeActivity.script" assertions="1" status="error"  time="13.226">
+    <error type="Exception" message="Searching For Image: OCR Error: Operation was aborted" />
+  </testcase>
+ </testsuite>
+</testsuites>

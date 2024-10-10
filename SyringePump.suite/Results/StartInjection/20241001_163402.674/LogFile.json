@@ -1,0 +1,29 @@
+{
+	"entries": [
+		{
+				"message": "Running StartInjection.script",
+				"identifier": "START",
+				"timestamp": "2024-10-01 16:34:02.685 -0400"
+			},
+		{
+				"handlerName": "on_startinjection",
+				"timestamp": "2024-10-01 16:34:05.941 -0400",
+				"scriptName": "StartInjection.script",
+				"message": "at [208,188,272,202]",
+				"image": "(TEXT:\"Syringe \")",
+				"handlerLine": 8,
+				"identifier": "imagerectangle"
+			},
+		{
+				"message": "(Duration:\"3.295\", Errors:\"0\", Exceptions:\"0\", StartTime:\"2024-10-01 16:34:02 -0400\", Successes:\"1\", TestCase:\"StartInjection.script\", Warnings:\"0\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2024-10-01 16:34:05.985 -0400"
+			},
+		{
+				"message": "Execution Time 0:00:03 StartInjection.script",
+				"identifier": "SUCCESS",
+				"timestamp": "2024-10-01 16:34:06.032 -0400"
+			}
+	],
+	"createdTimestamp": "2024-10-01 16:34:02.689 -0400"
+}

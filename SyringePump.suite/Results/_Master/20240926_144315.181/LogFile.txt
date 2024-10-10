@@ -1,0 +1,19 @@
+﻿2024-09-26 14:43:15.185 -0400	START		Running _Master.script
+2024-09-26 14:43:21.063 -0400	Connect		Single System:(null)	4	on_connect_to_sut	Connect to SUT.script
+2024-09-26 14:43:24.913 -0400	startmovie		C:/Eggplant_Suites/Syringe_Pump.suite/Results/_Master/20240926_144315.181/Syringe Pump.mp4	5	on__master	_Master.script
+2024-09-26 14:43:29.813 -0400	imagefound	button_Windows_Start	Unable to Find Image button_Windows_Start	1	on_launch_pump	Launch Pump.script
+2024-09-26 14:43:47.773 -0400	imagefound	window_SyringePumpStack	Unable to Find Image window_SyringePumpStack	11	on_launch_pump	Launch Pump.script
+2024-09-26 14:43:53.177 -0400	moveto		at (1536, 864)	9	on_run_an_os_command	C:/Eggplant_Suites/Helper Suites/[Run Command Helper].suite/Scripts/Run an OS Command.script
+2024-09-26 14:43:55.082 -0400	typetext		[controlKey]W	13	on_run_an_os_command	C:/Eggplant_Suites/Helper Suites/[Run Command Helper].suite/Scripts/Run an OS Command.script
+2024-09-26 14:43:59.303 -0400	typetext		[windowsKey]r	17	on_run_an_os_command	C:/Eggplant_Suites/Helper Suites/[Run Command Helper].suite/Scripts/Run an OS Command.script
+2024-09-26 14:44:04.421 -0400	waitfor	OS/Windows/Run Window	found at (751, 8)	19	on_run_an_os_command	C:/Eggplant_Suites/Helper Suites/[Run Command Helper].suite/Scripts/Run an OS Command.script
+2024-09-26 14:44:05.236 -0400	typetext		[backspace]	21	on_run_an_os_command	C:/Eggplant_Suites/Helper Suites/[Run Command Helper].suite/Scripts/Run an OS Command.script
+2024-09-26 14:44:16.481 -0400	typetext		C:\Program Files\Syringe Pump\syringe_pump.exe[returnKey]	24	on_run_an_os_command	C:/Eggplant_Suites/Helper Suites/[Run Command Helper].suite/Scripts/Run an OS Command.script
+2024-09-26 14:45:12.095 -0400	typetext		[windowsAltKey] 	29	on_run_an_os_command	C:/Eggplant_Suites/Helper Suites/[Run Command Helper].suite/Scripts/Run an OS Command.script
+2024-09-26 14:45:17.047 -0400	imagefound	OS/Windows/System Menu/Maximize	Unable to Find Image OS/Windows/System Menu/Maximize	30	on_run_an_os_command	C:/Eggplant_Suites/Helper Suites/[Run Command Helper].suite/Scripts/Run an OS Command.script
+2024-09-26 14:45:18.266 -0400	typetext		[escape]	40	on_run_an_os_command	C:/Eggplant_Suites/Helper Suites/[Run Command Helper].suite/Scripts/Run an OS Command.script
+2024-09-26 14:45:24.213 -0400	moveto		at (1536, 864)	98	on_run_an_os_command	C:/Eggplant_Suites/Helper Suites/[Run Command Helper].suite/Scripts/Run an OS Command.script
+2024-09-26 14:45:32.461 -0400	click	window_SyringePumpStack	at (205, 196)	16	on_launch_pump	Launch Pump.script
+2024-09-26 14:45:54.859 -0400	click	menu_Maximize	at (233, 345)	17	on_launch_pump	Launch Pump.script
+2024-09-26 15:00:47.598 -0400	EndTestCase		(Duration:"1052.407", Errors:"1", Exceptions:"0", StartTime:"2024-09-26 14:43:15 -0400", Successes:"0", TestCase:"_Master.script", Warnings:"0")
+2024-09-26 15:00:47.644 -0400	ABORTED		Execution Time 0:17:32 _Master.script

@@ -1,0 +1,170 @@
+{
+	"entries": [
+		{
+				"message": "Running _Master.script",
+				"identifier": "START",
+				"timestamp": "2024-10-02 16:31:23.274 -0400"
+			},
+		{
+				"handlerName": "on_connect_to_sut",
+				"timestamp": "2024-10-02 16:31:23.361 -0400",
+				"message": "NewSingleSystem:(null)",
+				"scriptName": "Connect to SUT.script",
+				"handlerLine": 4,
+				"identifier": "Connect"
+			},
+		{
+				"handlerName": "on__master",
+				"timestamp": "2024-10-02 16:31:23.367 -0400",
+				"message": "C:/ScriptRepositories/Syringe_Pump.suite/Results/_Master/20241002_163123.270/Syringe Pump.mp4",
+				"scriptName": "_Master.script",
+				"handlerLine": 5,
+				"identifier": "startmovie"
+			},
+		{
+				"handlerName": "on_launch_pump",
+				"timestamp": "2024-10-02 16:31:25.932 -0400",
+				"scriptName": "Launch Pump.script",
+				"message": "Unable to Find Image button_Windows_Start",
+				"image": "button_Windows_Start",
+				"handlerLine": 1,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_launch_pump",
+				"timestamp": "2024-10-02 16:31:29.239 -0400",
+				"scriptName": "Launch Pump.script",
+				"message": "Unable to Find Image window_SyringePumpStack",
+				"image": "window_SyringePumpStack",
+				"handlerLine": 11,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_run_an_os_command",
+				"timestamp": "2024-10-02 16:31:29.258 -0400",
+				"message": "at (1536, 864)",
+				"scriptName": "C:/ScriptRepositories/[Run Command Helper].suite/Scripts/Run an OS Command.script",
+				"handlerLine": 9,
+				"identifier": "moveto"
+			},
+		{
+				"handlerName": "on_run_an_os_command",
+				"timestamp": "2024-10-02 16:31:29.403 -0400",
+				"message": "[controlKey]W",
+				"scriptName": "C:/ScriptRepositories/[Run Command Helper].suite/Scripts/Run an OS Command.script",
+				"handlerLine": 13,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_run_an_os_command",
+				"timestamp": "2024-10-02 16:31:31.471 -0400",
+				"message": "[windowsKey]r",
+				"scriptName": "C:/ScriptRepositories/[Run Command Helper].suite/Scripts/Run an OS Command.script",
+				"handlerLine": 16,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_run_an_os_command",
+				"timestamp": "2024-10-02 16:31:33.467 -0400",
+				"scriptName": "C:/ScriptRepositories/[Run Command Helper].suite/Scripts/Run an OS Command.script",
+				"message": "found at (573, 8)",
+				"image": "OS/Windows/Run Window",
+				"handlerLine": 17,
+				"identifier": "waitfor"
+			},
+		{
+				"handlerName": "on_run_an_os_command",
+				"timestamp": "2024-10-02 16:31:33.570 -0400",
+				"message": "[backspace]",
+				"scriptName": "C:/ScriptRepositories/[Run Command Helper].suite/Scripts/Run an OS Command.script",
+				"handlerLine": 18,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_run_an_os_command",
+				"timestamp": "2024-10-02 16:31:37.588 -0400",
+				"message": "\"C:\\Program Files\\Syringe Pump Program\\Syringe Pump\\syringe_pump.exe\"[returnKey]",
+				"scriptName": "C:/ScriptRepositories/[Run Command Helper].suite/Scripts/Run an OS Command.script",
+				"handlerLine": 21,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_run_an_os_command",
+				"timestamp": "2024-10-02 16:31:39.647 -0400",
+				"message": "[windowsAltKey] ",
+				"scriptName": "C:/ScriptRepositories/[Run Command Helper].suite/Scripts/Run an OS Command.script",
+				"handlerLine": 25,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_run_an_os_command",
+				"timestamp": "2024-10-02 16:31:43.237 -0400",
+				"scriptName": "C:/ScriptRepositories/[Run Command Helper].suite/Scripts/Run an OS Command.script",
+				"message": "Unable to Find Image OS/Windows/System Menu/Maximize",
+				"image": "OS/Windows/System Menu/Maximize",
+				"handlerLine": 26,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_run_an_os_command",
+				"timestamp": "2024-10-02 16:31:43.268 -0400",
+				"message": "[escape]",
+				"scriptName": "C:/ScriptRepositories/[Run Command Helper].suite/Scripts/Run an OS Command.script",
+				"handlerLine": 30,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_run_an_os_command",
+				"timestamp": "2024-10-02 16:31:44.303 -0400",
+				"message": "at (1536, 864)",
+				"scriptName": "C:/ScriptRepositories/[Run Command Helper].suite/Scripts/Run an OS Command.script",
+				"handlerLine": 80,
+				"identifier": "moveto"
+			},
+		{
+				"handlerName": "on_launch_pump",
+				"timestamp": "2024-10-02 16:31:44.470 -0400",
+				"scriptName": "Launch Pump.script",
+				"message": "at (260, 226)",
+				"image": "window_SyringePumpStack",
+				"handlerLine": 16,
+				"identifier": "moveto"
+			},
+		{
+				"handlerName": "on_launch_pump",
+				"timestamp": "2024-10-02 16:31:44.588 -0400",
+				"message": "[windowsKey][upArrow]",
+				"scriptName": "Launch Pump.script",
+				"handlerLine": 17,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_launch_pump",
+				"timestamp": "2024-10-02 16:31:45.809 -0400",
+				"scriptName": "Launch Pump.script",
+				"image": "Initial state of Syringe Pump.png",
+				"handlerLine": 20,
+				"identifier": "capturescreen"
+			},
+		{
+				"handlerName": "on_dark_mode",
+				"timestamp": "2024-10-02 16:31:50.934 -0400",
+				"scriptName": "View Settings.script",
+				"message": "Unable to Find Image Syringe/checkbox_DarkMode_false",
+				"image": "Syringe/checkbox_DarkMode_false",
+				"handlerLine": 2,
+				"identifier": "imagefound"
+			},
+		{
+				"message": "(Duration:\"275.645\", Errors:\"1\", Exceptions:\"0\", StartTime:\"2024-10-02 16:31:23 -0400\", Successes:\"0\", TestCase:\"_Master.script\", Warnings:\"0\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2024-10-02 16:35:58.922 -0400"
+			},
+		{
+				"message": "Execution Time 0:04:35 _Master.script",
+				"identifier": "ABORTED",
+				"timestamp": "2024-10-02 16:35:58.933 -0400"
+			}
+	],
+	"createdTimestamp": "2024-10-02 16:31:23.277 -0400"
+}

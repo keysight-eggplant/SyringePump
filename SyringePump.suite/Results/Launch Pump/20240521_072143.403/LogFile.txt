@@ -1,0 +1,15 @@
+﻿2024-05-21 07:21:43.405 -0400	START		Running Launch Pump.script
+2024-05-21 07:21:43.545 -0400	moveto		at (1536, 864)	9	on_run_an_os_command	/Users/stevbarr/Keysight Sandbox/Suites/Helper Suites/[Run Command Helper Suite].suite/Scripts/Run an OS Command.script
+2024-05-21 07:21:44.275 -0400	typetext		[controlKey]W	13	on_run_an_os_command	/Users/stevbarr/Keysight Sandbox/Suites/Helper Suites/[Run Command Helper Suite].suite/Scripts/Run an OS Command.script
+2024-05-21 07:21:46.321 -0400	typetext		[windowsKey]r	17	on_run_an_os_command	/Users/stevbarr/Keysight Sandbox/Suites/Helper Suites/[Run Command Helper Suite].suite/Scripts/Run an OS Command.script
+2024-05-21 07:21:46.942 -0400	waitfor	OS/Windows/Run Window	found at (37, 841)	18	on_run_an_os_command	/Users/stevbarr/Keysight Sandbox/Suites/Helper Suites/[Run Command Helper Suite].suite/Scripts/Run an OS Command.script
+2024-05-21 07:21:47.041 -0400	typetext		[backspace]	19	on_run_an_os_command	/Users/stevbarr/Keysight Sandbox/Suites/Helper Suites/[Run Command Helper Suite].suite/Scripts/Run an OS Command.script
+2024-05-21 07:21:49.502 -0400	typetext		C:\Syringe Pump\syringe_pump.exe[returnKey]	22	on_run_an_os_command	/Users/stevbarr/Keysight Sandbox/Suites/Helper Suites/[Run Command Helper Suite].suite/Scripts/Run an OS Command.script
+2024-05-21 07:21:54.556 -0400	typetext		[windowsAltKey] 	26	on_run_an_os_command	/Users/stevbarr/Keysight Sandbox/Suites/Helper Suites/[Run Command Helper Suite].suite/Scripts/Run an OS Command.script
+2024-05-21 07:21:58.775 -0400	imagefound	OS/Windows/System Menu/Maximize	Unable to Find Image OS/Windows/System Menu/Maximize	27	on_run_an_os_command	/Users/stevbarr/Keysight Sandbox/Suites/Helper Suites/[Run Command Helper Suite].suite/Scripts/Run an OS Command.script
+2024-05-21 07:21:58.796 -0400	typetext		[escape]	31	on_run_an_os_command	/Users/stevbarr/Keysight Sandbox/Suites/Helper Suites/[Run Command Helper Suite].suite/Scripts/Run an OS Command.script
+2024-05-21 07:21:59.846 -0400	moveto		at (1536, 864)	88	on_run_an_os_command	/Users/stevbarr/Keysight Sandbox/Suites/Helper Suites/[Run Command Helper Suite].suite/Scripts/Run an OS Command.script
+2024-05-21 07:22:01.044 -0400	click	window_SyringePumpStack	at (126, 118)	5	on_launch_pump	Launch Pump.script
+2024-05-21 07:22:02.231 -0400	click	menu_Maximize	at (159, 235)	6	on_launch_pump	Launch Pump.script
+2024-05-21 07:22:02.251 -0400	EndTestCase		(Duration:"18.840902", Errors:"0", Exceptions:"0", StartTime:"2024-05-21 07:21:43 -0400", Successes:"1", TestCase:"Launch Pump.script", Warnings:"0")
+2024-05-21 07:22:02.258 -0400	SUCCESS		Execution Time 0:00:18 Launch Pump.script

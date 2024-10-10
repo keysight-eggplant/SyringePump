@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+ <testsuite name="StartInjection_script" package="Syringe_Pump.suite" timestamp="2024-10-01 16:35:01.993 -0400"
+ tests="1"  failures="0" errors="0" time="19.124000">
+  <properties>
+   <property name="RunDate" value="2024-10-01 16:35:01.993 -0400"/>
+   <property name="Status" value="Aborted"/>
+  </properties>
+  <testcase name="StartInjection.script" assertions="1" status="error"  time="19.113">
+    <error type="Exception" message="Unable To Find Image &quot;(TEXT:&quot;Syringe &quot;)&quot;. Text not found." />
+  </testcase>
+ </testsuite>
+</testsuites>

@@ -1,0 +1,214 @@
+﻿to Start_Injection_1
+	Set the SearchRectangle to ("Syringe/1/rect_A","Syringe/1/rect_B")
+	Put ReadText("Syringe/Medication/rect_A","Syringe/Medication/rect_B", DPI:"144") into varList
+	Split varList using return
+	-- removing embedded spaces and colon character --
+	Replace every occurrence of ":" in varList with ""
+	Replace every occurrence of ". " in varList with "."
+	----------------------------------------------------------------------
+	Set global varMedicine1 to {(TrimAll(first item of varList)): (TrimAll(fifth item of varList)), \
+				(second item of varList): (sixth item of varList), \
+				(third item of varList): (seventh item of varList), \
+				(fourth item of varList): (eighth item of varList)}
+	Delete variable varList
+	Put ReadText("Syringe/Dose/rect_A","Syringe/Dose/rect_B", DPI:"144") into varList
+	Replace every occurrence of tab&"[" in varList with " ["
+	Replace every occurrence of tab in varList with return
+	Split varList using return
+	Set global varDose1 to {(fifth item of varList): (TrimAll(first item of varList)), \
+				(sixth item of varList): (TrimAll(second item of varList)), \
+				(seventh item of varList): (TrimAll(third item of varList)), \
+				(eighth item of varList): (TrimAll(fourth item of varList))}
+	Delete variable varList
+	-- action on the syringe needle --
+	Run "Inject Doseage" 1
+	--------------------------------------------
+	Set the SearchRectangle to empty
+	CaptureScreen (Name: "Status of Needle #1's Injection")
+end Start_Injection_1
+
+
+
+to Start_Injection_2
+	Set the SearchRectangle to ("Syringe/2/rect_A","Syringe/2/rect_B")
+	Put ReadText("Syringe/Medication/rect_A","Syringe/Medication/rect_B", DPI:"144") into varList
+	Split varList using return
+	-- removing embedded spaces and colon character --
+	Replace every occurrence of ":" in varList with ""
+	Replace every occurrence of ". " in varList with "."
+	----------------------------------------------------------------------
+	Set global varMedicine2 to {(TrimAll(first item of varList)): (TrimAll(fifth item of varList)), \
+				(second item of varList): (sixth item of varList), \
+				(third item of varList): (seventh item of varList), \
+				(fourth item of varList): (eighth item of varList)}
+	Delete variable varList
+	Put ReadText("Syringe/Dose/rect_A","Syringe/Dose/rect_B", DPI:"144") into varList
+	Replace every occurrence of tab&"[" in varList with " ["
+	Replace every occurrence of tab in varList with return
+	Split varList using return
+	Set global varDose2 to {(fifth item of varList): (TrimAll(first item of varList)), \
+				(sixth item of varList): (TrimAll(second item of varList)), \
+				(seventh item of varList): (TrimAll(third item of varList)), \
+				(eighth item of varList): (TrimAll(fourth item of varList))}
+	Delete variable varList
+	-- action on the syringe needle --
+	Run "Inject Doseage" 2
+	--------------------------------------------
+	Set the SearchRectangle to empty
+	CaptureScreen (Name: "Status of Needle #2's Injection")
+end Start_Injection_2
+
+
+
+to Start_Injection_3
+	Set the SearchRectangle to ("Syringe/3/rect_A","Syringe/3/rect_B")
+	Put ReadText("Syringe/Medication/rect_A","Syringe/Medication/rect_B", DPI:"72") into varList
+	Split varList using return
+	-- removing embedded spaces and colon character --
+	Replace every occurrence of ":" in varList with ""
+	Replace every occurrence of ". " in varList with "."
+	----------------------------------------------------------------------
+	Set global varMedicine3 to {(TrimAll(first item of varList)): (TrimAll(fifth item of varList)), \
+				(second item of varList): (sixth item of varList), \
+				(third item of varList): (seventh item of varList), \
+				(fourth item of varList): (eighth item of varList)}
+	Delete variable varList
+	Put ReadText("Syringe/Dose/rect_A","Syringe/Dose/rect_B", DPI:"144") into varList
+	Replace every occurrence of tab&"[" in varList with " ["
+	Replace every occurrence of tab in varList with return
+	Split varList using return
+	Set global varDose3 to {(fifth item of varList): (TrimAll(first item of varList)), \
+				(sixth item of varList): (TrimAll(second item of varList)), \
+				(seventh item of varList): (TrimAll(third item of varList)), \
+				(eighth item of varList): (TrimAll(fourth item of varList))}
+	Delete variable varList
+	-- action on the syringe needle --
+	Run "Inject Doseage" 3
+	--------------------------------------------
+	Set the SearchRectangle to empty
+	CaptureScreen (Name: "Status of Needle #3's Injection")
+end Start_Injection_3
+
+
+
+to Start_Injection_4
+	Set the SearchRectangle to ("Syringe/4/rect_A","Syringe/4/rect_B")
+	Put ReadText("Syringe/Medication/rect_A","Syringe/Medication/rect_B", DPI:"144") into varList
+	Split varList using return
+	-- removing embedded spaces and colon character --
+	Replace every occurrence of ":" in varList with ""
+	Replace every occurrence of ". " in varList with "."
+	----------------------------------------------------------------------
+	Set global varMedicine4 to {(TrimAll(first item of varList)): (TrimAll(fifth item of varList)), \
+				(second item of varList): (sixth item of varList), \
+				(third item of varList): (seventh item of varList), \
+				(fourth item of varList): (eighth item of varList)}
+	Delete variable varList
+	Put ReadText("Syringe/Dose/rect_A","Syringe/Dose/rect_B", DPI:"144") into varList
+	Replace every occurrence of tab&"[" in varList with " ["
+	Replace every occurrence of tab in varList with return
+	Split varList using return
+	Set global varDose4 to {(fifth item of varList): (TrimAll(first item of varList)), \
+				(sixth item of varList): (TrimAll(second item of varList)), \
+				(seventh item of varList): (TrimAll(third item of varList)), \
+				(eighth item of varList): (TrimAll(fourth item of varList))}
+	Delete variable varList
+	-- action on the syringe needle --
+	Run "Inject Doseage" 4
+	--------------------------------------------
+	Set the SearchRectangle to empty
+	CaptureScreen (Name: "Status of Needle #4's Injection")
+end Start_Injection_4
+
+
+
+to Start_Injection_5
+	Set the SearchRectangle to ("Syringe/5/rect_A","Syringe/5/rect_B")
+	Put ReadText("Syringe/Medication/rect_A","Syringe/Medication/rect_B", DPI:"144") into varList
+	Split varList using return
+	-- removing embedded spaces and colon character --
+	Replace every occurrence of ":" in varList with ""
+	Replace every occurrence of ". " in varList with "."
+	----------------------------------------------------------------------
+	Set global varMedicine5 to {(TrimAll(first item of varList)): (TrimAll(fifth item of varList)), \
+				(second item of varList): (sixth item of varList), \
+				(third item of varList): (seventh item of varList), \
+				(fourth item of varList): (eighth item of varList)}
+	Delete variable varList
+	Put ReadText("Syringe/Dose/rect_A","Syringe/Dose/rect_B", DPI:"144") into varList
+	Replace every occurrence of tab&"[" in varList with " ["
+	Replace every occurrence of tab in varList with return
+	Split varList using return
+	Set global varDose5 to {(fifth item of varList): (TrimAll(first item of varList)), \
+				(sixth item of varList): (TrimAll(second item of varList)), \
+				(seventh item of varList): (TrimAll(third item of varList)), \
+				(eighth item of varList): (TrimAll(fourth item of varList))}
+	Delete variable varList
+	-- action on the syringe needle --
+	Run "Inject Doseage" 5
+	--------------------------------------------
+	Set the SearchRectangle to empty
+	CaptureScreen (Name: "Status of Needle #5's Injection")
+end Start_Injection_5
+
+
+
+to Start_Injection_6
+	Set the SearchRectangle to ("Syringe/6/rect_A","Syringe/6/rect_B")
+	Put ReadText("Syringe/Medication/rect_A","Syringe/Medication/rect_B", DPI:"72") into varList
+	Split varList using return
+	-- removing embedded spaces and colon character --
+	Replace every occurrence of ":" in varList with ""
+	Replace every occurrence of ". " in varList with "."
+	----------------------------------------------------------------------
+	Set global varMedicine6 to {(TrimAll(first item of varList)): (TrimAll(fifth item of varList)), \
+				(second item of varList): (sixth item of varList), \
+				(third item of varList): (seventh item of varList), \
+				(fourth item of varList): (eighth item of varList)}
+	Delete variable varList
+	Put ReadText("Syringe/Dose/rect_A","Syringe/Dose/rect_B", DPI:"144") into varList
+	Replace every occurrence of tab&"[" in varList with " ["
+	Replace every occurrence of tab in varList with return
+	Split varList using return
+	Set global varDose6 to {(fifth item of varList): (TrimAll(first item of varList)), \
+				(sixth item of varList): (TrimAll(second item of varList)), \
+				(seventh item of varList): (TrimAll(third item of varList)), \
+				(eighth item of varList): (TrimAll(fourth item of varList))}
+	Delete variable varList
+	-- action on the syringe needle --
+	Run "Inject Doseage" 6
+	--------------------------------------------
+	Set the SearchRectangle to empty
+	CaptureScreen (Name: "Status of Needle #6's Injection")
+end Start_Injection_6
+
+
+
+to Start_Injection_7
+	Set the SearchRectangle to ("Syringe/7/rect_A","Syringe/7/rect_B")
+	Put ReadText("Syringe/Medication/rect_A","Syringe/Medication/rect_B", DPI:"72") into varList
+	Split varList using return
+	-- removing embedded spaces and colon character --
+	Replace every occurrence of ":" in varList with ""
+	Replace every occurrence of ". " in varList with "."
+	----------------------------------------------------------------------
+	Set global varMedicine7 to {(TrimAll(first item of varList)): (TrimAll(fifth item of varList)), \
+				(second item of varList): (sixth item of varList), \
+				(third item of varList): (seventh item of varList), \
+				(fourth item of varList): (eighth item of varList)}
+	Delete variable varList
+	Put ReadText("Syringe/Dose/rect_A","Syringe/Dose/rect_B", DPI:"144") into varList
+	Replace every occurrence of tab&"[" in varList with " ["
+	Replace every occurrence of tab in varList with return
+	Split varList using return
+	Set global varDose7 to {(fifth item of varList): (TrimAll(first item of varList)), \
+				(sixth item of varList): (TrimAll(second item of varList)), \
+				(seventh item of varList): (TrimAll(third item of varList)), \
+				(eighth item of varList): (TrimAll(fourth item of varList))}
+	Delete variable varList
+	-- action on the syringe needle --
+	Run "Inject Doseage" 7
+	--------------------------------------------
+	Set the SearchRectangle to empty
+	CaptureScreen (Name: "Status of Needle #7's Injection")
+end Start_Injection_7

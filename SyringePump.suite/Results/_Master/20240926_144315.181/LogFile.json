@@ -1,0 +1,154 @@
+{
+	"entries": [
+		{
+				"message": "Running _Master.script",
+				"identifier": "START",
+				"timestamp": "2024-09-26 14:43:15.185 -0400"
+			},
+		{
+				"handlerName": "on_connect_to_sut",
+				"timestamp": "2024-09-26 14:43:21.063 -0400",
+				"message": "Single System:(null)",
+				"scriptName": "Connect to SUT.script",
+				"handlerLine": 4,
+				"identifier": "Connect"
+			},
+		{
+				"handlerName": "on__master",
+				"timestamp": "2024-09-26 14:43:24.913 -0400",
+				"message": "C:/Eggplant_Suites/Syringe_Pump.suite/Results/_Master/20240926_144315.181/Syringe Pump.mp4",
+				"scriptName": "_Master.script",
+				"handlerLine": 5,
+				"identifier": "startmovie"
+			},
+		{
+				"handlerName": "on_launch_pump",
+				"timestamp": "2024-09-26 14:43:29.813 -0400",
+				"scriptName": "Launch Pump.script",
+				"message": "Unable to Find Image button_Windows_Start",
+				"image": "button_Windows_Start",
+				"handlerLine": 1,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_launch_pump",
+				"timestamp": "2024-09-26 14:43:47.773 -0400",
+				"scriptName": "Launch Pump.script",
+				"message": "Unable to Find Image window_SyringePumpStack",
+				"image": "window_SyringePumpStack",
+				"handlerLine": 11,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_run_an_os_command",
+				"timestamp": "2024-09-26 14:43:53.177 -0400",
+				"message": "at (1536, 864)",
+				"scriptName": "C:/Eggplant_Suites/Helper Suites/[Run Command Helper].suite/Scripts/Run an OS Command.script",
+				"handlerLine": 9,
+				"identifier": "moveto"
+			},
+		{
+				"handlerName": "on_run_an_os_command",
+				"timestamp": "2024-09-26 14:43:55.082 -0400",
+				"message": "[controlKey]W",
+				"scriptName": "C:/Eggplant_Suites/Helper Suites/[Run Command Helper].suite/Scripts/Run an OS Command.script",
+				"handlerLine": 13,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_run_an_os_command",
+				"timestamp": "2024-09-26 14:43:59.303 -0400",
+				"message": "[windowsKey]r",
+				"scriptName": "C:/Eggplant_Suites/Helper Suites/[Run Command Helper].suite/Scripts/Run an OS Command.script",
+				"handlerLine": 17,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_run_an_os_command",
+				"timestamp": "2024-09-26 14:44:04.421 -0400",
+				"scriptName": "C:/Eggplant_Suites/Helper Suites/[Run Command Helper].suite/Scripts/Run an OS Command.script",
+				"message": "found at (751, 8)",
+				"image": "OS/Windows/Run Window",
+				"handlerLine": 19,
+				"identifier": "waitfor"
+			},
+		{
+				"handlerName": "on_run_an_os_command",
+				"timestamp": "2024-09-26 14:44:05.236 -0400",
+				"message": "[backspace]",
+				"scriptName": "C:/Eggplant_Suites/Helper Suites/[Run Command Helper].suite/Scripts/Run an OS Command.script",
+				"handlerLine": 21,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_run_an_os_command",
+				"timestamp": "2024-09-26 14:44:16.481 -0400",
+				"message": "C:\\Program Files\\Syringe Pump\\syringe_pump.exe[returnKey]",
+				"scriptName": "C:/Eggplant_Suites/Helper Suites/[Run Command Helper].suite/Scripts/Run an OS Command.script",
+				"handlerLine": 24,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_run_an_os_command",
+				"timestamp": "2024-09-26 14:45:12.095 -0400",
+				"message": "[windowsAltKey] ",
+				"scriptName": "C:/Eggplant_Suites/Helper Suites/[Run Command Helper].suite/Scripts/Run an OS Command.script",
+				"handlerLine": 29,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_run_an_os_command",
+				"timestamp": "2024-09-26 14:45:17.047 -0400",
+				"scriptName": "C:/Eggplant_Suites/Helper Suites/[Run Command Helper].suite/Scripts/Run an OS Command.script",
+				"message": "Unable to Find Image OS/Windows/System Menu/Maximize",
+				"image": "OS/Windows/System Menu/Maximize",
+				"handlerLine": 30,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_run_an_os_command",
+				"timestamp": "2024-09-26 14:45:18.266 -0400",
+				"message": "[escape]",
+				"scriptName": "C:/Eggplant_Suites/Helper Suites/[Run Command Helper].suite/Scripts/Run an OS Command.script",
+				"handlerLine": 40,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_run_an_os_command",
+				"timestamp": "2024-09-26 14:45:24.213 -0400",
+				"message": "at (1536, 864)",
+				"scriptName": "C:/Eggplant_Suites/Helper Suites/[Run Command Helper].suite/Scripts/Run an OS Command.script",
+				"handlerLine": 98,
+				"identifier": "moveto"
+			},
+		{
+				"handlerName": "on_launch_pump",
+				"timestamp": "2024-09-26 14:45:32.461 -0400",
+				"scriptName": "Launch Pump.script",
+				"message": "at (205, 196)",
+				"image": "window_SyringePumpStack",
+				"handlerLine": 16,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_launch_pump",
+				"timestamp": "2024-09-26 14:45:54.859 -0400",
+				"scriptName": "Launch Pump.script",
+				"message": "at (233, 345)",
+				"image": "menu_Maximize",
+				"handlerLine": 17,
+				"identifier": "click"
+			},
+		{
+				"message": "(Duration:\"1052.407\", Errors:\"1\", Exceptions:\"0\", StartTime:\"2024-09-26 14:43:15 -0400\", Successes:\"0\", TestCase:\"_Master.script\", Warnings:\"0\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2024-09-26 15:00:47.598 -0400"
+			},
+		{
+				"message": "Execution Time 0:17:32 _Master.script",
+				"identifier": "ABORTED",
+				"timestamp": "2024-09-26 15:00:47.644 -0400"
+			}
+	],
+	"createdTimestamp": "2024-09-26 14:43:15.188 -0400"
+}

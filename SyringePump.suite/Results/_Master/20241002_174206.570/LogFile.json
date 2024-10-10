@@ -1,0 +1,124 @@
+{
+	"entries": [
+		{
+				"message": "Running _Master.script",
+				"identifier": "START",
+				"timestamp": "2024-10-02 17:42:06.575 -0400"
+			},
+		{
+				"handlerName": "on_connect_to_sut",
+				"timestamp": "2024-10-02 17:42:06.665 -0400",
+				"message": "NewSingleSystem:(null)",
+				"scriptName": "Connect to SUT.script",
+				"handlerLine": 4,
+				"identifier": "Connect"
+			},
+		{
+				"handlerName": "on__master",
+				"timestamp": "2024-10-02 17:42:06.671 -0400",
+				"message": "C:/ScriptRepositories/Syringe_Pump.suite/Results/_Master/20241002_174206.570/Syringe Pump.mp4",
+				"scriptName": "_Master.script",
+				"handlerLine": 5,
+				"identifier": "startmovie"
+			},
+		{
+				"handlerName": "on_launch_pump",
+				"timestamp": "2024-10-02 17:42:09.230 -0400",
+				"scriptName": "Launch Pump.script",
+				"message": "Unable to Find Image button_Windows_Start",
+				"image": "button_Windows_Start",
+				"handlerLine": 1,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_launch_pump",
+				"timestamp": "2024-10-02 17:42:10.003 -0400",
+				"scriptName": "Launch Pump.script",
+				"message": "found at (9, 10)",
+				"image": "window_SyringePumpStack",
+				"handlerLine": 11,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_launch_pump",
+				"timestamp": "2024-10-02 17:42:11.204 -0400",
+				"scriptName": "Launch Pump.script",
+				"image": "Initial state of Syringe Pump.png",
+				"handlerLine": 20,
+				"identifier": "capturescreen"
+			},
+		{
+				"handlerName": "on_dark_mode",
+				"timestamp": "2024-10-02 17:42:16.452 -0400",
+				"scriptName": "View Settings.script",
+				"message": "Unable to Find Image Syringe/checkbox_DarkMode_false",
+				"image": "Syringe/checkbox_DarkMode_false",
+				"handlerLine": 2,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_plotsyringeactivity",
+				"timestamp": "2024-10-02 17:42:20.266 -0400",
+				"scriptName": "PlotSyringeActivity.script",
+				"message": "at [208,44,279,58]",
+				"image": "(TEXT:\"Syringe 1\")",
+				"handlerLine": 4,
+				"identifier": "imagerectangle"
+			},
+		{
+				"handlerName": "on_plotsyringeactivity",
+				"timestamp": "2024-10-02 17:42:20.521 -0400",
+				"scriptName": "PlotSyringeActivity.script",
+				"message": "at [1743,45,1773,54]",
+				"image": "(TEXT:\"Dose\")",
+				"handlerLine": 6,
+				"identifier": "imagerectangle"
+			},
+		{
+				"handlerName": "on_plotsyringeactivity",
+				"timestamp": "2024-10-02 17:42:20.790 -0400",
+				"scriptName": "PlotSyringeActivity.script",
+				"message": "at [1745,68,1806,79]",
+				"image": "(TEXT:\"Infusion\")",
+				"handlerLine": 8,
+				"identifier": "imagerectangle"
+			},
+		{
+				"handlerName": "on_plotsyringeactivity",
+				"timestamp": "2024-10-02 17:42:21.050 -0400",
+				"scriptName": "PlotSyringeActivity.script",
+				"message": "at [1743,91,1798,101]",
+				"image": "(TEXT:\"Current\")",
+				"handlerLine": 10,
+				"identifier": "imagerectangle"
+			},
+		{
+				"handlerName": "on_plotsyringeactivity",
+				"timestamp": "2024-10-02 17:42:21.303 -0400",
+				"scriptName": "PlotSyringeActivity.script",
+				"message": "at [1743,109,1814,123]",
+				"image": "(TEXT:\"Remaining\")",
+				"handlerLine": 12,
+				"identifier": "imagerectangle"
+			},
+		{
+				"handlerName": "on_plotsyringeactivity",
+				"timestamp": "2024-10-02 17:42:22.288 -0400",
+				"message": "Searching For Image: OCR Error: Operation was aborted",
+				"scriptName": "PlotSyringeActivity.script",
+				"handlerLine": 4,
+				"identifier": "Exception"
+			},
+		{
+				"message": "(Duration:\"15.818\", Errors:\"1\", Exceptions:\"1\", StartTime:\"2024-10-02 17:42:06 -0400\", Successes:\"0\", TestCase:\"_Master.script\", Warnings:\"0\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2024-10-02 17:42:22.396 -0400"
+			},
+		{
+				"message": "Execution Time 0:00:15 _Master.script",
+				"identifier": "ABORTED",
+				"timestamp": "2024-10-02 17:42:22.408 -0400"
+			}
+	],
+	"createdTimestamp": "2024-10-02 17:42:06.577 -0400"
+}

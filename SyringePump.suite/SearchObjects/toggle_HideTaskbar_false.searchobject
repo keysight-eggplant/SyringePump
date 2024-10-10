@@ -1,0 +1,47 @@
+{
+  "lastmodifieddate" : 1716582181.9209728,
+  "ocrcapturestring" : "Automatically hide the taskbar in desktop mode (•\t) Off",
+  "testlocationdata" : [
+    {
+      "name" : "toggle_HideTaskbar_false.png",
+      "sutinfo" : {
+        "type" : "Unknown VNC"
+      },
+      "connectionname" : "Syringe Pump Stack",
+      "connectionportnum" : 5900,
+      "capturedocrtext" : "Automatically hide the taskbar in desktop mode (•\t) Off",
+      "properties" : {
+        "Rotate" : 0,
+        "Scale" : "    1",
+        "SearchType" : "Smoothed for Text",
+        "Discrepancy" : "_0",
+        "Tolerance" : "_73",
+        "HotSpot" : "[26,41]",
+        "CropRectangle" : "[0,0,0,0]"
+      },
+      "type" : 1,
+      "connectionserverid" : "PWIN01-BARRJCKNJ",
+      "capturerect" : [
+        658,
+        178,
+        330,
+        55
+      ]
+    }
+  ],
+  "createddate" : 1716582181.9209719,
+  "lastfoundlocation" : [
+    658,
+    178,
+    330,
+    55
+  ],
+  "originalcapturelocation" : [
+    658,
+    178,
+    330,
+    55
+  ],
+  "lastfounddate" : 1716582864.9584661,
+  "name" : "toggle_HideTaskbar_false"
+}

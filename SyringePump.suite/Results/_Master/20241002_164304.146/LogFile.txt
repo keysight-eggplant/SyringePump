@@ -1,0 +1,6 @@
+﻿2024-10-02 16:43:04.150 -0400	START		Running _Master.script
+2024-10-02 16:43:04.246 -0400	Connect		NewSingleSystem:(null)	4	on_connect_to_sut	Connect to SUT.script
+2024-10-02 16:43:04.251 -0400	startmovie		C:/ScriptRepositories/Syringe_Pump.suite/Results/_Master/20241002_164304.146/Syringe Pump.mp4	5	on__master	_Master.script
+2024-10-02 16:43:09.913 -0400	imagefound	button_Windows_Start	Unable to Find Image button_Windows_Start	1	on_launch_pump	Launch Pump.script
+2024-10-02 16:43:10.923 -0400	EndTestCase		(Duration:"6.769", Errors:"1", Exceptions:"0", StartTime:"2024-10-02 16:43:04 -0400", Successes:"0", TestCase:"_Master.script", Warnings:"0")
+2024-10-02 16:43:10.943 -0400	ABORTED		Execution Time 0:00:06 _Master.script

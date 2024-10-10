@@ -1,0 +1,81 @@
+﻿2024-09-25 17:48:15.567 -0400	START		Running _Master.script
+2024-09-25 17:48:15.837 -0400	Connect		Single System:(null)	4	on_connect_to_sut	Connect to SUT.script
+2024-09-25 17:48:15.858 -0400	startmovie		C:/Eggplant_Suites/Syringe_Pump.suite/Results/_Master/20240925_174815.563/Syringe Pump.mp4	5	on__master	_Master.script
+2024-09-25 17:48:18.651 -0400	imagefound	button_Windows_Start	Unable to Find Image button_Windows_Start	1	on_launch_pump	Launch Pump.script
+2024-09-25 17:48:21.094 -0400	imagefound	window_SyringePumpStack	Unable to Find Image window_SyringePumpStack	11	on_launch_pump	Launch Pump.script
+2024-09-25 17:48:21.171 -0400	moveto		at (1536, 864)	9	on_run_an_os_command	C:/Eggplant_Suites/Helper Suites/[Run Command Helper].suite/Scripts/Run an OS Command.script
+2024-09-25 17:48:21.947 -0400	typetext		[controlKey]W	13	on_run_an_os_command	C:/Eggplant_Suites/Helper Suites/[Run Command Helper].suite/Scripts/Run an OS Command.script
+2024-09-25 17:48:24.004 -0400	typetext		[windowsKey]r	17	on_run_an_os_command	C:/Eggplant_Suites/Helper Suites/[Run Command Helper].suite/Scripts/Run an OS Command.script
+2024-09-25 17:48:25.664 -0400	waitfor	OS/Windows/Run Window	found at (751, 8)	19	on_run_an_os_command	C:/Eggplant_Suites/Helper Suites/[Run Command Helper].suite/Scripts/Run an OS Command.script
+2024-09-25 17:48:25.796 -0400	typetext		[backspace]	21	on_run_an_os_command	C:/Eggplant_Suites/Helper Suites/[Run Command Helper].suite/Scripts/Run an OS Command.script
+2024-09-25 17:48:29.371 -0400	typetext		C:\Program Files\Syringe Pump\syringe_pump.exe[returnKey]	24	on_run_an_os_command	C:/Eggplant_Suites/Helper Suites/[Run Command Helper].suite/Scripts/Run an OS Command.script
+2024-09-25 17:48:34.449 -0400	typetext		[windowsAltKey] 	29	on_run_an_os_command	C:/Eggplant_Suites/Helper Suites/[Run Command Helper].suite/Scripts/Run an OS Command.script
+2024-09-25 17:48:38.212 -0400	imagefound	OS/Windows/System Menu/Maximize	Unable to Find Image OS/Windows/System Menu/Maximize	30	on_run_an_os_command	C:/Eggplant_Suites/Helper Suites/[Run Command Helper].suite/Scripts/Run an OS Command.script
+2024-09-25 17:48:38.258 -0400	typetext		[escape]	40	on_run_an_os_command	C:/Eggplant_Suites/Helper Suites/[Run Command Helper].suite/Scripts/Run an OS Command.script
+2024-09-25 17:48:39.304 -0400	moveto		at (1536, 864)	98	on_run_an_os_command	C:/Eggplant_Suites/Helper Suites/[Run Command Helper].suite/Scripts/Run an OS Command.script
+2024-09-25 17:48:40.567 -0400	click	window_SyringePumpStack	at (257, 248)	16	on_launch_pump	Launch Pump.script
+2024-09-25 17:48:41.777 -0400	click	menu_Maximize	at (292, 365)	17	on_launch_pump	Launch Pump.script
+2024-09-25 17:48:42.380 -0400	imagefound	Syringe/checkbox_DarkMode_false	found at (17, 519)	18	on_launch_pump	Launch Pump.script
+2024-09-25 17:48:42.705 -0400	click	Syringe/checkbox_DarkMode_false	at (17, 519)	19	on_launch_pump	Launch Pump.script
+2024-09-25 17:48:43.989 -0400	capturescreen	C:/Eggplant_Suites/Syringe_Pump.suite/Results/_Master/20240925_174815.563/Initial state of Syringe Pump.png	UserCapturedScreenshot	5F5A5771-C59E-9101-565B-D9F6C9B6EF1B	23	on_launch_pump	Launch Pump.script
+2024-09-25 17:48:44.363 -0400	set		SEARCHRECTANGLE = ["Syringe/1/rect_A","Syringe/1/rect_B"]	2	on_needle_1	Syringe.script
+2024-09-25 17:48:44.767 -0400	readtext		(203,75,405,143)	3	on_needle_1	Syringe.script
+2024-09-25 17:48:45.199 -0400	readtext		(1652,28,1906,133)	14	on_needle_1	Syringe.script
+2024-09-25 17:48:45.532 -0400	click	Syringe/field_Dose	at (1721, 47)	4	on_inject_doseage	Inject Doseage.script
+2024-09-25 17:48:46.399 -0400	typetext		1.000	5	on_inject_doseage	Inject Doseage.script
+2024-09-25 17:48:47.327 -0400	click	Syringe/Start Injection	at (1544, 55)	6	on_inject_doseage	Inject Doseage.script
+2024-09-25 17:48:51.379 -0400	set		SEARCHRECTANGLE = 	26	on_needle_1	Syringe.script
+2024-09-25 17:48:51.619 -0400	capturescreen	C:/Eggplant_Suites/Syringe_Pump.suite/Results/_Master/20240925_174815.563/Status of Needle #1's Injection.png	UserCapturedScreenshot	BF7F8D60-D238-CD0D-5FF6-A1BB3C4196D1	27	on_needle_1	Syringe.script
+2024-09-25 17:48:51.982 -0400	set		SEARCHRECTANGLE = ["Syringe/2/rect_A","Syringe/2/rect_B"]	2	on_needle_2	Syringe.script
+2024-09-25 17:48:52.373 -0400	readtext		(203,219,405,287)	3	on_needle_2	Syringe.script
+2024-09-25 17:48:52.815 -0400	readtext		(1652,172,1906,277)	14	on_needle_2	Syringe.script
+2024-09-25 17:48:53.204 -0400	click	Syringe/field_Dose	at (1721, 191)	4	on_inject_doseage	Inject Doseage.script
+2024-09-25 17:48:54.068 -0400	typetext		3.500	5	on_inject_doseage	Inject Doseage.script
+2024-09-25 17:48:54.993 -0400	click	Syringe/Start Injection	at (1544, 199)	6	on_inject_doseage	Inject Doseage.script
+2024-09-25 17:48:59.189 -0400	click	Syringe/Refill Injection	at (1553, 267)	9	on_inject_doseage	Inject Doseage.script
+2024-09-25 17:48:59.232 -0400	set		SEARCHRECTANGLE = 	26	on_needle_2	Syringe.script
+2024-09-25 17:48:59.450 -0400	capturescreen	C:/Eggplant_Suites/Syringe_Pump.suite/Results/_Master/20240925_174815.563/Status of Needle #2's Injection.png	UserCapturedScreenshot	0C2B35AA-DD62-C202-6EA4-A7F43BF6DAC2	27	on_needle_2	Syringe.script
+2024-09-25 17:49:00.139 -0400	set		SEARCHRECTANGLE = ["Syringe/3/rect_A","Syringe/3/rect_B"]	2	on_needle_3	Syringe.script
+2024-09-25 17:49:00.571 -0400	readtext		(203,363,405,431)	3	on_needle_3	Syringe.script
+2024-09-25 17:49:00.990 -0400	readtext		(1652,316,1906,421)	14	on_needle_3	Syringe.script
+2024-09-25 17:49:01.370 -0400	click	Syringe/field_Dose	at (1721, 335)	4	on_inject_doseage	Inject Doseage.script
+2024-09-25 17:49:02.241 -0400	typetext		6.500	5	on_inject_doseage	Inject Doseage.script
+2024-09-25 17:49:03.179 -0400	click	Syringe/Start Injection	at (1544, 343)	6	on_inject_doseage	Inject Doseage.script
+2024-09-25 17:49:07.237 -0400	set		SEARCHRECTANGLE = 	26	on_needle_3	Syringe.script
+2024-09-25 17:49:07.572 -0400	capturescreen	C:/Eggplant_Suites/Syringe_Pump.suite/Results/_Master/20240925_174815.563/Status of Needle #3's Injection.png	UserCapturedScreenshot	9F146163-10BD-9505-408F-47A4F7554AFD	27	on_needle_3	Syringe.script
+2024-09-25 17:49:08.010 -0400	set		SEARCHRECTANGLE = ["Syringe/4/rect_A","Syringe/4/rect_B"]	2	on_needle_4	Syringe.script
+2024-09-25 17:49:08.476 -0400	readtext		(203,507,405,575)	3	on_needle_4	Syringe.script
+2024-09-25 17:49:08.848 -0400	readtext		(1652,460,1906,565)	14	on_needle_4	Syringe.script
+2024-09-25 17:49:09.226 -0400	click	Syringe/field_Dose	at (1721, 479)	4	on_inject_doseage	Inject Doseage.script
+2024-09-25 17:49:10.082 -0400	typetext		2.500	5	on_inject_doseage	Inject Doseage.script
+2024-09-25 17:49:10.972 -0400	click	Syringe/Start Injection	at (1544, 487)	6	on_inject_doseage	Inject Doseage.script
+2024-09-25 17:49:15.195 -0400	click	Syringe/Refill Injection	at (1553, 555)	9	on_inject_doseage	Inject Doseage.script
+2024-09-25 17:49:15.248 -0400	set		SEARCHRECTANGLE = 	26	on_needle_4	Syringe.script
+2024-09-25 17:49:15.473 -0400	capturescreen	C:/Eggplant_Suites/Syringe_Pump.suite/Results/_Master/20240925_174815.563/Status of Needle #4's Injection.png	UserCapturedScreenshot	49548142-F0DF-0C0C-5DF6-DFF941154119	27	on_needle_4	Syringe.script
+2024-09-25 17:49:16.166 -0400	set		SEARCHRECTANGLE = ["Syringe/5/rect_A","Syringe/5/rect_B"]	2	on_needle_5	Syringe.script
+2024-09-25 17:49:16.587 -0400	readtext		(203,651,405,719)	3	on_needle_5	Syringe.script
+2024-09-25 17:49:17.066 -0400	readtext		(1652,604,1906,709)	14	on_needle_5	Syringe.script
+2024-09-25 17:49:17.572 -0400	click	Syringe/field_Dose	at (1721, 623)	4	on_inject_doseage	Inject Doseage.script
+2024-09-25 17:49:18.429 -0400	typetext		3.800	5	on_inject_doseage	Inject Doseage.script
+2024-09-25 17:49:19.318 -0400	click	Syringe/Start Injection	at (1544, 631)	6	on_inject_doseage	Inject Doseage.script
+2024-09-25 17:49:23.552 -0400	click	Syringe/Refill Injection	at (1553, 699)	9	on_inject_doseage	Inject Doseage.script
+2024-09-25 17:49:23.588 -0400	set		SEARCHRECTANGLE = 	26	on_needle_5	Syringe.script
+2024-09-25 17:49:23.819 -0400	capturescreen	C:/Eggplant_Suites/Syringe_Pump.suite/Results/_Master/20240925_174815.563/Status of Needle #5's Injection.png	UserCapturedScreenshot	CE7E2D85-FC0A-DB0B-5B82-5E27F27A3863	27	on_needle_5	Syringe.script
+2024-09-25 17:49:24.536 -0400	set		SEARCHRECTANGLE = ["Syringe/6/rect_A","Syringe/6/rect_B"]	2	on_needle_6	Syringe.script
+2024-09-25 17:49:24.971 -0400	readtext		(203,795,405,863)	3	on_needle_6	Syringe.script
+2024-09-25 17:49:25.449 -0400	readtext		(1652,748,1906,853)	14	on_needle_6	Syringe.script
+2024-09-25 17:49:25.957 -0400	click	Syringe/field_Dose	at (1721, 767)	4	on_inject_doseage	Inject Doseage.script
+2024-09-25 17:49:26.820 -0400	typetext		8.000	5	on_inject_doseage	Inject Doseage.script
+2024-09-25 17:49:27.710 -0400	click	Syringe/Start Injection	at (1544, 775)	6	on_inject_doseage	Inject Doseage.script
+2024-09-25 17:49:31.776 -0400	set		SEARCHRECTANGLE = 	26	on_needle_6	Syringe.script
+2024-09-25 17:49:32.062 -0400	capturescreen	C:/Eggplant_Suites/Syringe_Pump.suite/Results/_Master/20240925_174815.563/Status of Needle #6's Injection.png	UserCapturedScreenshot	8C516268-5F29-2F0F-4733-95D4F8D82C6B	27	on_needle_6	Syringe.script
+2024-09-25 17:49:32.518 -0400	set		SEARCHRECTANGLE = ["Syringe/7/rect_A","Syringe/7/rect_B"]	2	on_needle_7	Syringe.script
+2024-09-25 17:49:32.945 -0400	readtext		(203,939,405,1007)	3	on_needle_7	Syringe.script
+2024-09-25 17:49:33.449 -0400	readtext		(1652,892,1906,997)	14	on_needle_7	Syringe.script
+2024-09-25 17:49:33.874 -0400	click	Syringe/field_Dose	at (1721, 911)	4	on_inject_doseage	Inject Doseage.script
+2024-09-25 17:49:34.735 -0400	typetext		3.000	5	on_inject_doseage	Inject Doseage.script
+2024-09-25 17:49:35.678 -0400	click	Syringe/Start Injection	at (1544, 919)	6	on_inject_doseage	Inject Doseage.script
+2024-09-25 17:49:39.739 -0400	set		SEARCHRECTANGLE = 	26	on_needle_7	Syringe.script
+2024-09-25 17:49:40.072 -0400	capturescreen	C:/Eggplant_Suites/Syringe_Pump.suite/Results/_Master/20240925_174815.563/Status of Needle #7's Injection.png	UserCapturedScreenshot	83ADFC64-2518-F808-6BB8-81072E899D2D	27	on_needle_7	Syringe.script
+2024-09-25 17:49:40.376 -0400	EndTestCase		(Duration:"84.805", Errors:"0", Exceptions:"0", StartTime:"2024-09-25 17:48:15 -0400", Successes:"1", TestCase:"_Master.script", Warnings:"0")
+2024-09-25 17:49:40.417 -0400	SUCCESS		Execution Time 0:01:24 _Master.script

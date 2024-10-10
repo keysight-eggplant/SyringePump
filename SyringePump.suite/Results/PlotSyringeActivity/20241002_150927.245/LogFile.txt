@@ -1,0 +1,35 @@
+﻿2024-10-02 15:09:27.250 -0400	START		Running PlotSyringeActivity.script
+2024-10-02 15:09:29.568 -0400	imagerectangle	(TEXT:"Syringe 1")	at [208,44,279,58]	2	on_plotsyringeactivity	PlotSyringeActivity.script
+2024-10-02 15:09:29.789 -0400	imagerectangle	(TEXT:"Dose")	at [1743,45,1773,54]	4	on_plotsyringeactivity	PlotSyringeActivity.script
+2024-10-02 15:09:30.024 -0400	imagerectangle	(TEXT:"Infusion")	at [1745,68,1806,79]	6	on_plotsyringeactivity	PlotSyringeActivity.script
+2024-10-02 15:09:30.256 -0400	imagerectangle	(TEXT:"Current")	at [1743,91,1798,101]	8	on_plotsyringeactivity	PlotSyringeActivity.script
+2024-10-02 15:09:30.494 -0400	imagerectangle	(TEXT:"Remaining")	at [1743,109,1814,123]	10	on_plotsyringeactivity	PlotSyringeActivity.script
+2024-10-02 15:09:30.518 -0400	readtext		(1667,43,1735,58)	13	on_plotsyringeactivity	PlotSyringeActivity.script
+2024-10-02 15:09:30.539 -0400	readtext		(1669,66,1743,83)	14	on_plotsyringeactivity	PlotSyringeActivity.script
+2024-10-02 15:09:30.559 -0400	readtext		(1667,89,1735,105)	15	on_plotsyringeactivity	PlotSyringeActivity.script
+2024-10-02 15:09:30.588 -0400	readtext		(1667,107,1746,127)	16	on_plotsyringeactivity	PlotSyringeActivity.script
+2024-10-02 15:09:32.914 -0400	imagerectangle	(TEXT:"Syringe 2")	at [208,188,279,202]	2	on_plotsyringeactivity	PlotSyringeActivity.script
+2024-10-02 15:09:33.127 -0400	imagerectangle	(TEXT:"Dose")	at [1743,189,1773,198]	4	on_plotsyringeactivity	PlotSyringeActivity.script
+2024-10-02 15:09:33.348 -0400	imagerectangle	(TEXT:"Infusion")	at [1745,212,1806,223]	6	on_plotsyringeactivity	PlotSyringeActivity.script
+2024-10-02 15:09:33.584 -0400	imagerectangle	(TEXT:"Current")	at [1743,235,1798,245]	8	on_plotsyringeactivity	PlotSyringeActivity.script
+2024-10-02 15:09:33.808 -0400	imagerectangle	(TEXT:"Remaining")	at [1743,253,1814,267]	10	on_plotsyringeactivity	PlotSyringeActivity.script
+2024-10-02 15:09:33.830 -0400	readtext		(1667,187,1735,202)	13	on_plotsyringeactivity	PlotSyringeActivity.script
+2024-10-02 15:09:33.851 -0400	readtext		(1669,210,1743,227)	14	on_plotsyringeactivity	PlotSyringeActivity.script
+2024-10-02 15:09:33.873 -0400	readtext		(1667,233,1735,249)	15	on_plotsyringeactivity	PlotSyringeActivity.script
+2024-10-02 15:09:33.898 -0400	readtext		(1667,251,1746,271)	16	on_plotsyringeactivity	PlotSyringeActivity.script
+2024-10-02 15:09:36.193 -0400	imagerectangle	(TEXT:"Syringe 3")	at [208,332,279,346]	2	on_plotsyringeactivity	PlotSyringeActivity.script
+2024-10-02 15:09:36.437 -0400	imagerectangle	(TEXT:"Dose")	at [1743,333,1773,342]	4	on_plotsyringeactivity	PlotSyringeActivity.script
+2024-10-02 15:09:36.654 -0400	imagerectangle	(TEXT:"Infusion")	at [1745,356,1806,367]	6	on_plotsyringeactivity	PlotSyringeActivity.script
+2024-10-02 15:09:36.882 -0400	imagerectangle	(TEXT:"Current")	at [1743,379,1798,389]	8	on_plotsyringeactivity	PlotSyringeActivity.script
+2024-10-02 15:09:37.104 -0400	imagerectangle	(TEXT:"Remaining")	at [1743,397,1814,411]	10	on_plotsyringeactivity	PlotSyringeActivity.script
+2024-10-02 15:09:37.126 -0400	readtext		(1667,331,1735,346)	13	on_plotsyringeactivity	PlotSyringeActivity.script
+2024-10-02 15:09:37.145 -0400	readtext		(1669,354,1743,371)	14	on_plotsyringeactivity	PlotSyringeActivity.script
+2024-10-02 15:09:37.171 -0400	readtext		(1667,377,1735,393)	15	on_plotsyringeactivity	PlotSyringeActivity.script
+2024-10-02 15:09:37.196 -0400	readtext		(1667,395,1746,415)	16	on_plotsyringeactivity	PlotSyringeActivity.script
+2024-10-02 15:09:39.633 -0400	imagerectangle	(TEXT:"Syringe 4")	at [208,476,280,490]	2	on_plotsyringeactivity	PlotSyringeActivity.script
+2024-10-02 15:09:39.866 -0400	imagerectangle	(TEXT:"Dose")	at [1743,477,1773,486]	4	on_plotsyringeactivity	PlotSyringeActivity.script
+2024-10-02 15:09:40.079 -0400	imagerectangle	(TEXT:"Infusion")	at [1745,500,1806,511]	6	on_plotsyringeactivity	PlotSyringeActivity.script
+2024-10-02 15:09:40.304 -0400	imagerectangle	(TEXT:"Current")	at [1743,523,1798,533]	8	on_plotsyringeactivity	PlotSyringeActivity.script
+2024-10-02 15:09:40.448 -0400	Exception		Searching For Image: OCR Error: Operation was aborted	10	on_plotsyringeactivity	PlotSyringeActivity.script
+2024-10-02 15:09:40.480 -0400	EndTestCase		(Duration:"13.226", Errors:"1", Exceptions:"1", StartTime:"2024-10-02 15:09:27 -0400", Successes:"0", TestCase:"PlotSyringeActivity.script", Warnings:"0")
+2024-10-02 15:09:40.491 -0400	ABORTED		Execution Time 0:00:13 PlotSyringeActivity.script

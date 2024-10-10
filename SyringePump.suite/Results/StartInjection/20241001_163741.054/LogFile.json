@@ -1,0 +1,29 @@
+{
+	"entries": [
+		{
+				"message": "Running StartInjection.script",
+				"identifier": "START",
+				"timestamp": "2024-10-01 16:37:41.063 -0400"
+			},
+		{
+				"handlerName": "on_startinjection",
+				"timestamp": "2024-10-01 16:37:58.774 -0400",
+				"scriptName": "StartInjection.script",
+				"message": "Unable To Find Image \"(TEXT:\"Syringe 1\")\". Text not found.",
+				"image": "(TEXT:\"Syringe 1\")",
+				"handlerLine": 11,
+				"identifier": "Exception"
+			},
+		{
+				"message": "(Duration:\"17.795\", Errors:\"1\", Exceptions:\"1\", StartTime:\"2024-10-01 16:37:41 -0400\", Successes:\"0\", TestCase:\"StartInjection.script\", Warnings:\"0\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2024-10-01 16:37:58.862 -0400"
+			},
+		{
+				"message": "Execution Time 0:00:17 StartInjection.script",
+				"identifier": "ABORTED",
+				"timestamp": "2024-10-01 16:37:58.885 -0400"
+			}
+	],
+	"createdTimestamp": "2024-10-01 16:37:41.065 -0400"
+}

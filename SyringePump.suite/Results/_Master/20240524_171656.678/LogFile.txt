@@ -1,0 +1,10 @@
+﻿2024-05-24 17:16:56.680 -0400	START		Running _Master.script
+2024-05-24 17:16:56.985 -0400	Connect		Syringe Pump Stack:(null)	1	on_connect_to_sut	Connect to SUT.script
+2024-05-24 17:16:57.096 -0400	startmovie		/Users/stevbarr/Keysight Sandbox/Suites/Syringe_Pump.suite/Results/_Master/20240524_171656.678/Syringe Pump.mp4	5	on__master	_Master.script
+2024-05-24 17:17:01.828 -0400	imagefound	button_Windows_Start	Unable to Find Image button_Windows_Start	1	on_launch_pump	Launch Pump.script
+2024-05-24 17:17:02.853 -0400	imagefound	window_SyringePumpStack	found at (8, 10)	11	on_launch_pump	Launch Pump.script
+2024-05-24 17:17:04.397 -0400	capturescreen	Initial state of Syringe Pump.png		23	on_launch_pump	Launch Pump.script
+2024-05-24 17:17:08.680 -0400	set		SEARCHRECTANGLE = ["Syringe/1/rect_A","Syringe/1/rect_B"]	3	on_syringe2	Syringe2.script
+2024-05-24 17:17:14.907 -0400	readtext		(202,74,406,139)	4	on_syringe2	Syringe2.script
+2024-05-24 17:17:26.323 -0400	EndTestCase		(Duration:"29.641588", Errors:"1", Exceptions:"0", StartTime:"2024-05-24 17:16:56 -0400", Successes:"0", TestCase:"_Master.script", Warnings:"0")
+2024-05-24 17:17:26.888 -0400	FAILURE	Screen_Error.png	InvalidCommandOrRange: Not a valid command, or else incorrect types given for a range (must be numbers, date/times, or single characters -- got "1" TO "{Concentration:"0...") -- Execution Time 0:00:29 _Master.script

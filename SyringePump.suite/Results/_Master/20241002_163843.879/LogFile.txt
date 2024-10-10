@@ -1,0 +1,22 @@
+﻿2024-10-02 16:38:43.884 -0400	START		Running _Master.script
+2024-10-02 16:38:43.988 -0400	Connect		NewSingleSystem:(null)	4	on_connect_to_sut	Connect to SUT.script
+2024-10-02 16:38:43.994 -0400	startmovie		C:/ScriptRepositories/Syringe_Pump.suite/Results/_Master/20241002_163843.879/Syringe Pump.mp4	5	on__master	_Master.script
+2024-10-02 16:38:49.796 -0400	imagefound	button_Windows_Start	Unable to Find Image button_Windows_Start	1	on_launch_pump	Launch Pump.script
+2024-10-02 16:38:53.077 -0400	imagefound	window_SyringePumpStack	Unable to Find Image window_SyringePumpStack	11	on_launch_pump	Launch Pump.script
+2024-10-02 16:38:53.100 -0400	moveto		at (1536, 864)	9	on_run_an_os_command	C:/ScriptRepositories/[Run Command Helper].suite/Scripts/Run an OS Command.script
+2024-10-02 16:38:53.250 -0400	typetext		[controlKey]W	13	on_run_an_os_command	C:/ScriptRepositories/[Run Command Helper].suite/Scripts/Run an OS Command.script
+2024-10-02 16:38:55.317 -0400	typetext		[windowsKey]r	16	on_run_an_os_command	C:/ScriptRepositories/[Run Command Helper].suite/Scripts/Run an OS Command.script
+2024-10-02 16:38:57.311 -0400	waitfor	OS/Windows/Run Window	found at (573, 8)	17	on_run_an_os_command	C:/ScriptRepositories/[Run Command Helper].suite/Scripts/Run an OS Command.script
+2024-10-02 16:38:57.415 -0400	typetext		[backspace]	18	on_run_an_os_command	C:/ScriptRepositories/[Run Command Helper].suite/Scripts/Run an OS Command.script
+2024-10-02 16:39:01.330 -0400	typetext		"C:\Program Files\Syringe Pump Program\Syringe Pump\syringe_pump.exe"[returnKey]	21	on_run_an_os_command	C:/ScriptRepositories/[Run Command Helper].suite/Scripts/Run an OS Command.script
+2024-10-02 16:39:03.384 -0400	typetext		[windowsAltKey] 	25	on_run_an_os_command	C:/ScriptRepositories/[Run Command Helper].suite/Scripts/Run an OS Command.script
+2024-10-02 16:39:06.884 -0400	imagefound	OS/Windows/System Menu/Maximize	Unable to Find Image OS/Windows/System Menu/Maximize	26	on_run_an_os_command	C:/ScriptRepositories/[Run Command Helper].suite/Scripts/Run an OS Command.script
+2024-10-02 16:39:06.915 -0400	typetext		[escape]	30	on_run_an_os_command	C:/ScriptRepositories/[Run Command Helper].suite/Scripts/Run an OS Command.script
+2024-10-02 16:39:07.949 -0400	moveto		at (1536, 864)	80	on_run_an_os_command	C:/ScriptRepositories/[Run Command Helper].suite/Scripts/Run an OS Command.script
+2024-10-02 16:39:08.900 -0400	click	window_SyringePumpStack	at (127, 118)	16	on_launch_pump	Launch Pump.script
+2024-10-02 16:39:09.031 -0400	typetext		[windowsKey][upArrow]	17	on_launch_pump	Launch Pump.script
+2024-10-02 16:39:10.402 -0400	capturescreen	Initial state of Syringe Pump.png		20	on_launch_pump	Launch Pump.script
+2024-10-02 16:39:15.520 -0400	imagefound	Syringe/checkbox_DarkMode_false	Unable to Find Image Syringe/checkbox_DarkMode_false	2	on_dark_mode	View Settings.script
+2024-10-02 16:39:22.367 -0400	Exception		Searching For Image: OCR Error: Operation was aborted	4	on_plotsyringeactivity	PlotSyringeActivity.script
+2024-10-02 16:39:22.396 -0400	EndTestCase		(Duration:"38.508", Errors:"1", Exceptions:"1", StartTime:"2024-10-02 16:38:43 -0400", Successes:"0", TestCase:"_Master.script", Warnings:"0")
+2024-10-02 16:39:22.406 -0400	ABORTED		Execution Time 0:00:38 _Master.script

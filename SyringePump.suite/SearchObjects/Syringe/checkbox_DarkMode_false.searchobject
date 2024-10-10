@@ -1,0 +1,47 @@
+{
+	"originalcapturelocation": [
+		2,
+		509,
+		106,
+		29
+	],
+	"lastmodifieddate": 1716513436.8696189,
+	"createddate": 1716513436.8696189,
+	"name": "Syringe/checkbox_DarkMode_false",
+	"lastfounddate": 1728585891.2049999,
+	"ocrcapturestring": "Dark Mode",
+	"lastfoundlocation": [
+		2,
+		509,
+		106,
+		29
+	],
+	"testlocationdata": [
+		{
+				"connectionportnum": 5900,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[15,10]",
+					"Tolerance": "_73",
+					"Discrepancy": "_0",
+					"SearchType": "Smoothed for Text"
+				},
+				"sutinfo": {
+					"type": "Unknown VNC"
+				},
+				"name": "Syringe/checkbox_DarkMode_false.png",
+				"connectionname": "Syringe Pump Stack",
+				"type": 1,
+				"capturerect": [
+					2,
+					509,
+					106,
+					29
+				],
+				"connectionserverid": "PWIN01-BARRJCKNJ",
+				"capturedocrtext": "Dark Mode"
+			}
+	]
+}

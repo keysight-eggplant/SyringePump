@@ -1,0 +1,44 @@
+{
+  "entries" : [
+    {
+      "identifier" : "START",
+      "message" : "Running Syringe.script",
+      "timestamp" : "2024-05-21 13:00:21.395 -0400"
+    },
+    {
+      "handlerName" : "on_syringe",
+      "message" : "SEARCHRECTANGLE = [\"Syringe\/1\/Area\/rect_A\",\"Syringe\/1\/Area\/rect_B\"]",
+      "timestamp" : "2024-05-21 13:00:25.901 -0400",
+      "identifier" : "set",
+      "scriptName" : "Syringe.script",
+      "handlerLine" : 1
+    },
+    {
+      "handlerName" : "on_syringe",
+      "message" : "(202,73,406,138)",
+      "timestamp" : "2024-05-21 13:00:29.422 -0400",
+      "identifier" : "readtext",
+      "scriptName" : "Syringe.script",
+      "handlerLine" : 6
+    },
+    {
+      "handlerName" : "on_syringe",
+      "message" : "SEARCHRECTANGLE = ",
+      "timestamp" : "2024-05-21 13:00:49.843 -0400",
+      "identifier" : "set",
+      "scriptName" : "Syringe.script",
+      "handlerLine" : 16
+    },
+    {
+      "identifier" : "EndTestCase",
+      "message" : "(Duration:\"42.910838\", Errors:\"1\", Exceptions:\"0\", StartTime:\"2024-05-21 13:00:21 -0400\", Successes:\"0\", TestCase:\"Syringe.script\", Warnings:\"0\")",
+      "timestamp" : "2024-05-21 13:01:04.307 -0400"
+    },
+    {
+      "identifier" : "ABORTED",
+      "message" : "Execution Time 0:00:42 Syringe.script",
+      "timestamp" : "2024-05-21 13:01:04.309 -0400"
+    }
+  ],
+  "createdTimestamp" : "2024-05-21 13:00:21.396 -0400"
+}

@@ -1,0 +1,87 @@
+{
+  "entries" : [
+    {
+      "identifier" : "START",
+      "message" : "Running _Master.script",
+      "timestamp" : "2024-05-24 16:58:23.494 -0400"
+    },
+    {
+      "handlerName" : "on_connect_to_sut",
+      "message" : "Syringe Pump Stack:(null)",
+      "timestamp" : "2024-05-24 16:58:23.777 -0400",
+      "identifier" : "Connect",
+      "scriptName" : "Connect to SUT.script",
+      "handlerLine" : 1
+    },
+    {
+      "handlerName" : "on__master",
+      "message" : "\/Users\/stevbarr\/Keysight Sandbox\/Suites\/Syringe_Pump.suite\/Results\/_Master\/20240524_165823.492\/Syringe Pump.mp4",
+      "timestamp" : "2024-05-24 16:58:23.878 -0400",
+      "identifier" : "startmovie",
+      "scriptName" : "_Master.script",
+      "handlerLine" : 5
+    },
+    {
+      "handlerName" : "on_launch_pump",
+      "message" : "Unable to Find Image button_Windows_Start",
+      "identifier" : "imagefound",
+      "image" : "button_Windows_Start",
+      "handlerLine" : 1,
+      "timestamp" : "2024-05-24 16:58:28.714 -0400",
+      "scriptName" : "Launch Pump.script"
+    },
+    {
+      "handlerName" : "on_launch_pump",
+      "message" : "found at (8, 10)",
+      "identifier" : "imagefound",
+      "image" : "window_SyringePumpStack",
+      "handlerLine" : 11,
+      "timestamp" : "2024-05-24 16:58:29.730 -0400",
+      "scriptName" : "Launch Pump.script"
+    },
+    {
+      "handlerLine" : 23,
+      "handlerName" : "on_launch_pump",
+      "timestamp" : "2024-05-24 16:58:31.305 -0400",
+      "identifier" : "capturescreen",
+      "image" : "Initial state of Syringe Pump.png",
+      "scriptName" : "Launch Pump.script"
+    },
+    {
+      "handlerName" : "on_needle_1",
+      "message" : "SEARCHRECTANGLE = [\"Syringe\/1\/rect_A\",\"Syringe\/1\/rect_B\"]",
+      "timestamp" : "2024-05-24 16:58:32.777 -0400",
+      "identifier" : "set",
+      "scriptName" : "Syringe.script",
+      "handlerLine" : 2
+    },
+    {
+      "handlerName" : "on_needle_1",
+      "message" : "(202,74,406,139)",
+      "timestamp" : "2024-05-24 16:58:34.321 -0400",
+      "identifier" : "readtext",
+      "scriptName" : "Syringe.script",
+      "handlerLine" : 3
+    },
+    {
+      "handlerName" : "on_needle_1",
+      "message" : "(1648,24,1906,133)",
+      "timestamp" : "2024-05-24 16:58:35.439 -0400",
+      "identifier" : "readtext",
+      "scriptName" : "Syringe.script",
+      "handlerLine" : 14
+    },
+    {
+      "identifier" : "EndTestCase",
+      "message" : "(Duration:\"12.018799\", Errors:\"1\", Exceptions:\"0\", StartTime:\"2024-05-24 16:58:23 -0400\", Successes:\"0\", TestCase:\"_Master.script\", Warnings:\"0\")",
+      "timestamp" : "2024-05-24 16:58:35.514 -0400"
+    },
+    {
+      "message" : "BadValue: Bad value for Object expression.  Looking for an object or script identifier, got 'Inject Dosage'. -- Execution Time 0:00:12 _Master.script",
+      "timestamp" : "2024-05-24 16:58:36.090 -0400",
+      "identifier" : "FAILURE",
+      "image" : "Screen_Error.png"
+    }
+  ],
+  "createdTimestamp" : "2024-05-24 16:58:23.495 -0400"
+}

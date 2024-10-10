@@ -1,0 +1,7 @@
+﻿2024-05-21 14:52:10.413 -0400	START		Running _Master.script
+2024-05-21 14:52:10.502 -0400	Connect		Syringe Pump Stack:(null)	1	on_connect_to_sut	Connect to SUT.script
+2024-05-21 14:52:12.088 -0400	set		SEARCHRECTANGLE = ["Syringe/1/Area/rect_A","Syringe/1/Area/rect_B"]	2	on_syringe	Syringe.script
+2024-05-21 14:52:13.646 -0400	readtext		(202,74,406,139)	3	on_syringe	Syringe.script
+2024-05-21 14:52:14.858 -0400	readtext		(1648,24,1906,133)	11	on_syringe	Syringe.script
+2024-05-21 15:23:16.187 -0400	EndTestCase		(Duration:"1865.772511", Errors:"1", Exceptions:"0", StartTime:"2024-05-21 14:52:10 -0400", Successes:"0", TestCase:"_Master.script", Warnings:"0")
+2024-05-21 15:23:16.190 -0400	ABORTED		Execution Time 0:31:05 _Master.script

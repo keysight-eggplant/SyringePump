@@ -1,0 +1,32 @@
+﻿2024-05-24 16:49:40.241 -0400	START		Running _Master.script
+2024-05-24 16:49:40.537 -0400	Connect		Syringe Pump Stack:(null)	1	on_connect_to_sut	Connect to SUT.script
+2024-05-24 16:49:40.642 -0400	startmovie		/Users/stevbarr/Keysight Sandbox/Suites/Syringe_Pump.suite/Results/_Master/20240524_164940.239/Syringe Pump.mp4	5	on__master	_Master.script
+2024-05-24 16:49:43.515 -0400	imagefound	button_Windows_Start	Unable to Find Image button_Windows_Start	1	on_launch_pump	Launch Pump.script
+2024-05-24 16:49:45.825 -0400	imagefound	window_SyringePumpStack	Unable to Find Image window_SyringePumpStack	11	on_launch_pump	Launch Pump.script
+2024-05-24 16:49:45.907 -0400	moveto		at (1536, 864)	9	on_run_an_os_command	/Users/stevbarr/Keysight Sandbox/Suites/Helper Suites/[Run Command Helper Suite].suite/Scripts/Run an OS Command.script
+2024-05-24 16:49:46.643 -0400	typetext		[controlKey]W	13	on_run_an_os_command	/Users/stevbarr/Keysight Sandbox/Suites/Helper Suites/[Run Command Helper Suite].suite/Scripts/Run an OS Command.script
+2024-05-24 16:49:48.688 -0400	typetext		[windowsKey]r	17	on_run_an_os_command	/Users/stevbarr/Keysight Sandbox/Suites/Helper Suites/[Run Command Helper Suite].suite/Scripts/Run an OS Command.script
+2024-05-24 16:49:49.539 -0400	waitfor	OS/Windows/Run Window	found at (37, 881)	18	on_run_an_os_command	/Users/stevbarr/Keysight Sandbox/Suites/Helper Suites/[Run Command Helper Suite].suite/Scripts/Run an OS Command.script
+2024-05-24 16:49:49.557 -0400	typetext		[backspace]	19	on_run_an_os_command	/Users/stevbarr/Keysight Sandbox/Suites/Helper Suites/[Run Command Helper Suite].suite/Scripts/Run an OS Command.script
+2024-05-24 16:49:52.009 -0400	typetext		C:\Syringe Pump\syringe_pump.exe[returnKey]	22	on_run_an_os_command	/Users/stevbarr/Keysight Sandbox/Suites/Helper Suites/[Run Command Helper Suite].suite/Scripts/Run an OS Command.script
+2024-05-24 16:49:57.064 -0400	typetext		[windowsAltKey] 	26	on_run_an_os_command	/Users/stevbarr/Keysight Sandbox/Suites/Helper Suites/[Run Command Helper Suite].suite/Scripts/Run an OS Command.script
+2024-05-24 16:50:01.365 -0400	imagefound	OS/Windows/System Menu/Maximize	Unable to Find Image OS/Windows/System Menu/Maximize	27	on_run_an_os_command	/Users/stevbarr/Keysight Sandbox/Suites/Helper Suites/[Run Command Helper Suite].suite/Scripts/Run an OS Command.script
+2024-05-24 16:50:01.386 -0400	typetext		[escape]	31	on_run_an_os_command	/Users/stevbarr/Keysight Sandbox/Suites/Helper Suites/[Run Command Helper Suite].suite/Scripts/Run an OS Command.script
+2024-05-24 16:50:02.431 -0400	moveto		at (1536, 864)	88	on_run_an_os_command	/Users/stevbarr/Keysight Sandbox/Suites/Helper Suites/[Run Command Helper Suite].suite/Scripts/Run an OS Command.script
+2024-05-24 16:50:04.242 -0400	click	window_SyringePumpStack	at (74, 66)	16	on_launch_pump	Launch Pump.script
+2024-05-24 16:50:05.534 -0400	click	menu_Maximize	at (107, 183)	17	on_launch_pump	Launch Pump.script
+2024-05-24 16:50:06.585 -0400	imagefound	Syringe/checkbox_DarkMode_false	found at (16, 521)	18	on_launch_pump	Launch Pump.script
+2024-05-24 16:50:07.204 -0400	click	Syringe/checkbox_DarkMode_false	at (16, 521)	19	on_launch_pump	Launch Pump.script
+2024-05-24 16:50:08.793 -0400	capturescreen	Initial state of Syringe Pump.png		23	on_launch_pump	Launch Pump.script
+2024-05-24 16:50:10.280 -0400	set		SEARCHRECTANGLE = ["Syringe/1/rect_A","Syringe/1/rect_B"]	2	on_needle_1	Syringe.script
+2024-05-24 16:50:11.897 -0400	readtext		(203,75,405,143)	3	on_needle_1	Syringe.script
+2024-05-24 16:50:14.027 -0400	readtext		(1652,28,1906,133)	14	on_needle_1	Syringe.script
+2024-05-24 16:50:30.545 -0400	click	Syringe/field_Dose	at (1721, 47)	4	on_use_needle	Use Needle.script
+2024-05-24 16:50:36.722 -0400	Log		1.000	1	on_use_needle	Use Needle.script
+2024-05-24 16:50:39.790 -0400	typetext		1.000	5	on_use_needle	Use Needle.script
+2024-05-24 16:50:41.812 -0400	click	Syringe/Start Injection	at (1544, 55)	6	on_use_needle	Use Needle.script
+2024-05-24 16:50:58.540 -0400	Log		N	1	on_use_needle	Use Needle.script
+2024-05-24 16:51:17.210 -0400	set		SEARCHRECTANGLE = 	26	on_needle_1	Syringe.script
+2024-05-24 16:51:20.883 -0400	capturescreen	Status of Needle #1's Injection.png		27	on_needle_1	Syringe.script
+2024-05-24 16:51:24.839 -0400	EndTestCase		(Duration:"104.597055", Errors:"1", Exceptions:"0", StartTime:"2024-05-24 16:49:40 -0400", Successes:"0", TestCase:"_Master.script", Warnings:"0")
+2024-05-24 16:51:24.841 -0400	ABORTED		Execution Time 0:01:44 _Master.script

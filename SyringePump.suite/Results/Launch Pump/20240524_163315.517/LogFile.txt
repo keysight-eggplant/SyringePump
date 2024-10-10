@@ -1,0 +1,10 @@
+﻿2024-05-24 16:33:15.519 -0400	START		Running Launch Pump.script
+2024-05-24 16:33:16.051 -0400	imagefound	button_Windows_Start	found at (24, 1058)	1	on_launch_pump	Launch Pump.script
+2024-05-24 16:33:16.650 -0400	rightclick	area_Taskbar	at (763, 1057)	2	on_launch_pump	Launch Pump.script
+2024-05-24 16:33:17.984 -0400	click	menu_TaskbarSettings	at (783, 1033)	3	on_launch_pump	Launch Pump.script
+2024-05-24 16:33:20.492 -0400	imagefound	toggle_HideTaskbar_false.png	found at (684, 219)	4	on_launch_pump	Launch Pump.script
+2024-05-24 16:33:21.116 -0400	click	toggle_HideTaskbar_false	at (684, 219)	5	on_launch_pump	Launch Pump.script
+2024-05-24 16:33:22.152 -0400	typetext		[windowsAltKey][F4]	7	on_launch_pump	Launch Pump.script
+2024-05-24 16:33:29.019 -0400	imagefound	window_SyringePumpStack	found at (38, 14)	11	on_launch_pump	Launch Pump.script
+2024-05-24 16:33:31.933 -0400	EndTestCase		(Duration:"16.41326", Errors:"1", Exceptions:"0", StartTime:"2024-05-24 16:33:15 -0400", Successes:"0", TestCase:"Launch Pump.script", Warnings:"0")
+2024-05-24 16:33:31.935 -0400	ABORTED		Execution Time 0:00:16 Launch Pump.script

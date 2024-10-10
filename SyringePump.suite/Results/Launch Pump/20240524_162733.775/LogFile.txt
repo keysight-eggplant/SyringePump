@@ -1,0 +1,4 @@
+﻿2024-05-24 16:27:33.778 -0400	START		Running Launch Pump.script
+2024-05-24 16:27:34.346 -0400	imagefound	button_Windows_Start	found at (24, 1058)	1	on_launch_pump	Launch Pump.script
+2024-05-24 16:28:09.713 -0400	EndTestCase		(Duration:"35.934352", Errors:"1", Exceptions:"0", StartTime:"2024-05-24 16:27:33 -0400", Successes:"0", TestCase:"Launch Pump.script", Warnings:"0")
+2024-05-24 16:28:09.715 -0400	ABORTED		Execution Time 0:00:35 Launch Pump.script

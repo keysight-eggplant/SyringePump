@@ -1,0 +1,61 @@
+{
+  "entries" : [
+    {
+      "identifier" : "START",
+      "message" : "Running _Master.script",
+      "timestamp" : "2024-04-29 21:27:58.848 -0400"
+    },
+    {
+      "handlerName" : "on_connect_to_sut",
+      "message" : "Syringe Pump Stack:(null)",
+      "timestamp" : "2024-04-29 21:27:59.389 -0400",
+      "identifier" : "Connect",
+      "scriptName" : "Connect to SUT.script",
+      "handlerLine" : 1
+    },
+    {
+      "handlerName" : "on_run_an_os_command",
+      "message" : "at (1536, 864)",
+      "timestamp" : "2024-04-29 21:27:59.841 -0400",
+      "identifier" : "moveto",
+      "scriptName" : "\/Users\/stevbarr\/Keysight Sandbox\/Suites\/Helper Suites\/[Run Command Helper Suite].suite\/Scripts\/Run an OS Command.script",
+      "handlerLine" : 9
+    },
+    {
+      "handlerName" : "on_run_an_os_command",
+      "message" : "[controlKey]W",
+      "timestamp" : "2024-04-29 21:28:00.573 -0400",
+      "identifier" : "typetext",
+      "scriptName" : "\/Users\/stevbarr\/Keysight Sandbox\/Suites\/Helper Suites\/[Run Command Helper Suite].suite\/Scripts\/Run an OS Command.script",
+      "handlerLine" : 13
+    },
+    {
+      "handlerName" : "on_run_an_os_command",
+      "message" : "[windowsKey]r",
+      "timestamp" : "2024-04-29 21:28:02.630 -0400",
+      "identifier" : "typetext",
+      "scriptName" : "\/Users\/stevbarr\/Keysight Sandbox\/Suites\/Helper Suites\/[Run Command Helper Suite].suite\/Scripts\/Run an OS Command.script",
+      "handlerLine" : 17
+    },
+    {
+      "handlerName" : "on_run_an_os_command",
+      "message" : "Unable To Find Any Image On Screen \"OS\/Windows\/Run Window\" within 8.00 seconds",
+      "identifier" : "Exception",
+      "image" : "OS\/Windows\/Run Window",
+      "handlerLine" : 18,
+      "timestamp" : "2024-04-29 21:29:14.202 -0400",
+      "scriptName" : "\/Users\/stevbarr\/Keysight Sandbox\/Suites\/Helper Suites\/[Run Command Helper Suite].suite\/Scripts\/Run an OS Command.script"
+    },
+    {
+      "identifier" : "EndTestCase",
+      "message" : "(Duration:\"75.478963\", Errors:\"1\", Exceptions:\"1\", StartTime:\"2024-04-29 21:27:58 -0400\", Successes:\"0\", TestCase:\"_Master.script\", Warnings:\"0\")",
+      "timestamp" : "2024-04-29 21:29:14.328 -0400"
+    },
+    {
+      "identifier" : "ABORTED",
+      "message" : "Execution Time 0:01:15 _Master.script",
+      "timestamp" : "2024-04-29 21:29:14.331 -0400"
+    }
+  ],
+  "createdTimestamp" : "2024-04-29 21:27:58.849 -0400"
+}

@@ -1,0 +1,1177 @@
+{
+	"entries": [
+		{
+				"message": "Running _Master.script",
+				"identifier": "START",
+				"timestamp": "2024-10-02 17:09:59.725 -0400"
+			},
+		{
+				"handlerName": "on_connect_to_sut",
+				"timestamp": "2024-10-02 17:09:59.839 -0400",
+				"message": "NewSingleSystem:(null)",
+				"scriptName": "Connect to SUT.script",
+				"handlerLine": 4,
+				"identifier": "Connect"
+			},
+		{
+				"handlerName": "on__master",
+				"timestamp": "2024-10-02 17:09:59.846 -0400",
+				"message": "C:/ScriptRepositories/Syringe_Pump.suite/Results/_Master/20241002_170959.720/Syringe Pump.mp4",
+				"scriptName": "_Master.script",
+				"handlerLine": 5,
+				"identifier": "startmovie"
+			},
+		{
+				"handlerName": "on_launch_pump",
+				"timestamp": "2024-10-02 17:10:02.441 -0400",
+				"scriptName": "Launch Pump.script",
+				"message": "Unable to Find Image button_Windows_Start",
+				"image": "button_Windows_Start",
+				"handlerLine": 1,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_launch_pump",
+				"timestamp": "2024-10-02 17:10:03.215 -0400",
+				"scriptName": "Launch Pump.script",
+				"message": "found at (9, 10)",
+				"image": "window_SyringePumpStack",
+				"handlerLine": 11,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_launch_pump",
+				"timestamp": "2024-10-02 17:10:04.450 -0400",
+				"scriptName": "Launch Pump.script",
+				"image": "Initial state of Syringe Pump.png",
+				"handlerLine": 20,
+				"identifier": "capturescreen"
+			},
+		{
+				"handlerName": "on_dark_mode",
+				"timestamp": "2024-10-02 17:10:09.756 -0400",
+				"scriptName": "View Settings.script",
+				"message": "Unable to Find Image Syringe/checkbox_DarkMode_false",
+				"image": "Syringe/checkbox_DarkMode_false",
+				"handlerLine": 2,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_plotsyringeactivity",
+				"timestamp": "2024-10-02 17:10:13.593 -0400",
+				"scriptName": "PlotSyringeActivity.script",
+				"message": "at [208,44,279,58]",
+				"image": "(TEXT:\"Syringe 1\")",
+				"handlerLine": 4,
+				"identifier": "imagerectangle"
+			},
+		{
+				"handlerName": "on_plotsyringeactivity",
+				"timestamp": "2024-10-02 17:10:13.856 -0400",
+				"scriptName": "PlotSyringeActivity.script",
+				"message": "at [1743,45,1773,54]",
+				"image": "(TEXT:\"Dose\")",
+				"handlerLine": 6,
+				"identifier": "imagerectangle"
+			},
+		{
+				"handlerName": "on_plotsyringeactivity",
+				"timestamp": "2024-10-02 17:10:14.130 -0400",
+				"scriptName": "PlotSyringeActivity.script",
+				"message": "at [1745,68,1806,79]",
+				"image": "(TEXT:\"Infusion\")",
+				"handlerLine": 8,
+				"identifier": "imagerectangle"
+			},
+		{
+				"handlerName": "on_plotsyringeactivity",
+				"timestamp": "2024-10-02 17:10:14.385 -0400",
+				"scriptName": "PlotSyringeActivity.script",
+				"message": "at [1743,91,1798,101]",
+				"image": "(TEXT:\"Current\")",
+				"handlerLine": 10,
+				"identifier": "imagerectangle"
+			},
+		{
+				"handlerName": "on_plotsyringeactivity",
+				"timestamp": "2024-10-02 17:10:14.637 -0400",
+				"scriptName": "PlotSyringeActivity.script",
+				"message": "at [1743,109,1814,123]",
+				"image": "(TEXT:\"Remaining\")",
+				"handlerLine": 12,
+				"identifier": "imagerectangle"
+			},
+		{
+				"handlerName": "on_plotsyringeactivity",
+				"timestamp": "2024-10-02 17:10:18.524 -0400",
+				"scriptName": "PlotSyringeActivity.script",
+				"message": "at [208,188,279,202]",
+				"image": "(TEXT:\"Syringe 2\")",
+				"handlerLine": 4,
+				"identifier": "imagerectangle"
+			},
+		{
+				"handlerName": "on_plotsyringeactivity",
+				"timestamp": "2024-10-02 17:10:18.771 -0400",
+				"scriptName": "PlotSyringeActivity.script",
+				"message": "at [1743,189,1773,198]",
+				"image": "(TEXT:\"Dose\")",
+				"handlerLine": 6,
+				"identifier": "imagerectangle"
+			},
+		{
+				"handlerName": "on_plotsyringeactivity",
+				"timestamp": "2024-10-02 17:10:19.004 -0400",
+				"scriptName": "PlotSyringeActivity.script",
+				"message": "at [1745,212,1806,223]",
+				"image": "(TEXT:\"Infusion\")",
+				"handlerLine": 8,
+				"identifier": "imagerectangle"
+			},
+		{
+				"handlerName": "on_plotsyringeactivity",
+				"timestamp": "2024-10-02 17:10:19.278 -0400",
+				"scriptName": "PlotSyringeActivity.script",
+				"message": "at [1743,235,1798,245]",
+				"image": "(TEXT:\"Current\")",
+				"handlerLine": 10,
+				"identifier": "imagerectangle"
+			},
+		{
+				"handlerName": "on_plotsyringeactivity",
+				"timestamp": "2024-10-02 17:10:19.566 -0400",
+				"scriptName": "PlotSyringeActivity.script",
+				"message": "at [1743,253,1814,267]",
+				"image": "(TEXT:\"Remaining\")",
+				"handlerLine": 12,
+				"identifier": "imagerectangle"
+			},
+		{
+				"handlerName": "on_plotsyringeactivity",
+				"timestamp": "2024-10-02 17:10:23.506 -0400",
+				"scriptName": "PlotSyringeActivity.script",
+				"message": "at [208,332,279,346]",
+				"image": "(TEXT:\"Syringe 3\")",
+				"handlerLine": 4,
+				"identifier": "imagerectangle"
+			},
+		{
+				"handlerName": "on_plotsyringeactivity",
+				"timestamp": "2024-10-02 17:10:23.780 -0400",
+				"scriptName": "PlotSyringeActivity.script",
+				"message": "at [1743,333,1773,342]",
+				"image": "(TEXT:\"Dose\")",
+				"handlerLine": 6,
+				"identifier": "imagerectangle"
+			},
+		{
+				"handlerName": "on_plotsyringeactivity",
+				"timestamp": "2024-10-02 17:10:24.058 -0400",
+				"scriptName": "PlotSyringeActivity.script",
+				"message": "at [1745,356,1806,367]",
+				"image": "(TEXT:\"Infusion\")",
+				"handlerLine": 8,
+				"identifier": "imagerectangle"
+			},
+		{
+				"handlerName": "on_plotsyringeactivity",
+				"timestamp": "2024-10-02 17:10:24.317 -0400",
+				"scriptName": "PlotSyringeActivity.script",
+				"message": "at [1743,379,1798,389]",
+				"image": "(TEXT:\"Current\")",
+				"handlerLine": 10,
+				"identifier": "imagerectangle"
+			},
+		{
+				"handlerName": "on_plotsyringeactivity",
+				"timestamp": "2024-10-02 17:10:24.572 -0400",
+				"scriptName": "PlotSyringeActivity.script",
+				"message": "at [1743,397,1814,411]",
+				"image": "(TEXT:\"Remaining\")",
+				"handlerLine": 12,
+				"identifier": "imagerectangle"
+			},
+		{
+				"handlerName": "on_plotsyringeactivity",
+				"timestamp": "2024-10-02 17:10:28.725 -0400",
+				"scriptName": "PlotSyringeActivity.script",
+				"message": "at [208,476,280,490]",
+				"image": "(TEXT:\"Syringe 4\")",
+				"handlerLine": 4,
+				"identifier": "imagerectangle"
+			},
+		{
+				"handlerName": "on_plotsyringeactivity",
+				"timestamp": "2024-10-02 17:10:28.983 -0400",
+				"scriptName": "PlotSyringeActivity.script",
+				"message": "at [1743,477,1773,486]",
+				"image": "(TEXT:\"Dose\")",
+				"handlerLine": 6,
+				"identifier": "imagerectangle"
+			},
+		{
+				"handlerName": "on_plotsyringeactivity",
+				"timestamp": "2024-10-02 17:10:29.234 -0400",
+				"scriptName": "PlotSyringeActivity.script",
+				"message": "at [1745,500,1806,511]",
+				"image": "(TEXT:\"Infusion\")",
+				"handlerLine": 8,
+				"identifier": "imagerectangle"
+			},
+		{
+				"handlerName": "on_plotsyringeactivity",
+				"timestamp": "2024-10-02 17:10:29.480 -0400",
+				"scriptName": "PlotSyringeActivity.script",
+				"message": "at [1743,523,1798,533]",
+				"image": "(TEXT:\"Current\")",
+				"handlerLine": 10,
+				"identifier": "imagerectangle"
+			},
+		{
+				"handlerName": "on_plotsyringeactivity",
+				"timestamp": "2024-10-02 17:10:29.731 -0400",
+				"scriptName": "PlotSyringeActivity.script",
+				"message": "at [1743,541,1814,555]",
+				"image": "(TEXT:\"Remaining\")",
+				"handlerLine": 12,
+				"identifier": "imagerectangle"
+			},
+		{
+				"handlerName": "on_plotsyringeactivity",
+				"timestamp": "2024-10-02 17:10:33.910 -0400",
+				"scriptName": "PlotSyringeActivity.script",
+				"message": "at [208,620,279,634]",
+				"image": "(TEXT:\"Syringe 5\")",
+				"handlerLine": 4,
+				"identifier": "imagerectangle"
+			},
+		{
+				"handlerName": "on_plotsyringeactivity",
+				"timestamp": "2024-10-02 17:10:34.191 -0400",
+				"scriptName": "PlotSyringeActivity.script",
+				"message": "at [1743,621,1773,630]",
+				"image": "(TEXT:\"Dose\")",
+				"handlerLine": 6,
+				"identifier": "imagerectangle"
+			},
+		{
+				"handlerName": "on_plotsyringeactivity",
+				"timestamp": "2024-10-02 17:10:34.468 -0400",
+				"scriptName": "PlotSyringeActivity.script",
+				"message": "at [1745,644,1806,655]",
+				"image": "(TEXT:\"Infusion\")",
+				"handlerLine": 8,
+				"identifier": "imagerectangle"
+			},
+		{
+				"handlerName": "on_plotsyringeactivity",
+				"timestamp": "2024-10-02 17:10:34.724 -0400",
+				"scriptName": "PlotSyringeActivity.script",
+				"message": "at [1743,667,1798,677]",
+				"image": "(TEXT:\"Current\")",
+				"handlerLine": 10,
+				"identifier": "imagerectangle"
+			},
+		{
+				"handlerName": "on_plotsyringeactivity",
+				"timestamp": "2024-10-02 17:10:34.974 -0400",
+				"scriptName": "PlotSyringeActivity.script",
+				"message": "at [1743,685,1814,699]",
+				"image": "(TEXT:\"Remaining\")",
+				"handlerLine": 12,
+				"identifier": "imagerectangle"
+			},
+		{
+				"handlerName": "on_plotsyringeactivity",
+				"timestamp": "2024-10-02 17:10:39.341 -0400",
+				"scriptName": "PlotSyringeActivity.script",
+				"message": "at [208,764,279,778]",
+				"image": "(TEXT:\"Syringe 6\")",
+				"handlerLine": 4,
+				"identifier": "imagerectangle"
+			},
+		{
+				"handlerName": "on_plotsyringeactivity",
+				"timestamp": "2024-10-02 17:10:39.634 -0400",
+				"scriptName": "PlotSyringeActivity.script",
+				"message": "at [1743,765,1773,774]",
+				"image": "(TEXT:\"Dose\")",
+				"handlerLine": 6,
+				"identifier": "imagerectangle"
+			},
+		{
+				"handlerName": "on_plotsyringeactivity",
+				"timestamp": "2024-10-02 17:10:39.934 -0400",
+				"scriptName": "PlotSyringeActivity.script",
+				"message": "at [1745,788,1806,799]",
+				"image": "(TEXT:\"Infusion\")",
+				"handlerLine": 8,
+				"identifier": "imagerectangle"
+			},
+		{
+				"handlerName": "on_plotsyringeactivity",
+				"timestamp": "2024-10-02 17:10:40.229 -0400",
+				"scriptName": "PlotSyringeActivity.script",
+				"message": "at [1743,811,1798,821]",
+				"image": "(TEXT:\"Current\")",
+				"handlerLine": 10,
+				"identifier": "imagerectangle"
+			},
+		{
+				"handlerName": "on_plotsyringeactivity",
+				"timestamp": "2024-10-02 17:10:40.499 -0400",
+				"scriptName": "PlotSyringeActivity.script",
+				"message": "at [1743,829,1814,843]",
+				"image": "(TEXT:\"Remaining\")",
+				"handlerLine": 12,
+				"identifier": "imagerectangle"
+			},
+		{
+				"handlerName": "on_plotsyringeactivity",
+				"timestamp": "2024-10-02 17:10:44.738 -0400",
+				"scriptName": "PlotSyringeActivity.script",
+				"message": "at [208,908,279,922]",
+				"image": "(TEXT:\"Syringe 7\")",
+				"handlerLine": 4,
+				"identifier": "imagerectangle"
+			},
+		{
+				"handlerName": "on_plotsyringeactivity",
+				"timestamp": "2024-10-02 17:10:45.014 -0400",
+				"scriptName": "PlotSyringeActivity.script",
+				"message": "at [1743,909,1773,918]",
+				"image": "(TEXT:\"Dose\")",
+				"handlerLine": 6,
+				"identifier": "imagerectangle"
+			},
+		{
+				"handlerName": "on_plotsyringeactivity",
+				"timestamp": "2024-10-02 17:10:45.270 -0400",
+				"scriptName": "PlotSyringeActivity.script",
+				"message": "at [1745,932,1806,943]",
+				"image": "(TEXT:\"Infusion\")",
+				"handlerLine": 8,
+				"identifier": "imagerectangle"
+			},
+		{
+				"handlerName": "on_plotsyringeactivity",
+				"timestamp": "2024-10-02 17:10:45.512 -0400",
+				"scriptName": "PlotSyringeActivity.script",
+				"message": "at [1743,955,1798,965]",
+				"image": "(TEXT:\"Current\")",
+				"handlerLine": 10,
+				"identifier": "imagerectangle"
+			},
+		{
+				"handlerName": "on_plotsyringeactivity",
+				"timestamp": "2024-10-02 17:10:45.764 -0400",
+				"scriptName": "PlotSyringeActivity.script",
+				"message": "at [1743,973,1814,987]",
+				"image": "(TEXT:\"Remaining\")",
+				"handlerLine": 12,
+				"identifier": "imagerectangle"
+			},
+		{
+				"handlerName": "on_readsyringevalues",
+				"timestamp": "2024-10-02 17:10:45.874 -0400",
+				"message": "(1667,43,1735,58)",
+				"scriptName": "ReadSyringeValues.script",
+				"handlerLine": 6,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_readsyringevalues",
+				"timestamp": "2024-10-02 17:10:45.944 -0400",
+				"message": "(1669,66,1743,83)",
+				"scriptName": "ReadSyringeValues.script",
+				"handlerLine": 7,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_readsyringevalues",
+				"timestamp": "2024-10-02 17:10:46.035 -0400",
+				"message": "(1667,89,1735,105)",
+				"scriptName": "ReadSyringeValues.script",
+				"handlerLine": 8,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_readsyringevalues",
+				"timestamp": "2024-10-02 17:10:46.118 -0400",
+				"message": "(1667,107,1741,127)",
+				"scriptName": "ReadSyringeValues.script",
+				"handlerLine": 9,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_readsyringevalues",
+				"timestamp": "2024-10-02 17:10:46.180 -0400",
+				"message": "(1667,187,1735,202)",
+				"scriptName": "ReadSyringeValues.script",
+				"handlerLine": 6,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_readsyringevalues",
+				"timestamp": "2024-10-02 17:10:46.265 -0400",
+				"message": "(1669,210,1743,227)",
+				"scriptName": "ReadSyringeValues.script",
+				"handlerLine": 7,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_readsyringevalues",
+				"timestamp": "2024-10-02 17:10:46.337 -0400",
+				"message": "(1667,233,1735,249)",
+				"scriptName": "ReadSyringeValues.script",
+				"handlerLine": 8,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_readsyringevalues",
+				"timestamp": "2024-10-02 17:10:46.430 -0400",
+				"message": "(1667,251,1741,271)",
+				"scriptName": "ReadSyringeValues.script",
+				"handlerLine": 9,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_readsyringevalues",
+				"timestamp": "2024-10-02 17:10:46.501 -0400",
+				"message": "(1667,331,1735,346)",
+				"scriptName": "ReadSyringeValues.script",
+				"handlerLine": 6,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_readsyringevalues",
+				"timestamp": "2024-10-02 17:10:46.580 -0400",
+				"message": "(1669,354,1743,371)",
+				"scriptName": "ReadSyringeValues.script",
+				"handlerLine": 7,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_readsyringevalues",
+				"timestamp": "2024-10-02 17:10:46.654 -0400",
+				"message": "(1667,377,1735,393)",
+				"scriptName": "ReadSyringeValues.script",
+				"handlerLine": 8,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_readsyringevalues",
+				"timestamp": "2024-10-02 17:10:46.736 -0400",
+				"message": "(1667,395,1741,415)",
+				"scriptName": "ReadSyringeValues.script",
+				"handlerLine": 9,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_readsyringevalues",
+				"timestamp": "2024-10-02 17:10:46.817 -0400",
+				"message": "(1667,475,1735,490)",
+				"scriptName": "ReadSyringeValues.script",
+				"handlerLine": 6,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_readsyringevalues",
+				"timestamp": "2024-10-02 17:10:46.898 -0400",
+				"message": "(1669,498,1743,515)",
+				"scriptName": "ReadSyringeValues.script",
+				"handlerLine": 7,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_readsyringevalues",
+				"timestamp": "2024-10-02 17:10:46.978 -0400",
+				"message": "(1667,521,1735,537)",
+				"scriptName": "ReadSyringeValues.script",
+				"handlerLine": 8,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_readsyringevalues",
+				"timestamp": "2024-10-02 17:10:47.063 -0400",
+				"message": "(1667,539,1741,559)",
+				"scriptName": "ReadSyringeValues.script",
+				"handlerLine": 9,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_readsyringevalues",
+				"timestamp": "2024-10-02 17:10:47.158 -0400",
+				"message": "(1667,619,1735,634)",
+				"scriptName": "ReadSyringeValues.script",
+				"handlerLine": 6,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_readsyringevalues",
+				"timestamp": "2024-10-02 17:10:47.226 -0400",
+				"message": "(1669,642,1743,659)",
+				"scriptName": "ReadSyringeValues.script",
+				"handlerLine": 7,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_readsyringevalues",
+				"timestamp": "2024-10-02 17:10:47.297 -0400",
+				"message": "(1667,665,1735,681)",
+				"scriptName": "ReadSyringeValues.script",
+				"handlerLine": 8,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_readsyringevalues",
+				"timestamp": "2024-10-02 17:10:47.377 -0400",
+				"message": "(1667,683,1741,703)",
+				"scriptName": "ReadSyringeValues.script",
+				"handlerLine": 9,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_readsyringevalues",
+				"timestamp": "2024-10-02 17:10:47.457 -0400",
+				"message": "(1667,763,1735,778)",
+				"scriptName": "ReadSyringeValues.script",
+				"handlerLine": 6,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_readsyringevalues",
+				"timestamp": "2024-10-02 17:10:47.545 -0400",
+				"message": "(1669,786,1743,803)",
+				"scriptName": "ReadSyringeValues.script",
+				"handlerLine": 7,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_readsyringevalues",
+				"timestamp": "2024-10-02 17:10:47.617 -0400",
+				"message": "(1667,809,1735,825)",
+				"scriptName": "ReadSyringeValues.script",
+				"handlerLine": 8,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_readsyringevalues",
+				"timestamp": "2024-10-02 17:10:47.712 -0400",
+				"message": "(1667,827,1741,847)",
+				"scriptName": "ReadSyringeValues.script",
+				"handlerLine": 9,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_readsyringevalues",
+				"timestamp": "2024-10-02 17:10:47.798 -0400",
+				"message": "(1667,907,1735,922)",
+				"scriptName": "ReadSyringeValues.script",
+				"handlerLine": 6,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_readsyringevalues",
+				"timestamp": "2024-10-02 17:10:47.866 -0400",
+				"message": "(1669,930,1743,947)",
+				"scriptName": "ReadSyringeValues.script",
+				"handlerLine": 7,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_readsyringevalues",
+				"timestamp": "2024-10-02 17:10:47.946 -0400",
+				"message": "(1667,953,1735,969)",
+				"scriptName": "ReadSyringeValues.script",
+				"handlerLine": 8,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_readsyringevalues",
+				"timestamp": "2024-10-02 17:10:48.024 -0400",
+				"message": "(1667,971,1741,991)",
+				"scriptName": "ReadSyringeValues.script",
+				"handlerLine": 9,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_administermeds",
+				"timestamp": "2024-10-02 17:10:48.203 -0400",
+				"message": "at (1701, 51)",
+				"scriptName": "AdministerMeds.script",
+				"handlerLine": 6,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_administermeds",
+				"timestamp": "2024-10-02 17:10:48.320 -0400",
+				"message": "[deleteKey]",
+				"scriptName": "AdministerMeds.script",
+				"handlerLine": 7,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_administermeds",
+				"timestamp": "2024-10-02 17:10:48.421 -0400",
+				"message": "4",
+				"scriptName": "AdministerMeds.script",
+				"handlerLine": 8,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_administermeds",
+				"timestamp": "2024-10-02 17:10:48.536 -0400",
+				"message": "[tab]",
+				"scriptName": "AdministerMeds.script",
+				"handlerLine": 9,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_administermeds",
+				"timestamp": "2024-10-02 17:10:48.885 -0400",
+				"scriptName": "AdministerMeds.script",
+				"message": "at (1509, 53)",
+				"image": "(TEXT:\"Start\")",
+				"handlerLine": 10,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_administermeds",
+				"timestamp": "2024-10-02 17:10:49.070 -0400",
+				"message": "at (1701, 195)",
+				"scriptName": "AdministerMeds.script",
+				"handlerLine": 6,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_administermeds",
+				"timestamp": "2024-10-02 17:10:49.187 -0400",
+				"message": "[deleteKey]",
+				"scriptName": "AdministerMeds.script",
+				"handlerLine": 7,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_administermeds",
+				"timestamp": "2024-10-02 17:10:49.302 -0400",
+				"message": "7",
+				"scriptName": "AdministerMeds.script",
+				"handlerLine": 8,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_administermeds",
+				"timestamp": "2024-10-02 17:10:49.420 -0400",
+				"message": "[tab]",
+				"scriptName": "AdministerMeds.script",
+				"handlerLine": 9,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_administermeds",
+				"timestamp": "2024-10-02 17:10:49.770 -0400",
+				"scriptName": "AdministerMeds.script",
+				"message": "at (1509, 197)",
+				"image": "(TEXT:\"Start\")",
+				"handlerLine": 10,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_administermeds",
+				"timestamp": "2024-10-02 17:10:49.953 -0400",
+				"message": "at (1701, 339)",
+				"scriptName": "AdministerMeds.script",
+				"handlerLine": 6,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_administermeds",
+				"timestamp": "2024-10-02 17:10:50.054 -0400",
+				"message": "[deleteKey]",
+				"scriptName": "AdministerMeds.script",
+				"handlerLine": 7,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_administermeds",
+				"timestamp": "2024-10-02 17:10:50.154 -0400",
+				"message": "3",
+				"scriptName": "AdministerMeds.script",
+				"handlerLine": 8,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_administermeds",
+				"timestamp": "2024-10-02 17:10:50.255 -0400",
+				"message": "[tab]",
+				"scriptName": "AdministerMeds.script",
+				"handlerLine": 9,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_administermeds",
+				"timestamp": "2024-10-02 17:10:50.570 -0400",
+				"scriptName": "AdministerMeds.script",
+				"message": "at (1509, 341)",
+				"image": "(TEXT:\"Start\")",
+				"handlerLine": 10,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_administermeds",
+				"timestamp": "2024-10-02 17:10:50.752 -0400",
+				"message": "at (1701, 483)",
+				"scriptName": "AdministerMeds.script",
+				"handlerLine": 6,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_administermeds",
+				"timestamp": "2024-10-02 17:10:50.855 -0400",
+				"message": "[deleteKey]",
+				"scriptName": "AdministerMeds.script",
+				"handlerLine": 7,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_administermeds",
+				"timestamp": "2024-10-02 17:10:50.955 -0400",
+				"message": "1",
+				"scriptName": "AdministerMeds.script",
+				"handlerLine": 8,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_administermeds",
+				"timestamp": "2024-10-02 17:10:51.069 -0400",
+				"message": "[tab]",
+				"scriptName": "AdministerMeds.script",
+				"handlerLine": 9,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_administermeds",
+				"timestamp": "2024-10-02 17:10:51.437 -0400",
+				"scriptName": "AdministerMeds.script",
+				"message": "at (1509, 485)",
+				"image": "(TEXT:\"Start\")",
+				"handlerLine": 10,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_administermeds",
+				"timestamp": "2024-10-02 17:10:51.620 -0400",
+				"message": "at (1701, 627)",
+				"scriptName": "AdministerMeds.script",
+				"handlerLine": 6,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_administermeds",
+				"timestamp": "2024-10-02 17:10:51.721 -0400",
+				"message": "[deleteKey]",
+				"scriptName": "AdministerMeds.script",
+				"handlerLine": 7,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_administermeds",
+				"timestamp": "2024-10-02 17:10:51.836 -0400",
+				"message": "5",
+				"scriptName": "AdministerMeds.script",
+				"handlerLine": 8,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_administermeds",
+				"timestamp": "2024-10-02 17:10:51.954 -0400",
+				"message": "[tab]",
+				"scriptName": "AdministerMeds.script",
+				"handlerLine": 9,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_administermeds",
+				"timestamp": "2024-10-02 17:10:52.272 -0400",
+				"scriptName": "AdministerMeds.script",
+				"message": "at (1509, 629)",
+				"image": "(TEXT:\"Start\")",
+				"handlerLine": 10,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_administermeds",
+				"timestamp": "2024-10-02 17:10:52.453 -0400",
+				"message": "at (1701, 771)",
+				"scriptName": "AdministerMeds.script",
+				"handlerLine": 6,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_administermeds",
+				"timestamp": "2024-10-02 17:10:52.555 -0400",
+				"message": "[deleteKey]",
+				"scriptName": "AdministerMeds.script",
+				"handlerLine": 7,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_administermeds",
+				"timestamp": "2024-10-02 17:10:52.669 -0400",
+				"message": "6",
+				"scriptName": "AdministerMeds.script",
+				"handlerLine": 8,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_administermeds",
+				"timestamp": "2024-10-02 17:10:52.771 -0400",
+				"message": "[tab]",
+				"scriptName": "AdministerMeds.script",
+				"handlerLine": 9,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_administermeds",
+				"timestamp": "2024-10-02 17:10:53.087 -0400",
+				"scriptName": "AdministerMeds.script",
+				"message": "at (1509, 773)",
+				"image": "(TEXT:\"Start\")",
+				"handlerLine": 10,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_administermeds",
+				"timestamp": "2024-10-02 17:10:53.270 -0400",
+				"message": "at (1701, 915)",
+				"scriptName": "AdministerMeds.script",
+				"handlerLine": 6,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_administermeds",
+				"timestamp": "2024-10-02 17:10:53.371 -0400",
+				"message": "[deleteKey]",
+				"scriptName": "AdministerMeds.script",
+				"handlerLine": 7,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_administermeds",
+				"timestamp": "2024-10-02 17:10:53.518 -0400",
+				"message": "11",
+				"scriptName": "AdministerMeds.script",
+				"handlerLine": 8,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_administermeds",
+				"timestamp": "2024-10-02 17:10:53.636 -0400",
+				"message": "[tab]",
+				"scriptName": "AdministerMeds.script",
+				"handlerLine": 9,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_administermeds",
+				"timestamp": "2024-10-02 17:10:53.954 -0400",
+				"scriptName": "AdministerMeds.script",
+				"message": "at (1509, 917)",
+				"image": "(TEXT:\"Start\")",
+				"handlerLine": 10,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_readsyringevalues",
+				"timestamp": "2024-10-02 17:11:08.991 -0400",
+				"message": "(1667,43,1735,58)",
+				"scriptName": "ReadSyringeValues.script",
+				"handlerLine": 6,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_readsyringevalues",
+				"timestamp": "2024-10-02 17:11:09.066 -0400",
+				"message": "(1669,66,1743,83)",
+				"scriptName": "ReadSyringeValues.script",
+				"handlerLine": 7,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_readsyringevalues",
+				"timestamp": "2024-10-02 17:11:09.127 -0400",
+				"message": "(1667,89,1735,105)",
+				"scriptName": "ReadSyringeValues.script",
+				"handlerLine": 8,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_readsyringevalues",
+				"timestamp": "2024-10-02 17:11:09.195 -0400",
+				"message": "(1667,107,1741,127)",
+				"scriptName": "ReadSyringeValues.script",
+				"handlerLine": 9,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_readsyringevalues",
+				"timestamp": "2024-10-02 17:11:09.262 -0400",
+				"message": "(1667,187,1735,202)",
+				"scriptName": "ReadSyringeValues.script",
+				"handlerLine": 6,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_readsyringevalues",
+				"timestamp": "2024-10-02 17:11:09.346 -0400",
+				"message": "(1669,210,1743,227)",
+				"scriptName": "ReadSyringeValues.script",
+				"handlerLine": 7,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_readsyringevalues",
+				"timestamp": "2024-10-02 17:11:09.415 -0400",
+				"message": "(1667,233,1735,249)",
+				"scriptName": "ReadSyringeValues.script",
+				"handlerLine": 8,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_readsyringevalues",
+				"timestamp": "2024-10-02 17:11:09.503 -0400",
+				"message": "(1667,251,1741,271)",
+				"scriptName": "ReadSyringeValues.script",
+				"handlerLine": 9,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_readsyringevalues",
+				"timestamp": "2024-10-02 17:11:09.566 -0400",
+				"message": "(1667,331,1735,346)",
+				"scriptName": "ReadSyringeValues.script",
+				"handlerLine": 6,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_readsyringevalues",
+				"timestamp": "2024-10-02 17:11:09.640 -0400",
+				"message": "(1669,354,1743,371)",
+				"scriptName": "ReadSyringeValues.script",
+				"handlerLine": 7,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_readsyringevalues",
+				"timestamp": "2024-10-02 17:11:09.702 -0400",
+				"message": "(1667,377,1735,393)",
+				"scriptName": "ReadSyringeValues.script",
+				"handlerLine": 8,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_readsyringevalues",
+				"timestamp": "2024-10-02 17:11:09.774 -0400",
+				"message": "(1667,395,1741,415)",
+				"scriptName": "ReadSyringeValues.script",
+				"handlerLine": 9,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_readsyringevalues",
+				"timestamp": "2024-10-02 17:11:09.840 -0400",
+				"message": "(1667,475,1735,490)",
+				"scriptName": "ReadSyringeValues.script",
+				"handlerLine": 6,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_readsyringevalues",
+				"timestamp": "2024-10-02 17:11:09.911 -0400",
+				"message": "(1669,498,1743,515)",
+				"scriptName": "ReadSyringeValues.script",
+				"handlerLine": 7,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_readsyringevalues",
+				"timestamp": "2024-10-02 17:11:09.976 -0400",
+				"message": "(1667,521,1735,537)",
+				"scriptName": "ReadSyringeValues.script",
+				"handlerLine": 8,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_readsyringevalues",
+				"timestamp": "2024-10-02 17:11:10.045 -0400",
+				"message": "(1667,539,1741,559)",
+				"scriptName": "ReadSyringeValues.script",
+				"handlerLine": 9,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_readsyringevalues",
+				"timestamp": "2024-10-02 17:11:10.101 -0400",
+				"message": "(1667,619,1735,634)",
+				"scriptName": "ReadSyringeValues.script",
+				"handlerLine": 6,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_readsyringevalues",
+				"timestamp": "2024-10-02 17:11:10.177 -0400",
+				"message": "(1669,642,1743,659)",
+				"scriptName": "ReadSyringeValues.script",
+				"handlerLine": 7,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_readsyringevalues",
+				"timestamp": "2024-10-02 17:11:10.259 -0400",
+				"message": "(1667,665,1735,681)",
+				"scriptName": "ReadSyringeValues.script",
+				"handlerLine": 8,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_readsyringevalues",
+				"timestamp": "2024-10-02 17:11:10.333 -0400",
+				"message": "(1667,683,1741,703)",
+				"scriptName": "ReadSyringeValues.script",
+				"handlerLine": 9,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_readsyringevalues",
+				"timestamp": "2024-10-02 17:11:10.409 -0400",
+				"message": "(1667,763,1735,778)",
+				"scriptName": "ReadSyringeValues.script",
+				"handlerLine": 6,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_readsyringevalues",
+				"timestamp": "2024-10-02 17:11:10.471 -0400",
+				"message": "(1669,786,1743,803)",
+				"scriptName": "ReadSyringeValues.script",
+				"handlerLine": 7,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_readsyringevalues",
+				"timestamp": "2024-10-02 17:11:10.540 -0400",
+				"message": "(1667,809,1735,825)",
+				"scriptName": "ReadSyringeValues.script",
+				"handlerLine": 8,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_readsyringevalues",
+				"timestamp": "2024-10-02 17:11:10.614 -0400",
+				"message": "(1667,827,1741,847)",
+				"scriptName": "ReadSyringeValues.script",
+				"handlerLine": 9,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_readsyringevalues",
+				"timestamp": "2024-10-02 17:11:10.673 -0400",
+				"message": "(1667,907,1735,922)",
+				"scriptName": "ReadSyringeValues.script",
+				"handlerLine": 6,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_readsyringevalues",
+				"timestamp": "2024-10-02 17:11:10.743 -0400",
+				"message": "(1669,930,1743,947)",
+				"scriptName": "ReadSyringeValues.script",
+				"handlerLine": 7,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_readsyringevalues",
+				"timestamp": "2024-10-02 17:11:10.812 -0400",
+				"message": "(1667,953,1735,969)",
+				"scriptName": "ReadSyringeValues.script",
+				"handlerLine": 8,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_readsyringevalues",
+				"timestamp": "2024-10-02 17:11:10.878 -0400",
+				"message": "(1667,971,1741,991)",
+				"scriptName": "ReadSyringeValues.script",
+				"handlerLine": 9,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_verifysyringevalues",
+				"timestamp": "2024-10-02 17:11:10.957 -0400",
+				"message": "All of the medicine was not administered",
+				"scriptName": "VerifySyringeValues.script",
+				"handlerLine": 7,
+				"identifier": "LogWarning"
+			},
+		{
+				"handlerName": "on_verifysyringevalues",
+				"timestamp": "2024-10-02 17:11:10.968 -0400",
+				"message": "All of the medicine was not administered",
+				"scriptName": "VerifySyringeValues.script",
+				"handlerLine": 7,
+				"identifier": "LogWarning"
+			},
+		{
+				"handlerName": "on_verifysyringevalues",
+				"timestamp": "2024-10-02 17:11:10.980 -0400",
+				"message": "All of the medicine was not administered",
+				"scriptName": "VerifySyringeValues.script",
+				"handlerLine": 7,
+				"identifier": "LogWarning"
+			},
+		{
+				"handlerName": "on_verifysyringevalues",
+				"timestamp": "2024-10-02 17:11:10.990 -0400",
+				"message": "All of the medicine was not administered",
+				"scriptName": "VerifySyringeValues.script",
+				"handlerLine": 7,
+				"identifier": "LogWarning"
+			},
+		{
+				"handlerName": "on_verifysyringevalues",
+				"timestamp": "2024-10-02 17:11:11.001 -0400",
+				"message": "All of the medicine was not administered",
+				"scriptName": "VerifySyringeValues.script",
+				"handlerLine": 7,
+				"identifier": "LogWarning"
+			},
+		{
+				"handlerName": "on_verifysyringevalues",
+				"timestamp": "2024-10-02 17:11:11.012 -0400",
+				"message": "All of the medicine was not administered",
+				"scriptName": "VerifySyringeValues.script",
+				"handlerLine": 7,
+				"identifier": "LogWarning"
+			},
+		{
+				"handlerName": "on_verifysyringevalues",
+				"timestamp": "2024-10-02 17:11:11.023 -0400",
+				"message": "All of the medicine was not administered",
+				"scriptName": "VerifySyringeValues.script",
+				"handlerLine": 7,
+				"identifier": "LogWarning"
+			},
+		{
+				"message": "(Duration:\"194.771\", Errors:\"1\", Exceptions:\"0\", StartTime:\"2024-10-02 17:09:59 -0400\", Successes:\"0\", TestCase:\"_Master.script\", Warnings:\"7\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2024-10-02 17:13:14.499 -0400"
+			},
+		{
+				"message": "Execution Time 0:03:14 _Master.script",
+				"identifier": "ABORTED",
+				"timestamp": "2024-10-02 17:13:14.519 -0400"
+			}
+	],
+	"createdTimestamp": "2024-10-02 17:09:59.727 -0400"
+}

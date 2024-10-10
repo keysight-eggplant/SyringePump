@@ -1,0 +1,76 @@
+{
+  "entries" : [
+    {
+      "identifier" : "START",
+      "message" : "Running Syringe.script",
+      "timestamp" : "2024-05-21 14:06:43.136 -0400"
+    },
+    {
+      "handlerName" : "on_syringe",
+      "message" : "SEARCHRECTANGLE = [\"Syringe\/1\/Area\/rect_A\",\"Syringe\/1\/Area\/rect_B\"]",
+      "timestamp" : "2024-05-21 14:06:47.516 -0400",
+      "identifier" : "set",
+      "scriptName" : "Syringe.script",
+      "handlerLine" : 1
+    },
+    {
+      "handlerName" : "on_syringe",
+      "message" : "(203,75,405,143)",
+      "timestamp" : "2024-05-21 14:06:50.364 -0400",
+      "identifier" : "readtext",
+      "scriptName" : "Syringe.script",
+      "handlerLine" : 2
+    },
+    {
+      "handlerName" : "on_syringe",
+      "message" : "Medi cati on:\\nConcentration\\nLethal dose:\\nStart volume:\\nMorph i n\\n0.1 mg\/n\\n10 mg\\n10 ml",
+      "timestamp" : "2024-05-21 14:06:51.366 -0400",
+      "identifier" : "Log",
+      "scriptName" : "Syringe.script",
+      "handlerLine" : 1
+    },
+    {
+      "handlerName" : "on_syringe",
+      "message" : "(1652,28,1906,133)",
+      "timestamp" : "2024-05-21 14:07:08.540 -0400",
+      "identifier" : "readtext",
+      "scriptName" : "Syringe.script",
+      "handlerLine" : 14
+    },
+    {
+      "handlerName" : "on_syringe",
+      "message" : "4. 000\\tDose [ml]\\n1.000\\tInfusion Rate [ml\/s]\\n10.000\\tCurrent Volume\\t[ml]\\n0.000\\tRemaining Dose\\t[ml]",
+      "timestamp" : "2024-05-21 14:07:14.052 -0400",
+      "identifier" : "Log",
+      "scriptName" : "Syringe.script",
+      "handlerLine" : 1
+    },
+    {
+      "handlerName" : "on_syringe",
+      "message" : "4. 000\\tDose [ml]\\n1.000\\tInfusion Rate [ml\/s]\\n10.000\\tCurrent Volume [ml]\\n0.000\\tRemaining Dose [ml]",
+      "timestamp" : "2024-05-21 14:07:36.758 -0400",
+      "identifier" : "Log",
+      "scriptName" : "Syringe.script",
+      "handlerLine" : 1
+    },
+    {
+      "handlerName" : "on_syringe",
+      "message" : "4. 000\\nDose [ml]\\n1.000\\nInfusion Rate [ml\/s]\\n10.000\\nCurrent Volume [ml]\\n0.000\\nRemaining Dose [ml]",
+      "timestamp" : "2024-05-21 14:07:45.331 -0400",
+      "identifier" : "Log",
+      "scriptName" : "Syringe.script",
+      "handlerLine" : 1
+    },
+    {
+      "identifier" : "EndTestCase",
+      "message" : "(Duration:\"105.438063\", Errors:\"1\", Exceptions:\"0\", StartTime:\"2024-05-21 14:06:43 -0400\", Successes:\"0\", TestCase:\"Syringe.script\", Warnings:\"0\")",
+      "timestamp" : "2024-05-21 14:08:28.575 -0400"
+    },
+    {
+      "identifier" : "ABORTED",
+      "message" : "Execution Time 0:01:45 Syringe.script",
+      "timestamp" : "2024-05-21 14:08:28.578 -0400"
+    }
+  ],
+  "createdTimestamp" : "2024-05-21 14:06:43.137 -0400"
+}

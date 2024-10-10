@@ -1,0 +1,4 @@
+﻿2024-05-21 08:27:47.192 -0400	START		Running Connect to SUT.script
+2024-05-21 08:27:47.258 -0400	Connect		Syringe Pump Stack:(null)	1	on_connect_to_sut	Connect to SUT.script
+2024-05-21 08:27:47.279 -0400	EndTestCase		(Duration:"0.085403", Errors:"0", Exceptions:"0", StartTime:"2024-05-21 08:27:47 -0400", Successes:"1", TestCase:"Connect to SUT.script", Warnings:"0")
+2024-05-21 08:27:47.289 -0400	SUCCESS		Execution Time 0:00:00 Connect to SUT.script

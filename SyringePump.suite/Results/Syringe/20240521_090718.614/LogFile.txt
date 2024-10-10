@@ -1,0 +1,6 @@
+﻿2024-05-21 09:07:18.617 -0400	START		Running Syringe.script
+2024-05-21 09:07:23.867 -0400	set		SEARCHRECTANGLE = ["Syringe/1/Area/rect_A","Syringe/1/Area/rect_B"]	1	on_syringe	Syringe.script
+2024-05-21 09:07:38.829 -0400	Exception	Syringe/Medicine/rect_B	Could Not Open Image: Syringe/Medicine/rect_B	6	on_syringe	Syringe.script
+2024-05-21 09:07:38.858 -0400	EndTestCase		(Duration:"20.239644", Errors:"1", Exceptions:"1", StartTime:"2024-05-21 09:07:18 -0400", Successes:"0", TestCase:"Syringe.script", Warnings:"0")
+2024-05-21 09:07:39.666 -0400	Error Screen	/Users/stevbarr/Keysight Sandbox/Suites/Syringe_Pump.suite/Results/Syringe/20240521_090718.614/Screen_Error.png	CapturedErrorScreenshot	E9A4FCB4-0F73-4D76-B655-E54AFD893D59
+2024-05-21 09:07:39.667 -0400	FAILURE	Screen_Error.png	File Not Found: readtext Error - Could Not Open Image: Syringe/Medicine/rect_B -- Execution Time 0:00:20 Syringe.script

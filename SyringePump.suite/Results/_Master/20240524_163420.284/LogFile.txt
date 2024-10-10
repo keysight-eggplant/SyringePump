@@ -1,0 +1,27 @@
+﻿2024-05-24 16:34:20.287 -0400	START		Running _Master.script
+2024-05-24 16:34:20.585 -0400	Connect		Syringe Pump Stack:(null)	1	on_connect_to_sut	Connect to SUT.script
+2024-05-24 16:34:20.783 -0400	startmovie		/Users/stevbarr/Keysight Sandbox/Suites/Syringe_Pump.suite/Results/_Master/20240524_163420.284/Syringe Pump.mp4	5	on__master	_Master.script
+2024-05-24 16:34:21.343 -0400	imagefound	button_Windows_Start	found at (24, 1058)	1	on_launch_pump	Launch Pump.script
+2024-05-24 16:34:21.987 -0400	rightclick	area_Taskbar	at (763, 1057)	2	on_launch_pump	Launch Pump.script
+2024-05-24 16:34:23.339 -0400	click	menu_TaskbarSettings	at (783, 1033)	3	on_launch_pump	Launch Pump.script
+2024-05-24 16:34:24.831 -0400	imagefound	toggle_HideTaskbar_false.png	found at (684, 219)	4	on_launch_pump	Launch Pump.script
+2024-05-24 16:34:25.052 -0400	click	toggle_HideTaskbar_false	at (684, 219)	5	on_launch_pump	Launch Pump.script
+2024-05-24 16:34:26.092 -0400	typetext		[windowsAltKey][F4]	7	on_launch_pump	Launch Pump.script
+2024-05-24 16:34:30.063 -0400	imagefound	window_SyringePumpStack	Unable to Find Image window_SyringePumpStack	11	on_launch_pump	Launch Pump.script
+2024-05-24 16:34:30.130 -0400	moveto		at (1536, 864)	9	on_run_an_os_command	/Users/stevbarr/Keysight Sandbox/Suites/Helper Suites/[Run Command Helper Suite].suite/Scripts/Run an OS Command.script
+2024-05-24 16:34:30.860 -0400	typetext		[controlKey]W	13	on_run_an_os_command	/Users/stevbarr/Keysight Sandbox/Suites/Helper Suites/[Run Command Helper Suite].suite/Scripts/Run an OS Command.script
+2024-05-24 16:34:32.909 -0400	typetext		[windowsKey]r	17	on_run_an_os_command	/Users/stevbarr/Keysight Sandbox/Suites/Helper Suites/[Run Command Helper Suite].suite/Scripts/Run an OS Command.script
+2024-05-24 16:34:33.424 -0400	waitfor	OS/Windows/Run Window	found at (37, 881)	18	on_run_an_os_command	/Users/stevbarr/Keysight Sandbox/Suites/Helper Suites/[Run Command Helper Suite].suite/Scripts/Run an OS Command.script
+2024-05-24 16:34:33.629 -0400	typetext		[backspace]	19	on_run_an_os_command	/Users/stevbarr/Keysight Sandbox/Suites/Helper Suites/[Run Command Helper Suite].suite/Scripts/Run an OS Command.script
+2024-05-24 16:34:36.099 -0400	typetext		C:\Syringe Pump\syringe_pump.exe[returnKey]	22	on_run_an_os_command	/Users/stevbarr/Keysight Sandbox/Suites/Helper Suites/[Run Command Helper Suite].suite/Scripts/Run an OS Command.script
+2024-05-24 16:34:41.145 -0400	typetext		[windowsAltKey] 	26	on_run_an_os_command	/Users/stevbarr/Keysight Sandbox/Suites/Helper Suites/[Run Command Helper Suite].suite/Scripts/Run an OS Command.script
+2024-05-24 16:34:45.526 -0400	imagefound	OS/Windows/System Menu/Maximize	Unable to Find Image OS/Windows/System Menu/Maximize	27	on_run_an_os_command	/Users/stevbarr/Keysight Sandbox/Suites/Helper Suites/[Run Command Helper Suite].suite/Scripts/Run an OS Command.script
+2024-05-24 16:34:45.546 -0400	typetext		[escape]	31	on_run_an_os_command	/Users/stevbarr/Keysight Sandbox/Suites/Helper Suites/[Run Command Helper Suite].suite/Scripts/Run an OS Command.script
+2024-05-24 16:34:46.595 -0400	moveto		at (1536, 864)	88	on_run_an_os_command	/Users/stevbarr/Keysight Sandbox/Suites/Helper Suites/[Run Command Helper Suite].suite/Scripts/Run an OS Command.script
+2024-05-24 16:34:48.371 -0400	click	window_SyringePumpStack	at (204, 196)	16	on_launch_pump	Launch Pump.script
+2024-05-24 16:34:49.681 -0400	click	menu_Maximize	at (237, 313)	17	on_launch_pump	Launch Pump.script
+2024-05-24 16:34:50.743 -0400	imagefound	Syringe/checkbox_DarkMode_false	found at (16, 521)	18	on_launch_pump	Launch Pump.script
+2024-05-24 16:34:51.360 -0400	click	Syringe/checkbox_DarkMode_false	at (16, 521)	19	on_launch_pump	Launch Pump.script
+2024-05-24 16:34:52.943 -0400	capturescreen	Initial state of Syringe Pump.png		23	on_launch_pump	Launch Pump.script
+2024-05-24 16:34:53.030 -0400	EndTestCase		(Duration:"32.741252", Errors:"1", Exceptions:"0", StartTime:"2024-05-24 16:34:20 -0400", Successes:"0", TestCase:"_Master.script", Warnings:"0")
+2024-05-24 16:34:53.606 -0400	FAILURE	Screen_Error.png	File Not Found: set Error - Could Not Open Image: Syringe/1/Area/rect_A -- Execution Time 0:00:32 _Master.script

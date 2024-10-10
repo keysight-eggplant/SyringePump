@@ -1,0 +1,37 @@
+{
+  "entries" : [
+    {
+      "identifier" : "START",
+      "message" : "Running Change Dose.script",
+      "timestamp" : "2024-05-22 13:25:48.111 -0400"
+    },
+    {
+      "handlerName" : "on_change_dose",
+      "message" : "at (1721, 47)",
+      "identifier" : "click",
+      "image" : "Syringe\/field_Dose",
+      "handlerLine" : 2,
+      "timestamp" : "2024-05-22 13:25:49.326 -0400",
+      "scriptName" : "Change Dose.script"
+    },
+    {
+      "handlerName" : "on_change_dose",
+      "message" : "2",
+      "timestamp" : "2024-05-22 13:25:50.040 -0400",
+      "identifier" : "typetext",
+      "scriptName" : "Change Dose.script",
+      "handlerLine" : 3
+    },
+    {
+      "identifier" : "EndTestCase",
+      "message" : "(Duration:\"1.940443\", Errors:\"0\", Exceptions:\"0\", StartTime:\"2024-05-22 13:25:48 -0400\", Successes:\"1\", TestCase:\"Change Dose.script\", Warnings:\"0\")",
+      "timestamp" : "2024-05-22 13:25:50.052 -0400"
+    },
+    {
+      "identifier" : "SUCCESS",
+      "message" : "Execution Time 0:00:01 Change Dose.script",
+      "timestamp" : "2024-05-22 13:25:50.061 -0400"
+    }
+  ],
+  "createdTimestamp" : "2024-05-22 13:25:48.112 -0400"
+}

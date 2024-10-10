@@ -1,0 +1,110 @@
+{
+  "entries" : [
+    {
+      "identifier" : "START",
+      "message" : "Running _Master.script",
+      "timestamp" : "2024-04-29 21:34:10.224 -0400"
+    },
+    {
+      "handlerName" : "on_connect_to_sut",
+      "message" : "Syringe Pump Stack:(null)",
+      "timestamp" : "2024-04-29 21:34:10.289 -0400",
+      "identifier" : "Connect",
+      "scriptName" : "Connect to SUT.script",
+      "handlerLine" : 1
+    },
+    {
+      "handlerName" : "on_run_an_os_command",
+      "message" : "at (1536, 864)",
+      "timestamp" : "2024-04-29 21:34:10.381 -0400",
+      "identifier" : "moveto",
+      "scriptName" : "\/Users\/stevbarr\/Keysight Sandbox\/Suites\/Helper Suites\/[Run Command Helper Suite].suite\/Scripts\/Run an OS Command.script",
+      "handlerLine" : 9
+    },
+    {
+      "handlerName" : "on_run_an_os_command",
+      "message" : "[controlKey]W",
+      "timestamp" : "2024-04-29 21:34:11.115 -0400",
+      "identifier" : "typetext",
+      "scriptName" : "\/Users\/stevbarr\/Keysight Sandbox\/Suites\/Helper Suites\/[Run Command Helper Suite].suite\/Scripts\/Run an OS Command.script",
+      "handlerLine" : 13
+    },
+    {
+      "handlerName" : "on_run_an_os_command",
+      "message" : "[windowsKey]r",
+      "timestamp" : "2024-04-29 21:34:13.158 -0400",
+      "identifier" : "typetext",
+      "scriptName" : "\/Users\/stevbarr\/Keysight Sandbox\/Suites\/Helper Suites\/[Run Command Helper Suite].suite\/Scripts\/Run an OS Command.script",
+      "handlerLine" : 17
+    },
+    {
+      "handlerName" : "on_run_an_os_command",
+      "message" : "found at (37, 841)",
+      "identifier" : "waitfor",
+      "image" : "OS\/Windows\/Run Window",
+      "handlerLine" : 18,
+      "timestamp" : "2024-04-29 21:34:13.705 -0400",
+      "scriptName" : "\/Users\/stevbarr\/Keysight Sandbox\/Suites\/Helper Suites\/[Run Command Helper Suite].suite\/Scripts\/Run an OS Command.script"
+    },
+    {
+      "handlerName" : "on_run_an_os_command",
+      "message" : "[backspace]",
+      "timestamp" : "2024-04-29 21:34:13.873 -0400",
+      "identifier" : "typetext",
+      "scriptName" : "\/Users\/stevbarr\/Keysight Sandbox\/Suites\/Helper Suites\/[Run Command Helper Suite].suite\/Scripts\/Run an OS Command.script",
+      "handlerLine" : 19
+    },
+    {
+      "handlerName" : "on_run_an_os_command",
+      "message" : "C:\\Syringe Pump\\syringe_pump.exe[returnKey]",
+      "timestamp" : "2024-04-29 21:34:16.352 -0400",
+      "identifier" : "typetext",
+      "scriptName" : "\/Users\/stevbarr\/Keysight Sandbox\/Suites\/Helper Suites\/[Run Command Helper Suite].suite\/Scripts\/Run an OS Command.script",
+      "handlerLine" : 22
+    },
+    {
+      "handlerName" : "on_run_an_os_command",
+      "message" : "[windowsAltKey] ",
+      "timestamp" : "2024-04-29 21:34:21.411 -0400",
+      "identifier" : "typetext",
+      "scriptName" : "\/Users\/stevbarr\/Keysight Sandbox\/Suites\/Helper Suites\/[Run Command Helper Suite].suite\/Scripts\/Run an OS Command.script",
+      "handlerLine" : 26
+    },
+    {
+      "handlerName" : "on_run_an_os_command",
+      "message" : "Unable to Find Image OS\/Windows\/System Menu\/Maximize",
+      "identifier" : "imagefound",
+      "image" : "OS\/Windows\/System Menu\/Maximize",
+      "handlerLine" : 27,
+      "timestamp" : "2024-04-29 21:34:26.098 -0400",
+      "scriptName" : "\/Users\/stevbarr\/Keysight Sandbox\/Suites\/Helper Suites\/[Run Command Helper Suite].suite\/Scripts\/Run an OS Command.script"
+    },
+    {
+      "handlerName" : "on_run_an_os_command",
+      "message" : "[escape]",
+      "timestamp" : "2024-04-29 21:34:26.119 -0400",
+      "identifier" : "typetext",
+      "scriptName" : "\/Users\/stevbarr\/Keysight Sandbox\/Suites\/Helper Suites\/[Run Command Helper Suite].suite\/Scripts\/Run an OS Command.script",
+      "handlerLine" : 31
+    },
+    {
+      "handlerName" : "on_run_an_os_command",
+      "message" : "at (1536, 864)",
+      "timestamp" : "2024-04-29 21:34:27.175 -0400",
+      "identifier" : "moveto",
+      "scriptName" : "\/Users\/stevbarr\/Keysight Sandbox\/Suites\/Helper Suites\/[Run Command Helper Suite].suite\/Scripts\/Run an OS Command.script",
+      "handlerLine" : 88
+    },
+    {
+      "identifier" : "EndTestCase",
+      "message" : "(Duration:\"16.990236\", Errors:\"0\", Exceptions:\"0\", StartTime:\"2024-04-29 21:34:10 -0400\", Successes:\"1\", TestCase:\"_Master.script\", Warnings:\"0\")",
+      "timestamp" : "2024-04-29 21:34:27.216 -0400"
+    },
+    {
+      "identifier" : "SUCCESS",
+      "message" : "Execution Time 0:00:16 _Master.script",
+      "timestamp" : "2024-04-29 21:34:27.222 -0400"
+    }
+  ],
+  "createdTimestamp" : "2024-04-29 21:34:10.225 -0400"
+}

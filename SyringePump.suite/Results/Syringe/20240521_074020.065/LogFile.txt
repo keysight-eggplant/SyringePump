@@ -1,0 +1,15 @@
+﻿2024-05-21 07:40:20.067 -0400	START		Running Syringe.script
+2024-05-21 07:40:23.614 -0400	set		SEARCHRECTANGLE = ["Syringe/1/rect_Syringe_1_A","Syringe/1/rect_Syringe_1_B"]	1	on_syringe	Syringe.script
+2024-05-21 07:40:25.804 -0400	set		SEARCHRECTANGLE = 	2	on_syringe	Syringe.script
+2024-05-21 07:40:28.342 -0400	set		SEARCHRECTANGLE = ["Syringe/2/rect_Syringe_2_A","Syringe/2/rect_Syringe_2_B"]	4	on_syringe	Syringe.script
+2024-05-21 07:40:30.391 -0400	set		SEARCHRECTANGLE = 	5	on_syringe	Syringe.script
+2024-05-21 07:40:33.205 -0400	set		SEARCHRECTANGLE = ["Syringe/3/rect_Syringe_3_A","Syringe/3/rect_Syringe_3_B"]	7	on_syringe	Syringe.script
+2024-05-21 07:40:35.345 -0400	set		SEARCHRECTANGLE = 	8	on_syringe	Syringe.script
+2024-05-21 07:40:37.683 -0400	set		SEARCHRECTANGLE = ["Syringe/4/rect_Syringe_4_A","Syringe/4/rect_Syringe_4_B"]	10	on_syringe	Syringe.script
+2024-05-21 07:40:39.015 -0400	set		SEARCHRECTANGLE = 	11	on_syringe	Syringe.script
+2024-05-21 07:40:41.611 -0400	set		SEARCHRECTANGLE = ["Syringe/5/rect_Syringe_5_A","Syringe/5/rect_Syringe_5_B"]	13	on_syringe	Syringe.script
+2024-05-21 07:40:43.052 -0400	set		SEARCHRECTANGLE = 	14	on_syringe	Syringe.script
+2024-05-21 07:40:45.397 -0400	set		SEARCHRECTANGLE = ["Syringe/6/rect_Syringe_6_A","Syringe/6/rect_Syringe_6_B"]	16	on_syringe	Syringe.script
+2024-05-21 07:40:46.957 -0400	set		SEARCHRECTANGLE = 	17	on_syringe	Syringe.script
+2024-05-21 07:40:48.508 -0400	EndTestCase		(Duration:"28.43935", Errors:"0", Exceptions:"0", StartTime:"2024-05-21 07:40:20 -0400", Successes:"1", TestCase:"Syringe.script", Warnings:"0")
+2024-05-21 07:40:48.515 -0400	SUCCESS		Execution Time 0:00:28 Syringe.script

@@ -1,0 +1,20 @@
+﻿If ImageFound("button_Windows_Start")
+	RightClick "area_Taskbar"
+	Click "menu_TaskbarSettings"
+	If ImageFound("toggle_HideTaskbar_false.png")
+		Click ("toggle_HideTaskbar_false")
+		Wait 1
+		TypeText AltKey, F4
+	End If
+End If
+
+If Not ImageFound(Image:"window_SyringePumpStack", WaitFor:2)
+	Set parmCommand to "C:\Program Files\Syringe Pump Program\Syringe Pump\syringe_pump.exe"
+	Set parmOS to "Windows"
+	Set parmWindowPosition to "Maximize"
+	Run "Run an OS Command" parmCommand, parmOS, parmWindowPosition
+	Click (Image:"window_SyringePumpStack", WaitFor:3, hotspot:(5,200))
+	TypeText WindowsKey,upArrow
+End If
+Wait 1
+CaptureScreen (Name: "Initial state of Syringe Pump")

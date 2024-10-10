@@ -1,0 +1,82 @@
+{
+  "entries" : [
+    {
+      "identifier" : "START",
+      "message" : "Running Launch Pump.script",
+      "timestamp" : "2024-05-24 16:33:15.519 -0400"
+    },
+    {
+      "handlerName" : "on_launch_pump",
+      "message" : "found at (24, 1058)",
+      "identifier" : "imagefound",
+      "image" : "button_Windows_Start",
+      "handlerLine" : 1,
+      "timestamp" : "2024-05-24 16:33:16.051 -0400",
+      "scriptName" : "Launch Pump.script"
+    },
+    {
+      "handlerName" : "on_launch_pump",
+      "message" : "at (763, 1057)",
+      "identifier" : "rightclick",
+      "image" : "area_Taskbar",
+      "handlerLine" : 2,
+      "timestamp" : "2024-05-24 16:33:16.650 -0400",
+      "scriptName" : "Launch Pump.script"
+    },
+    {
+      "handlerName" : "on_launch_pump",
+      "message" : "at (783, 1033)",
+      "identifier" : "click",
+      "image" : "menu_TaskbarSettings",
+      "handlerLine" : 3,
+      "timestamp" : "2024-05-24 16:33:17.984 -0400",
+      "scriptName" : "Launch Pump.script"
+    },
+    {
+      "handlerName" : "on_launch_pump",
+      "message" : "found at (684, 219)",
+      "identifier" : "imagefound",
+      "image" : "toggle_HideTaskbar_false.png",
+      "handlerLine" : 4,
+      "timestamp" : "2024-05-24 16:33:20.492 -0400",
+      "scriptName" : "Launch Pump.script"
+    },
+    {
+      "handlerName" : "on_launch_pump",
+      "message" : "at (684, 219)",
+      "identifier" : "click",
+      "image" : "toggle_HideTaskbar_false",
+      "handlerLine" : 5,
+      "timestamp" : "2024-05-24 16:33:21.116 -0400",
+      "scriptName" : "Launch Pump.script"
+    },
+    {
+      "handlerName" : "on_launch_pump",
+      "message" : "[windowsAltKey][F4]",
+      "timestamp" : "2024-05-24 16:33:22.152 -0400",
+      "identifier" : "typetext",
+      "scriptName" : "Launch Pump.script",
+      "handlerLine" : 7
+    },
+    {
+      "handlerName" : "on_launch_pump",
+      "message" : "found at (38, 14)",
+      "identifier" : "imagefound",
+      "image" : "window_SyringePumpStack",
+      "handlerLine" : 11,
+      "timestamp" : "2024-05-24 16:33:29.019 -0400",
+      "scriptName" : "Launch Pump.script"
+    },
+    {
+      "identifier" : "EndTestCase",
+      "message" : "(Duration:\"16.41326\", Errors:\"1\", Exceptions:\"0\", StartTime:\"2024-05-24 16:33:15 -0400\", Successes:\"0\", TestCase:\"Launch Pump.script\", Warnings:\"0\")",
+      "timestamp" : "2024-05-24 16:33:31.933 -0400"
+    },
+    {
+      "identifier" : "ABORTED",
+      "message" : "Execution Time 0:00:16 Launch Pump.script",
+      "timestamp" : "2024-05-24 16:33:31.935 -0400"
+    }
+  ],
+  "createdTimestamp" : "2024-05-24 16:33:15.520 -0400"
+}

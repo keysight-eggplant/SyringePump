@@ -1,0 +1,47 @@
+{
+  "lastmodifieddate" : 1716311466.504395,
+  "ocrcapturestring" : "Infusion Rate [ml\/s]",
+  "testlocationdata" : [
+    {
+      "name" : "Syringe\/field_Infustion_Rate\/field_Infusion_Rate_lightmode.png",
+      "sutinfo" : {
+        "type" : "Unknown VNC"
+      },
+      "connectionname" : "Syringe Pump Stack",
+      "connectionportnum" : 5900,
+      "capturedocrtext" : "Infusion Rate [ml\/s]",
+      "properties" : {
+        "Rotate" : 0,
+        "Scale" : "    1",
+        "SearchType" : "Smoothed for Text",
+        "Discrepancy" : "_0",
+        "Tolerance" : "_69",
+        "HotSpot" : "[-17,9]",
+        "CropRectangle" : "[0,0,0,0]"
+      },
+      "type" : 1,
+      "connectionserverid" : "PWIN01-BARRJCKNJ",
+      "capturerect" : [
+        1743,
+        64,
+        163,
+        20
+      ]
+    }
+  ],
+  "createddate" : 1716311466.5043941,
+  "lastfoundlocation" : [
+    1743,
+    64,
+    163,
+    20
+  ],
+  "originalcapturelocation" : [
+    1743,
+    64,
+    163,
+    20
+  ],
+  "lastfounddate" : 1716313801.984386,
+  "name" : "Syringe\/field_Infustion_Rate\/field_Infusion_Rate_lightmode"
+}

@@ -1,0 +1,74 @@
+{
+	"originalcapturelocation": [
+		222,
+		213,
+		132,
+		21
+	],
+	"lastmodifieddate": 1723758524.99629,
+	"createddate": 1714441141.1261611,
+	"name": "window_SyringePumpStack",
+	"lastfounddate": 1723758504.850703,
+	"ocrcapturestring": "Syringe Pump Stack",
+	"lastfoundlocation": [
+		197,
+		187,
+		132,
+		21
+	],
+	"testlocationdata": [
+		{
+				"connectionportnum": 5900,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[8,9]",
+					"Tolerance": "_73",
+					"Discrepancy": "_0",
+					"SearchType": "Smoothed for Text"
+				},
+				"sutinfo": {
+					"type": "Unknown VNC"
+				},
+				"name": "window_SyringPumpStack/window_SyringePumpStack_onFocus.png",
+				"connectionname": "Syringe Pump Stack",
+				"type": 1,
+				"capturerect": [
+					222,
+					213,
+					132,
+					21
+				],
+				"connectionserverid": "PWIN01-BARRJCKNJ",
+				"capturedocrtext": "Syringe Pump Stack"
+			},
+		{
+				"connectionportnum": 55647,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[8,9]",
+					"Tolerance": "_30",
+					"Discrepancy": "_0",
+					"SearchType": "Adaptive to Image"
+				},
+				"sutinfo": {
+					"type": "Unknown VNC"
+				},
+				"name": "window_SyringePumpStack/window_SyringePumpStack_onFocus.png",
+				"connectionname": "Windows 11",
+				"type": 1,
+				"connectionserverid": "10.211.55.30",
+				"capturerect": [
+					222,
+					213,
+					132,
+					21
+				],
+				"connectiontype": "RDP",
+				"capturedocrtext": "Syringe Pump Stack"
+			}
+	]
+}

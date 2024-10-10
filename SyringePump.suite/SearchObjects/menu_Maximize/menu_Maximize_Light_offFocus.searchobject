@@ -1,0 +1,48 @@
+{
+  "lastmodifieddate" : 1723767362.2568409,
+  "ocrcapturestring" : "□ Maximize",
+  "testlocationdata" : [
+    {
+      "connectionserverid" : "10.211.55.30",
+      "sutinfo" : {
+        "type" : "Unknown VNC"
+      },
+      "connectionname" : "Windows 11",
+      "connectionportnum" : 56041,
+      "connectiontype" : "RDP",
+      "capturedocrtext" : "□ Maximize",
+      "properties" : {
+        "Rotate" : 0,
+        "Scale" : "    1",
+        "SearchType" : "Smoothed for Text",
+        "Discrepancy" : "_0",
+        "Tolerance" : "_73",
+        "HotSpot" : "[44,6]",
+        "CropRectangle" : "[0,0,0,0]"
+      },
+      "type" : 1,
+      "name" : "menu_Maximize\/menu_Maximize_Light_offFocus.png",
+      "capturerect" : [
+        145,
+        255,
+        88,
+        13
+      ]
+    }
+  ],
+  "createddate" : 1723767362.25684,
+  "lastfoundlocation" : [
+    197,
+    307,
+    88,
+    13
+  ],
+  "originalcapturelocation" : [
+    145,
+    255,
+    88,
+    13
+  ],
+  "lastfounddate" : 1727720491.8859849,
+  "name" : "menu_Maximize\/menu_Maximize_Light_offFocus"
+}

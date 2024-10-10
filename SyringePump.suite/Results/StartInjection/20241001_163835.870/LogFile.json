@@ -1,0 +1,28 @@
+{
+	"entries": [
+		{
+				"message": "Running StartInjection.script",
+				"identifier": "START",
+				"timestamp": "2024-10-01 16:38:35.876 -0400"
+			},
+		{
+				"handlerName": "on_startinjection",
+				"timestamp": "2024-10-01 16:38:39.111 -0400",
+				"message": "(195,25,416,1016)",
+				"scriptName": "StartInjection.script",
+				"handlerLine": 9,
+				"identifier": "readtext"
+			},
+		{
+				"message": "(Duration:\"30.137\", Errors:\"1\", Exceptions:\"0\", StartTime:\"2024-10-01 16:38:35 -0400\", Successes:\"0\", TestCase:\"StartInjection.script\", Warnings:\"0\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2024-10-01 16:39:06.016 -0400"
+			},
+		{
+				"message": "Execution Time 0:00:30 StartInjection.script",
+				"identifier": "ABORTED",
+				"timestamp": "2024-10-01 16:39:06.039 -0400"
+			}
+	],
+	"createdTimestamp": "2024-10-01 16:38:35.878 -0400"
+}

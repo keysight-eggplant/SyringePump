@@ -1,0 +1,4 @@
+﻿2024-10-01 16:34:02.685 -0400	START		Running StartInjection.script
+2024-10-01 16:34:05.941 -0400	imagerectangle	(TEXT:"Syringe ")	at [208,188,272,202]	8	on_startinjection	StartInjection.script
+2024-10-01 16:34:05.985 -0400	EndTestCase		(Duration:"3.295", Errors:"0", Exceptions:"0", StartTime:"2024-10-01 16:34:02 -0400", Successes:"1", TestCase:"StartInjection.script", Warnings:"0")
+2024-10-01 16:34:06.032 -0400	SUCCESS		Execution Time 0:00:03 StartInjection.script

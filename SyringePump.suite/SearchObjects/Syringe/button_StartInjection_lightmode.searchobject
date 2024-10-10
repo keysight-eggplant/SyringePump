@@ -1,0 +1,47 @@
+{
+	"originalcapturelocation": [
+		1461,
+		39,
+		181,
+		30
+	],
+	"lastmodifieddate": 1716298157.353869,
+	"createddate": 1716297061.679029,
+	"name": "Syringe/button_StartInjection_lightmode",
+	"lastfounddate": 1727107289.8200002,
+	"ocrcapturestring": "Start Injection",
+	"lastfoundlocation": [
+		1461,
+		903,
+		181,
+		30
+	],
+	"testlocationdata": [
+		{
+				"connectionportnum": 5900,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[83,16]",
+					"Tolerance": "_44",
+					"Discrepancy": "_0",
+					"SearchType": "Smoothed for Text"
+				},
+				"sutinfo": {
+					"type": "Unknown VNC"
+				},
+				"name": "Syringe/Start Injection/button_StartInjection_lightmode.png",
+				"connectionname": "Syringe Pump Stack",
+				"type": 1,
+				"capturerect": [
+					1461,
+					39,
+					181,
+					30
+				],
+				"connectionserverid": "PWIN01-BARRJCKNJ",
+				"capturedocrtext": "Start Injection"
+			}
+	]
+}

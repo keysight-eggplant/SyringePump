@@ -1,0 +1,7 @@
+﻿2024-09-30 14:19:55.646 -0400	START		Running Turn Off Pump.script
+2024-09-30 14:19:58.960 -0400	click	window_SyringePumpStack	at (9, 10)	1	on_turn_off_pump	Turn Off Pump.script
+2024-09-30 14:20:00.760 -0400	click	menu_Minimize	at (55, 102)	2	on_turn_off_pump	Turn Off Pump.script
+2024-09-30 14:20:04.991 -0400	imagefound	window_SyringePumpStack	Unable to Find Image window_SyringePumpStack	5	on_turn_off_pump	Turn Off Pump.script
+2024-09-30 14:20:13.118 -0400	click	window_MQTT	at (304, 104)	9	on_turn_off_pump	Turn Off Pump.script
+2024-09-30 14:20:15.072 -0400	EndTestCase		(Duration:"19.420715", Errors:"0", Exceptions:"0", StartTime:"2024-09-30 14:19:55 -0400", Successes:"1", TestCase:"Turn Off Pump.script", Warnings:"0")
+2024-09-30 14:20:15.084 -0400	SUCCESS		Execution Time 0:00:19 Turn Off Pump.script

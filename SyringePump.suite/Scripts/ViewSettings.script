@@ -1,0 +1,5 @@
+﻿to Dark_Mode
+	If ImageFound(Image:"Syringe/checkbox_DarkMode_false", WaitFor:5)
+		Click "Syringe/checkbox_DarkMode_false"
+	End If
+end Dark_Mode

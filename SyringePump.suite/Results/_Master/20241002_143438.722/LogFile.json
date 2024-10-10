@@ -1,0 +1,62 @@
+{
+	"entries": [
+		{
+				"message": "Running _Master.script",
+				"identifier": "START",
+				"timestamp": "2024-10-02 14:34:38.726 -0400"
+			},
+		{
+				"handlerName": "on_connect_to_sut",
+				"timestamp": "2024-10-02 14:34:38.844 -0400",
+				"message": "NewSingleSystem:(null)",
+				"scriptName": "Connect to SUT.script",
+				"handlerLine": 4,
+				"identifier": "Connect"
+			},
+		{
+				"handlerName": "on__master",
+				"timestamp": "2024-10-02 14:34:38.849 -0400",
+				"message": "C:/ScriptRepositories/Syringe_Pump.suite/Results/_Master/20241002_143438.722/Syringe Pump.mp4",
+				"scriptName": "_Master.script",
+				"handlerLine": 5,
+				"identifier": "startmovie"
+			},
+		{
+				"handlerName": "on_launch_pump",
+				"timestamp": "2024-10-02 14:34:41.496 -0400",
+				"scriptName": "Launch Pump.script",
+				"message": "Unable to Find Image button_Windows_Start",
+				"image": "button_Windows_Start",
+				"handlerLine": 1,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_launch_pump",
+				"timestamp": "2024-10-02 14:34:42.279 -0400",
+				"scriptName": "Launch Pump.script",
+				"message": "found at (9, 10)",
+				"image": "window_SyringePumpStack",
+				"handlerLine": 11,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_launch_pump",
+				"timestamp": "2024-10-02 14:34:43.515 -0400",
+				"scriptName": "Launch Pump.script",
+				"image": "Initial state of Syringe Pump.png",
+				"handlerLine": 20,
+				"identifier": "capturescreen"
+			},
+		{
+				"message": "(Duration:\"4.815\", Errors:\"1\", Exceptions:\"0\", StartTime:\"2024-10-02 14:34:38 -0400\", Successes:\"0\", TestCase:\"_Master.script\", Warnings:\"0\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2024-10-02 14:34:43.546 -0400"
+			},
+		{
+				"message": "Execution Time 0:00:04 _Master.script",
+				"identifier": "ABORTED",
+				"timestamp": "2024-10-02 14:34:43.558 -0400"
+			}
+	],
+	"createdTimestamp": "2024-10-02 14:34:38.729 -0400"
+}

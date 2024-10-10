@@ -1,0 +1,7 @@
+﻿
+Click "Syringe/field_Dose"
+TypeText "10.000"
+
+Click "Syringe/Start Injection"
+
+Click "Syringe/Refill"

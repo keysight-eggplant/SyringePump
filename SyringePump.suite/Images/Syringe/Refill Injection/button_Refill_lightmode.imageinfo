@@ -1,0 +1,21 @@
+﻿{
+    CaptureDate = "2024-05-22 17:29:06 +0000";
+    CaptureHost = "Syringe Pump Stack";
+    CaptureScreenSize = (
+        "1920",
+        "1080");
+    HasAlpha = 1;
+    HotSpotX = 92;
+    HotSpotY = 15;
+    ImageDescription = <>;
+    LastKnownLocationX = 0;
+    LastKnownLocationY = 0;
+    OriginalLocationX = 1461;
+    OriginalLocationY = 107;
+    Precise = 0;
+    Pulsing = 0;
+    Scale = 1;
+    SearchAlgorithm = "TextSmoothSquare";
+    SearchObjectName = "Syringe/Refill/button_Refill_lightmode";
+    tags = ();
+}

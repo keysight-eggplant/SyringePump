@@ -1,0 +1,47 @@
+{
+	"originalcapturelocation": [
+		0,
+		1,
+		132,
+		21
+	],
+	"lastmodifieddate": 1716582700.243283,
+	"createddate": 1716582700.243283,
+	"name": "window_SyringPumpStack/windows_SyringePumpStack_offFocus",
+	"lastfounddate": 1727902587.947,
+	"ocrcapturestring": "■ ’ Syringe Pump Stack",
+	"lastfoundlocation": [
+		40,
+		31,
+		132,
+		21
+	],
+	"testlocationdata": [
+		{
+				"connectionportnum": 5900,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[38,13]",
+					"Tolerance": "_52",
+					"Discrepancy": "_0",
+					"SearchType": "Smoothed for Text"
+				},
+				"sutinfo": {
+					"type": "Unknown VNC"
+				},
+				"name": "window_SyringPumpStack/windows_SyringePumpStack_offFocus.png",
+				"connectionname": "Syringe Pump Stack",
+				"type": 1,
+				"capturerect": [
+					0,
+					1,
+					132,
+					21
+				],
+				"connectionserverid": "PWIN01-BARRJCKNJ",
+				"capturedocrtext": "■ ’ Syringe Pump Stack"
+			}
+	]
+}

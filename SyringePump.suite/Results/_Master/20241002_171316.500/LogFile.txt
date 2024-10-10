@@ -1,0 +1,155 @@
+﻿2024-10-02 17:13:16.505 -0400	START		Running _Master.script
+2024-10-02 17:13:16.604 -0400	Connect		NewSingleSystem:(null)	4	on_connect_to_sut	Connect to SUT.script
+2024-10-02 17:13:16.610 -0400	startmovie		C:/ScriptRepositories/Syringe_Pump.suite/Results/_Master/20241002_171316.500/Syringe Pump.mp4	5	on__master	_Master.script
+2024-10-02 17:13:19.140 -0400	imagefound	button_Windows_Start	Unable to Find Image button_Windows_Start	1	on_launch_pump	Launch Pump.script
+2024-10-02 17:13:22.475 -0400	imagefound	window_SyringePumpStack	Unable to Find Image window_SyringePumpStack	11	on_launch_pump	Launch Pump.script
+2024-10-02 17:13:22.496 -0400	moveto		at (1536, 864)	9	on_run_an_os_command	C:/ScriptRepositories/[Run Command Helper].suite/Scripts/Run an OS Command.script
+2024-10-02 17:13:22.629 -0400	typetext		[controlKey]W	13	on_run_an_os_command	C:/ScriptRepositories/[Run Command Helper].suite/Scripts/Run an OS Command.script
+2024-10-02 17:13:24.681 -0400	typetext		[windowsKey]r	16	on_run_an_os_command	C:/ScriptRepositories/[Run Command Helper].suite/Scripts/Run an OS Command.script
+2024-10-02 17:13:26.682 -0400	waitfor	OS/Windows/Run Window	found at (573, 8)	17	on_run_an_os_command	C:/ScriptRepositories/[Run Command Helper].suite/Scripts/Run an OS Command.script
+2024-10-02 17:13:26.781 -0400	typetext		[backspace]	18	on_run_an_os_command	C:/ScriptRepositories/[Run Command Helper].suite/Scripts/Run an OS Command.script
+2024-10-02 17:13:30.730 -0400	typetext		"C:\Program Files\Syringe Pump Program\Syringe Pump\syringe_pump.exe"[returnKey]	21	on_run_an_os_command	C:/ScriptRepositories/[Run Command Helper].suite/Scripts/Run an OS Command.script
+2024-10-02 17:13:32.780 -0400	typetext		[windowsAltKey] 	25	on_run_an_os_command	C:/ScriptRepositories/[Run Command Helper].suite/Scripts/Run an OS Command.script
+2024-10-02 17:13:36.292 -0400	imagefound	OS/Windows/System Menu/Maximize	Unable to Find Image OS/Windows/System Menu/Maximize	26	on_run_an_os_command	C:/ScriptRepositories/[Run Command Helper].suite/Scripts/Run an OS Command.script
+2024-10-02 17:13:36.313 -0400	typetext		[escape]	30	on_run_an_os_command	C:/ScriptRepositories/[Run Command Helper].suite/Scripts/Run an OS Command.script
+2024-10-02 17:13:37.346 -0400	moveto		at (1536, 864)	80	on_run_an_os_command	C:/ScriptRepositories/[Run Command Helper].suite/Scripts/Run an OS Command.script
+2024-10-02 17:13:38.278 -0400	click	window_SyringePumpStack	at (124, 309)	16	on_launch_pump	Launch Pump.script
+2024-10-02 17:13:38.396 -0400	typetext		[windowsKey][upArrow]	17	on_launch_pump	Launch Pump.script
+2024-10-02 17:13:39.622 -0400	capturescreen	Initial state of Syringe Pump.png		20	on_launch_pump	Launch Pump.script
+2024-10-02 17:13:39.757 -0400	imagefound	Syringe/checkbox_DarkMode_false	found at (17, 519)	2	on_dark_mode	View Settings.script
+2024-10-02 17:13:39.995 -0400	click	Syringe/checkbox_DarkMode_false	at (17, 519)	3	on_dark_mode	View Settings.script
+2024-10-02 17:13:43.113 -0400	imagerectangle	(TEXT:"Syringe 1")	at [208,44,279,58]	4	on_plotsyringeactivity	PlotSyringeActivity.script
+2024-10-02 17:13:43.345 -0400	imagerectangle	(TEXT:"Dose")	at [1743,45,1773,54]	6	on_plotsyringeactivity	PlotSyringeActivity.script
+2024-10-02 17:13:43.572 -0400	imagerectangle	(TEXT:"Infusion")	at [1745,68,1806,79]	8	on_plotsyringeactivity	PlotSyringeActivity.script
+2024-10-02 17:13:43.796 -0400	imagerectangle	(TEXT:"Current")	at [1743,91,1798,101]	10	on_plotsyringeactivity	PlotSyringeActivity.script
+2024-10-02 17:13:44.030 -0400	imagerectangle	(TEXT:"Remaining")	at [1743,109,1814,123]	12	on_plotsyringeactivity	PlotSyringeActivity.script
+2024-10-02 17:13:47.249 -0400	imagerectangle	(TEXT:"Syringe 2")	at [208,188,279,202]	4	on_plotsyringeactivity	PlotSyringeActivity.script
+2024-10-02 17:13:47.497 -0400	imagerectangle	(TEXT:"Dose")	at [1743,189,1773,198]	6	on_plotsyringeactivity	PlotSyringeActivity.script
+2024-10-02 17:13:47.748 -0400	imagerectangle	(TEXT:"Infusion")	at [1745,212,1806,223]	8	on_plotsyringeactivity	PlotSyringeActivity.script
+2024-10-02 17:13:47.997 -0400	imagerectangle	(TEXT:"Current")	at [1743,235,1798,245]	10	on_plotsyringeactivity	PlotSyringeActivity.script
+2024-10-02 17:13:48.248 -0400	imagerectangle	(TEXT:"Remaining")	at [1743,253,1814,267]	12	on_plotsyringeactivity	PlotSyringeActivity.script
+2024-10-02 17:13:51.537 -0400	imagerectangle	(TEXT:"Syringe 3")	at [208,332,279,346]	4	on_plotsyringeactivity	PlotSyringeActivity.script
+2024-10-02 17:13:51.784 -0400	imagerectangle	(TEXT:"Dose")	at [1743,333,1773,342]	6	on_plotsyringeactivity	PlotSyringeActivity.script
+2024-10-02 17:13:52.041 -0400	imagerectangle	(TEXT:"Infusion")	at [1745,356,1806,367]	8	on_plotsyringeactivity	PlotSyringeActivity.script
+2024-10-02 17:13:52.292 -0400	imagerectangle	(TEXT:"Current")	at [1743,379,1798,389]	10	on_plotsyringeactivity	PlotSyringeActivity.script
+2024-10-02 17:13:52.534 -0400	imagerectangle	(TEXT:"Remaining")	at [1743,397,1814,411]	12	on_plotsyringeactivity	PlotSyringeActivity.script
+2024-10-02 17:13:55.919 -0400	imagerectangle	(TEXT:"Syringe 4")	at [208,476,280,490]	4	on_plotsyringeactivity	PlotSyringeActivity.script
+2024-10-02 17:13:56.181 -0400	imagerectangle	(TEXT:"Dose")	at [1743,477,1773,486]	6	on_plotsyringeactivity	PlotSyringeActivity.script
+2024-10-02 17:13:56.441 -0400	imagerectangle	(TEXT:"Infusion")	at [1745,500,1806,511]	8	on_plotsyringeactivity	PlotSyringeActivity.script
+2024-10-02 17:13:56.684 -0400	imagerectangle	(TEXT:"Current")	at [1743,523,1798,533]	10	on_plotsyringeactivity	PlotSyringeActivity.script
+2024-10-02 17:13:56.946 -0400	imagerectangle	(TEXT:"Remaining")	at [1743,541,1814,555]	12	on_plotsyringeactivity	PlotSyringeActivity.script
+2024-10-02 17:14:00.314 -0400	imagerectangle	(TEXT:"Syringe 5")	at [208,620,279,634]	4	on_plotsyringeactivity	PlotSyringeActivity.script
+2024-10-02 17:14:00.562 -0400	imagerectangle	(TEXT:"Dose")	at [1743,621,1773,630]	6	on_plotsyringeactivity	PlotSyringeActivity.script
+2024-10-02 17:14:00.813 -0400	imagerectangle	(TEXT:"Infusion")	at [1745,644,1806,655]	8	on_plotsyringeactivity	PlotSyringeActivity.script
+2024-10-02 17:14:01.067 -0400	imagerectangle	(TEXT:"Current")	at [1743,667,1798,677]	10	on_plotsyringeactivity	PlotSyringeActivity.script
+2024-10-02 17:14:01.327 -0400	imagerectangle	(TEXT:"Remaining")	at [1743,685,1814,699]	12	on_plotsyringeactivity	PlotSyringeActivity.script
+2024-10-02 17:14:04.808 -0400	imagerectangle	(TEXT:"Syringe 6")	at [208,764,279,778]	4	on_plotsyringeactivity	PlotSyringeActivity.script
+2024-10-02 17:14:05.065 -0400	imagerectangle	(TEXT:"Dose")	at [1743,765,1773,774]	6	on_plotsyringeactivity	PlotSyringeActivity.script
+2024-10-02 17:14:05.312 -0400	imagerectangle	(TEXT:"Infusion")	at [1745,788,1806,799]	8	on_plotsyringeactivity	PlotSyringeActivity.script
+2024-10-02 17:14:05.577 -0400	imagerectangle	(TEXT:"Current")	at [1743,811,1798,821]	10	on_plotsyringeactivity	PlotSyringeActivity.script
+2024-10-02 17:14:05.846 -0400	imagerectangle	(TEXT:"Remaining")	at [1743,829,1814,843]	12	on_plotsyringeactivity	PlotSyringeActivity.script
+2024-10-02 17:14:09.321 -0400	imagerectangle	(TEXT:"Syringe 7")	at [208,908,279,922]	4	on_plotsyringeactivity	PlotSyringeActivity.script
+2024-10-02 17:14:09.572 -0400	imagerectangle	(TEXT:"Dose")	at [1743,909,1773,918]	6	on_plotsyringeactivity	PlotSyringeActivity.script
+2024-10-02 17:14:09.823 -0400	imagerectangle	(TEXT:"Infusion")	at [1745,932,1806,943]	8	on_plotsyringeactivity	PlotSyringeActivity.script
+2024-10-02 17:14:10.069 -0400	imagerectangle	(TEXT:"Current")	at [1743,955,1798,965]	10	on_plotsyringeactivity	PlotSyringeActivity.script
+2024-10-02 17:14:10.309 -0400	imagerectangle	(TEXT:"Remaining")	at [1743,973,1814,987]	12	on_plotsyringeactivity	PlotSyringeActivity.script
+2024-10-02 17:14:10.408 -0400	readtext		(1667,43,1735,58)	6	on_readsyringevalues	ReadSyringeValues.script
+2024-10-02 17:14:10.476 -0400	readtext		(1669,66,1743,83)	7	on_readsyringevalues	ReadSyringeValues.script
+2024-10-02 17:14:10.561 -0400	readtext		(1667,89,1735,105)	8	on_readsyringevalues	ReadSyringeValues.script
+2024-10-02 17:14:10.629 -0400	readtext		(1667,107,1741,127)	9	on_readsyringevalues	ReadSyringeValues.script
+2024-10-02 17:14:10.699 -0400	readtext		(1667,187,1735,202)	6	on_readsyringevalues	ReadSyringeValues.script
+2024-10-02 17:14:10.776 -0400	readtext		(1669,210,1743,227)	7	on_readsyringevalues	ReadSyringeValues.script
+2024-10-02 17:14:10.849 -0400	readtext		(1667,233,1735,249)	8	on_readsyringevalues	ReadSyringeValues.script
+2024-10-02 17:14:10.920 -0400	readtext		(1667,251,1741,271)	9	on_readsyringevalues	ReadSyringeValues.script
+2024-10-02 17:14:11.003 -0400	readtext		(1667,331,1735,346)	6	on_readsyringevalues	ReadSyringeValues.script
+2024-10-02 17:14:11.083 -0400	readtext		(1669,354,1743,371)	7	on_readsyringevalues	ReadSyringeValues.script
+2024-10-02 17:14:11.160 -0400	readtext		(1667,377,1735,393)	8	on_readsyringevalues	ReadSyringeValues.script
+2024-10-02 17:14:11.237 -0400	readtext		(1667,395,1741,415)	9	on_readsyringevalues	ReadSyringeValues.script
+2024-10-02 17:14:11.305 -0400	readtext		(1667,475,1735,490)	6	on_readsyringevalues	ReadSyringeValues.script
+2024-10-02 17:14:11.374 -0400	readtext		(1669,498,1743,515)	7	on_readsyringevalues	ReadSyringeValues.script
+2024-10-02 17:14:11.449 -0400	readtext		(1667,521,1735,537)	8	on_readsyringevalues	ReadSyringeValues.script
+2024-10-02 17:14:11.516 -0400	readtext		(1667,539,1741,559)	9	on_readsyringevalues	ReadSyringeValues.script
+2024-10-02 17:14:11.589 -0400	readtext		(1667,619,1735,634)	6	on_readsyringevalues	ReadSyringeValues.script
+2024-10-02 17:14:11.660 -0400	readtext		(1669,642,1743,659)	7	on_readsyringevalues	ReadSyringeValues.script
+2024-10-02 17:14:11.749 -0400	readtext		(1667,665,1735,681)	8	on_readsyringevalues	ReadSyringeValues.script
+2024-10-02 17:14:11.811 -0400	readtext		(1667,683,1741,703)	9	on_readsyringevalues	ReadSyringeValues.script
+2024-10-02 17:14:11.886 -0400	readtext		(1667,763,1735,778)	6	on_readsyringevalues	ReadSyringeValues.script
+2024-10-02 17:14:11.953 -0400	readtext		(1669,786,1743,803)	7	on_readsyringevalues	ReadSyringeValues.script
+2024-10-02 17:14:12.024 -0400	readtext		(1667,809,1735,825)	8	on_readsyringevalues	ReadSyringeValues.script
+2024-10-02 17:14:12.097 -0400	readtext		(1667,827,1741,847)	9	on_readsyringevalues	ReadSyringeValues.script
+2024-10-02 17:14:12.169 -0400	readtext		(1667,907,1735,922)	6	on_readsyringevalues	ReadSyringeValues.script
+2024-10-02 17:14:12.242 -0400	readtext		(1669,930,1743,947)	7	on_readsyringevalues	ReadSyringeValues.script
+2024-10-02 17:14:12.323 -0400	readtext		(1667,953,1735,969)	8	on_readsyringevalues	ReadSyringeValues.script
+2024-10-02 17:14:12.392 -0400	readtext		(1667,971,1741,991)	9	on_readsyringevalues	ReadSyringeValues.script
+2024-10-02 17:14:12.577 -0400	click		at (1701, 51)	6	on_administermeds	AdministerMeds.script
+2024-10-02 17:14:12.693 -0400	typetext		[deleteKey]	7	on_administermeds	AdministerMeds.script
+2024-10-02 17:14:12.810 -0400	typetext		4	8	on_administermeds	AdministerMeds.script
+2024-10-02 17:14:12.911 -0400	typetext		[tab]	9	on_administermeds	AdministerMeds.script
+2024-10-02 17:14:13.276 -0400	click	(TEXT:"Start")	at (1509, 53)	10	on_administermeds	AdministerMeds.script
+2024-10-02 17:14:13.460 -0400	click		at (1701, 195)	6	on_administermeds	AdministerMeds.script
+2024-10-02 17:14:13.576 -0400	typetext		[deleteKey]	7	on_administermeds	AdministerMeds.script
+2024-10-02 17:14:13.678 -0400	typetext		7	8	on_administermeds	AdministerMeds.script
+2024-10-02 17:14:13.793 -0400	typetext		[tab]	9	on_administermeds	AdministerMeds.script
+2024-10-02 17:14:14.142 -0400	click	(TEXT:"Start")	at (1509, 197)	10	on_administermeds	AdministerMeds.script
+2024-10-02 17:14:14.326 -0400	click		at (1701, 339)	6	on_administermeds	AdministerMeds.script
+2024-10-02 17:14:14.428 -0400	typetext		[deleteKey]	7	on_administermeds	AdministerMeds.script
+2024-10-02 17:14:14.528 -0400	typetext		3	8	on_administermeds	AdministerMeds.script
+2024-10-02 17:14:14.643 -0400	typetext		[tab]	9	on_administermeds	AdministerMeds.script
+2024-10-02 17:14:14.944 -0400	click	(TEXT:"Start")	at (1509, 341)	10	on_administermeds	AdministerMeds.script
+2024-10-02 17:14:15.125 -0400	click		at (1701, 483)	6	on_administermeds	AdministerMeds.script
+2024-10-02 17:14:15.228 -0400	typetext		[deleteKey]	7	on_administermeds	AdministerMeds.script
+2024-10-02 17:14:15.328 -0400	typetext		1	8	on_administermeds	AdministerMeds.script
+2024-10-02 17:14:15.444 -0400	typetext		[tab]	9	on_administermeds	AdministerMeds.script
+2024-10-02 17:14:15.792 -0400	click	(TEXT:"Start")	at (1509, 485)	10	on_administermeds	AdministerMeds.script
+2024-10-02 17:14:15.977 -0400	click		at (1701, 627)	6	on_administermeds	AdministerMeds.script
+2024-10-02 17:14:16.078 -0400	typetext		[deleteKey]	7	on_administermeds	AdministerMeds.script
+2024-10-02 17:14:16.193 -0400	typetext		5	8	on_administermeds	AdministerMeds.script
+2024-10-02 17:14:16.294 -0400	typetext		[tab]	9	on_administermeds	AdministerMeds.script
+2024-10-02 17:14:16.678 -0400	click	(TEXT:"Start")	at (1509, 629)	10	on_administermeds	AdministerMeds.script
+2024-10-02 17:14:16.861 -0400	click		at (1701, 771)	6	on_administermeds	AdministerMeds.script
+2024-10-02 17:14:16.977 -0400	typetext		[deleteKey]	7	on_administermeds	AdministerMeds.script
+2024-10-02 17:14:17.078 -0400	typetext		6	8	on_administermeds	AdministerMeds.script
+2024-10-02 17:14:17.193 -0400	typetext		[tab]	9	on_administermeds	AdministerMeds.script
+2024-10-02 17:14:17.559 -0400	click	(TEXT:"Start")	at (1509, 773)	10	on_administermeds	AdministerMeds.script
+2024-10-02 17:14:17.743 -0400	click		at (1701, 915)	6	on_administermeds	AdministerMeds.script
+2024-10-02 17:14:17.844 -0400	typetext		[deleteKey]	7	on_administermeds	AdministerMeds.script
+2024-10-02 17:14:17.976 -0400	typetext		11	8	on_administermeds	AdministerMeds.script
+2024-10-02 17:14:18.093 -0400	typetext		[tab]	9	on_administermeds	AdministerMeds.script
+2024-10-02 17:14:18.443 -0400	click	(TEXT:"Start")	at (1509, 917)	10	on_administermeds	AdministerMeds.script
+2024-10-02 17:14:33.481 -0400	readtext		(1667,43,1735,58)	6	on_readsyringevalues	ReadSyringeValues.script
+2024-10-02 17:14:33.562 -0400	readtext		(1669,66,1743,83)	7	on_readsyringevalues	ReadSyringeValues.script
+2024-10-02 17:14:33.623 -0400	readtext		(1667,89,1735,105)	8	on_readsyringevalues	ReadSyringeValues.script
+2024-10-02 17:14:33.698 -0400	readtext		(1667,107,1741,127)	9	on_readsyringevalues	ReadSyringeValues.script
+2024-10-02 17:14:33.779 -0400	readtext		(1667,187,1735,202)	6	on_readsyringevalues	ReadSyringeValues.script
+2024-10-02 17:14:33.846 -0400	readtext		(1669,210,1743,227)	7	on_readsyringevalues	ReadSyringeValues.script
+2024-10-02 17:14:33.917 -0400	readtext		(1667,233,1735,249)	8	on_readsyringevalues	ReadSyringeValues.script
+2024-10-02 17:14:33.982 -0400	readtext		(1667,251,1741,271)	9	on_readsyringevalues	ReadSyringeValues.script
+2024-10-02 17:14:34.054 -0400	readtext		(1667,331,1735,346)	6	on_readsyringevalues	ReadSyringeValues.script
+2024-10-02 17:14:34.114 -0400	readtext		(1669,354,1743,371)	7	on_readsyringevalues	ReadSyringeValues.script
+2024-10-02 17:14:34.176 -0400	readtext		(1667,377,1735,393)	8	on_readsyringevalues	ReadSyringeValues.script
+2024-10-02 17:14:34.239 -0400	readtext		(1667,395,1741,415)	9	on_readsyringevalues	ReadSyringeValues.script
+2024-10-02 17:14:34.310 -0400	readtext		(1667,475,1735,490)	6	on_readsyringevalues	ReadSyringeValues.script
+2024-10-02 17:14:34.371 -0400	readtext		(1669,498,1743,515)	7	on_readsyringevalues	ReadSyringeValues.script
+2024-10-02 17:14:34.441 -0400	readtext		(1667,521,1735,537)	8	on_readsyringevalues	ReadSyringeValues.script
+2024-10-02 17:14:34.500 -0400	readtext		(1667,539,1741,559)	9	on_readsyringevalues	ReadSyringeValues.script
+2024-10-02 17:14:34.562 -0400	readtext		(1667,619,1735,634)	6	on_readsyringevalues	ReadSyringeValues.script
+2024-10-02 17:14:34.638 -0400	readtext		(1669,642,1743,659)	7	on_readsyringevalues	ReadSyringeValues.script
+2024-10-02 17:14:34.711 -0400	readtext		(1667,665,1735,681)	8	on_readsyringevalues	ReadSyringeValues.script
+2024-10-02 17:14:34.775 -0400	readtext		(1667,683,1741,703)	9	on_readsyringevalues	ReadSyringeValues.script
+2024-10-02 17:14:34.850 -0400	readtext		(1667,763,1735,778)	6	on_readsyringevalues	ReadSyringeValues.script
+2024-10-02 17:14:34.920 -0400	readtext		(1669,786,1743,803)	7	on_readsyringevalues	ReadSyringeValues.script
+2024-10-02 17:14:34.997 -0400	readtext		(1667,809,1735,825)	8	on_readsyringevalues	ReadSyringeValues.script
+2024-10-02 17:14:35.097 -0400	readtext		(1667,827,1741,847)	9	on_readsyringevalues	ReadSyringeValues.script
+2024-10-02 17:14:35.183 -0400	readtext		(1667,907,1735,922)	6	on_readsyringevalues	ReadSyringeValues.script
+2024-10-02 17:14:35.246 -0400	readtext		(1669,930,1743,947)	7	on_readsyringevalues	ReadSyringeValues.script
+2024-10-02 17:14:35.312 -0400	readtext		(1667,953,1735,969)	8	on_readsyringevalues	ReadSyringeValues.script
+2024-10-02 17:14:35.392 -0400	readtext		(1667,971,1741,991)	9	on_readsyringevalues	ReadSyringeValues.script
+2024-10-02 17:14:35.473 -0400	LogWarning		All of the medicine was not administered	7	on_verifysyringevalues	VerifySyringeValues.script
+2024-10-02 17:14:35.486 -0400	LogWarning		All of the medicine was not administered	7	on_verifysyringevalues	VerifySyringeValues.script
+2024-10-02 17:14:35.499 -0400	LogWarning		All of the medicine was not administered	7	on_verifysyringevalues	VerifySyringeValues.script
+2024-10-02 17:14:35.511 -0400	LogWarning		All of the medicine was not administered	7	on_verifysyringevalues	VerifySyringeValues.script
+2024-10-02 17:14:35.523 -0400	LogWarning		All of the medicine was not administered	7	on_verifysyringevalues	VerifySyringeValues.script
+2024-10-02 17:14:35.536 -0400	LogWarning		All of the medicine was not administered	7	on_verifysyringevalues	VerifySyringeValues.script
+2024-10-02 17:14:35.548 -0400	LogWarning		All of the medicine was not administered	7	on_verifysyringevalues	VerifySyringeValues.script
+2024-10-02 17:16:41.864 -0400	EndTestCase		(Duration:"205.354", Errors:"1", Exceptions:"0", StartTime:"2024-10-02 17:13:16 -0400", Successes:"0", TestCase:"_Master.script", Warnings:"7")
+2024-10-02 17:16:41.885 -0400	ABORTED		Execution Time 0:03:25 _Master.script

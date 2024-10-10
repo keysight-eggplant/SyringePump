@@ -1,0 +1,17 @@
+﻿to LoadData
+	Set varExcelDB to {type: "excel", file: ResourcePath("Syringe_Pump.xlsx"), name: "Data"}
+	Set Data to the records of varExcelDB
+	Repeat with each item DataSet of Data
+		Set varPropertyList to  {"Syringe Number": DataSet's Syringe_Number, \
+					"Medication": DataSet's Medication, \
+					"Dose": format("%2.3f", DataSet's Dose), \
+					"Infusion Rate": format("%2.3f", DataSet's Infusion_Rate), \
+					"Refill": DataSet's Refill}
+		Insert [varPropertyList] into global varData
+	End Repeat
+	Delete variable varPropertyList
+end LoadData
+
+
+
+

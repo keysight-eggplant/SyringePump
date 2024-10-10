@@ -1,0 +1,6 @@
+﻿2024-05-21 08:38:49.239 -0400	START		Running Syringe.script
+2024-05-21 08:38:53.576 -0400	set		SEARCHRECTANGLE = ["Syringe/1/rect_A","Syringe/1/rect_B"]	1	on_syringe	Syringe.script
+2024-05-21 08:38:57.724 -0400	readtext		(198,28,1911,153)	3	on_syringe	Syringe.script
+2024-05-21 08:39:17.547 -0400	Log		[@"Syringe1Medication:MorphinConcentration:0.1mg/nLethaldose:10mgStartvolume:10ml1—\\StartInjectionStopInjectionRefi114.000Dose[ml]1.000InfusionRate[ml/s]10.000CurrentVolume[ml]0.000RemainingDose[ml]"]	1	on_syringe	Syringe.script
+2024-05-21 08:39:39.910 -0400	EndTestCase		(Duration:"50.66918", Errors:"1", Exceptions:"0", StartTime:"2024-05-21 08:38:49 -0400", Successes:"0", TestCase:"Syringe.script", Warnings:"0")
+2024-05-21 08:39:39.911 -0400	ABORTED		Execution Time 0:00:50 Syringe.script

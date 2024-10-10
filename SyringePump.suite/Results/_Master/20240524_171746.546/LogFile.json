@@ -1,0 +1,93 @@
+{
+  "entries" : [
+    {
+      "identifier" : "START",
+      "message" : "Running _Master.script",
+      "timestamp" : "2024-05-24 17:17:46.549 -0400"
+    },
+    {
+      "handlerName" : "on_connect_to_sut",
+      "message" : "Syringe Pump Stack:(null)",
+      "timestamp" : "2024-05-24 17:17:46.842 -0400",
+      "identifier" : "Connect",
+      "scriptName" : "Connect to SUT.script",
+      "handlerLine" : 1
+    },
+    {
+      "handlerName" : "on__master",
+      "message" : "\/Users\/stevbarr\/Keysight Sandbox\/Suites\/Syringe_Pump.suite\/Results\/_Master\/20240524_171746.546\/Syringe Pump.mp4",
+      "timestamp" : "2024-05-24 17:17:46.948 -0400",
+      "identifier" : "startmovie",
+      "scriptName" : "_Master.script",
+      "handlerLine" : 5
+    },
+    {
+      "handlerName" : "on_launch_pump",
+      "message" : "Unable to Find Image button_Windows_Start",
+      "identifier" : "imagefound",
+      "image" : "button_Windows_Start",
+      "handlerLine" : 1,
+      "timestamp" : "2024-05-24 17:17:51.719 -0400",
+      "scriptName" : "Launch Pump.script"
+    },
+    {
+      "handlerName" : "on_launch_pump",
+      "message" : "found at (8, 10)",
+      "identifier" : "imagefound",
+      "image" : "window_SyringePumpStack",
+      "handlerLine" : 11,
+      "timestamp" : "2024-05-24 17:17:52.720 -0400",
+      "scriptName" : "Launch Pump.script"
+    },
+    {
+      "handlerLine" : 23,
+      "handlerName" : "on_launch_pump",
+      "timestamp" : "2024-05-24 17:17:54.296 -0400",
+      "identifier" : "capturescreen",
+      "image" : "Initial state of Syringe Pump.png",
+      "scriptName" : "Launch Pump.script"
+    },
+    {
+      "handlerName" : "on_syringe2",
+      "message" : "SEARCHRECTANGLE = [\"Syringe\/1\/rect_A\",\"Syringe\/1\/rect_B\"]",
+      "timestamp" : "2024-05-24 17:17:58.947 -0400",
+      "identifier" : "set",
+      "scriptName" : "Syringe2.script",
+      "handlerLine" : 3
+    },
+    {
+      "handlerName" : "on_syringe2",
+      "message" : "(202,74,406,139)",
+      "timestamp" : "2024-05-24 17:18:02.947 -0400",
+      "identifier" : "readtext",
+      "scriptName" : "Syringe2.script",
+      "handlerLine" : 4
+    },
+    {
+      "handlerName" : "on_syringe2",
+      "timestamp" : "2024-05-24 17:18:24.613 -0400",
+      "identifier" : "Log",
+      "scriptName" : "Syringe2.script",
+      "handlerLine" : 1
+    },
+    {
+      "handlerName" : "on_syringe2",
+      "message" : "thisthat",
+      "timestamp" : "2024-05-24 17:18:35.695 -0400",
+      "identifier" : "Log",
+      "scriptName" : "Syringe2.script",
+      "handlerLine" : 1
+    },
+    {
+      "identifier" : "EndTestCase",
+      "message" : "(Duration:\"146.97079\", Errors:\"1\", Exceptions:\"0\", StartTime:\"2024-05-24 17:17:46 -0400\", Successes:\"0\", TestCase:\"_Master.script\", Warnings:\"0\")",
+      "timestamp" : "2024-05-24 17:20:13.521 -0400"
+    },
+    {
+      "identifier" : "ABORTED",
+      "message" : "Execution Time 0:02:26 _Master.script",
+      "timestamp" : "2024-05-24 17:20:13.523 -0400"
+    }
+  ],
+  "createdTimestamp" : "2024-05-24 17:17:46.549 -0400"
+}

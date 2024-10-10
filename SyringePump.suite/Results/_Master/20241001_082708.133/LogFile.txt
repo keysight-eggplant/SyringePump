@@ -1,0 +1,7 @@
+﻿2024-10-01 08:27:08.140 -0400	START		Running _Master.script
+2024-10-01 08:27:08.230 -0400	Connect		NewSingleSystem:(null)	4	on_connect_to_sut	Connect to SUT.script
+2024-10-01 08:27:08.251 -0400	startmovie		C:/ScriptRepositories/Syringe_Pump.suite/Results/_Master/20241001_082708.133/Syringe Pump.mp4	5	on__master	_Master.script
+2024-10-01 08:27:10.980 -0400	imagefound	button_Windows_Start	Unable to Find Image button_Windows_Start	1	on_launch_pump	Launch Pump.script
+2024-10-01 08:27:14.360 -0400	imagefound	window_SyringePumpStack	Unable to Find Image window_SyringePumpStack	11	on_launch_pump	Launch Pump.script
+2024-10-01 08:27:14.396 -0400	EndTestCase		(Duration:"6.252", Errors:"1", Exceptions:"0", StartTime:"2024-10-01 08:27:08 -0400", Successes:"0", TestCase:"_Master.script", Warnings:"0")
+2024-10-01 08:27:14.788 -0400	FAILURE	Screen_Error.png	BadValue: Bad value for Object expression.  Looking for an object or script identifier, got 'Run an OS Command'. -- Execution Time 0:00:06 _Master.script

@@ -1,0 +1,20 @@
+{
+  "entries" : [
+    {
+      "identifier" : "START",
+      "message" : "Running Syringe.script",
+      "timestamp" : "2024-05-22 11:07:55.854 -0400"
+    },
+    {
+      "identifier" : "EndTestCase",
+      "message" : "(Duration:\"1.5396\", Errors:\"1\", Exceptions:\"0\", StartTime:\"2024-05-22 11:07:55 -0400\", Successes:\"0\", TestCase:\"Syringe.script\", Warnings:\"0\")",
+      "timestamp" : "2024-05-22 11:07:57.395 -0400"
+    },
+    {
+      "identifier" : "ABORTED",
+      "message" : "Execution Time 0:00:01 Syringe.script",
+      "timestamp" : "2024-05-22 11:07:57.397 -0400"
+    }
+  ],
+  "createdTimestamp" : "2024-05-22 11:07:55.855 -0400"
+}

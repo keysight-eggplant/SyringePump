@@ -1,0 +1,14 @@
+﻿params syringe1dose, syringe2dose, syringe3dose, syringe4dose, syringe5dose, syringe6dose, syringe7dose
+
+global myRectangle
+
+repeat 7 times
+	click the center of global myRectangle.("DoseRegion"&repeatIndex())
+	TypeText deleteKey	
+	TypeText the value of ("syringe"&repeatIndex()&"dose")
+	TypeText tab
+	Click text:"Start", waitFor:1, SearchRectangle: myRectangle.("Activity"&repeatIndex())
+	
+end repeat
+
+

@@ -1,0 +1,35 @@
+{
+  "entries" : [
+    {
+      "identifier" : "START",
+      "message" : "Running Syringe.script",
+      "timestamp" : "2024-05-21 07:37:55.129 -0400"
+    },
+    {
+      "handlerName" : "on_syringe",
+      "message" : "SEARCHRECTANGLE = [\"Syringe\/1\/rect_Syringe_1_A\",\"Syringe\/1\/rect_Syringe_1_B\"]",
+      "timestamp" : "2024-05-21 07:37:59.014 -0400",
+      "identifier" : "set",
+      "scriptName" : "Syringe.script",
+      "handlerLine" : 1
+    },
+    {
+      "identifier" : "EndTestCase",
+      "message" : "(Duration:\"24.039214\", Errors:\"1\", Exceptions:\"0\", StartTime:\"2024-05-21 07:37:55 -0400\", Successes:\"0\", TestCase:\"Syringe.script\", Warnings:\"0\")",
+      "timestamp" : "2024-05-21 07:38:19.170 -0400"
+    },
+    {
+      "message" : "CapturedErrorScreenshot",
+      "timestamp" : "2024-05-21 07:38:19.259 -0400",
+      "identifier" : "Error Screen",
+      "image" : "\/Users\/stevbarr\/Keysight Sandbox\/Suites\/Syringe_Pump.suite\/Results\/Syringe\/20240521_073755.128\/Screen_Error.png"
+    },
+    {
+      "message" : "Image Not Found: set Error - Unable To Find Image: Syringe\/2\/rect_Syringe_2_A  Restricted Search Rectangle ((198,28),(1911,153))\\n -- Execution Time 0:00:24 Syringe.script",
+      "timestamp" : "2024-05-21 07:38:19.260 -0400",
+      "identifier" : "FAILURE",
+      "image" : "Screen_Error.png"
+    }
+  ],
+  "createdTimestamp" : "2024-05-21 07:37:55.130 -0400"
+}

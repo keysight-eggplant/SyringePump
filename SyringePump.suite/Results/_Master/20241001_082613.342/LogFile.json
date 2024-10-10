@@ -1,0 +1,20 @@
+{
+	"entries": [
+		{
+				"message": "Running _Master.script",
+				"identifier": "START",
+				"timestamp": "2024-10-01 08:26:13.347 -0400"
+			},
+		{
+				"message": "(Duration:\"0.286\", Errors:\"1\", Exceptions:\"0\", StartTime:\"2024-10-01 08:26:13 -0400\", Successes:\"0\", TestCase:\"_Master.script\", Warnings:\"0\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2024-10-01 08:26:13.642 -0400"
+			},
+		{
+				"message": "Connection Failed: Unable to connect to Server:Windows 11 on port:0\\nInvalid hostname or IP address: No such host is known. \\n -- Execution Time 0:00:00 _Master.script",
+				"identifier": "FAILURE",
+				"timestamp": "2024-10-01 08:26:13.684 -0400"
+			}
+	],
+	"createdTimestamp": "2024-10-01 08:26:13.352 -0400"
+}

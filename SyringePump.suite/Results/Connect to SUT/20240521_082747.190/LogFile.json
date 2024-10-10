@@ -1,0 +1,28 @@
+{
+  "entries" : [
+    {
+      "identifier" : "START",
+      "message" : "Running Connect to SUT.script",
+      "timestamp" : "2024-05-21 08:27:47.192 -0400"
+    },
+    {
+      "handlerName" : "on_connect_to_sut",
+      "message" : "Syringe Pump Stack:(null)",
+      "timestamp" : "2024-05-21 08:27:47.258 -0400",
+      "identifier" : "Connect",
+      "scriptName" : "Connect to SUT.script",
+      "handlerLine" : 1
+    },
+    {
+      "identifier" : "EndTestCase",
+      "message" : "(Duration:\"0.085403\", Errors:\"0\", Exceptions:\"0\", StartTime:\"2024-05-21 08:27:47 -0400\", Successes:\"1\", TestCase:\"Connect to SUT.script\", Warnings:\"0\")",
+      "timestamp" : "2024-05-21 08:27:47.279 -0400"
+    },
+    {
+      "identifier" : "SUCCESS",
+      "message" : "Execution Time 0:00:00 Connect to SUT.script",
+      "timestamp" : "2024-05-21 08:27:47.289 -0400"
+    }
+  ],
+  "createdTimestamp" : "2024-05-21 08:27:47.193 -0400"
+}

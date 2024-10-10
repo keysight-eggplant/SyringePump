@@ -1,0 +1,44 @@
+{
+  "entries" : [
+    {
+      "identifier" : "START",
+      "message" : "Running Syringe.script",
+      "timestamp" : "2024-05-21 08:38:49.239 -0400"
+    },
+    {
+      "handlerName" : "on_syringe",
+      "message" : "SEARCHRECTANGLE = [\"Syringe\/1\/rect_A\",\"Syringe\/1\/rect_B\"]",
+      "timestamp" : "2024-05-21 08:38:53.576 -0400",
+      "identifier" : "set",
+      "scriptName" : "Syringe.script",
+      "handlerLine" : 1
+    },
+    {
+      "handlerName" : "on_syringe",
+      "message" : "(198,28,1911,153)",
+      "timestamp" : "2024-05-21 08:38:57.724 -0400",
+      "identifier" : "readtext",
+      "scriptName" : "Syringe.script",
+      "handlerLine" : 3
+    },
+    {
+      "handlerName" : "on_syringe",
+      "message" : "[@\"Syringe1Medication:MorphinConcentration:0.1mg\/nLethaldose:10mgStartvolume:10ml1—\\\\StartInjectionStopInjectionRefi114.000Dose[ml]1.000InfusionRate[ml\/s]10.000CurrentVolume[ml]0.000RemainingDose[ml]\"]",
+      "timestamp" : "2024-05-21 08:39:17.547 -0400",
+      "identifier" : "Log",
+      "scriptName" : "Syringe.script",
+      "handlerLine" : 1
+    },
+    {
+      "identifier" : "EndTestCase",
+      "message" : "(Duration:\"50.66918\", Errors:\"1\", Exceptions:\"0\", StartTime:\"2024-05-21 08:38:49 -0400\", Successes:\"0\", TestCase:\"Syringe.script\", Warnings:\"0\")",
+      "timestamp" : "2024-05-21 08:39:39.910 -0400"
+    },
+    {
+      "identifier" : "ABORTED",
+      "message" : "Execution Time 0:00:50 Syringe.script",
+      "timestamp" : "2024-05-21 08:39:39.911 -0400"
+    }
+  ],
+  "createdTimestamp" : "2024-05-21 08:38:49.240 -0400"
+}

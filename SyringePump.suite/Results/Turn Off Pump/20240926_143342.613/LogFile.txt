@@ -1,0 +1,6 @@
+﻿2024-09-26 14:33:42.620 -0400	START		Running Turn Off Pump.script
+2024-09-26 14:33:43.412 -0400	click	window_SyringePumpStack	at (9, 10)	1	on_turn_off_pump	Turn Off Pump.script
+2024-09-26 14:33:44.281 -0400	click	menu_Minimize	at (55, 102)	2	on_turn_off_pump	Turn Off Pump.script
+2024-09-26 14:33:45.413 -0400	click	window_SyringePumpStack	at (297, 251)	4	on_turn_off_pump	Turn Off Pump.script
+2024-09-26 14:33:45.525 -0400	EndTestCase		(Duration:"2.898", Errors:"0", Exceptions:"0", StartTime:"2024-09-26 14:33:42 -0400", Successes:"1", TestCase:"Turn Off Pump.script", Warnings:"0")
+2024-09-26 14:33:45.559 -0400	SUCCESS		Execution Time 0:00:02 Turn Off Pump.script

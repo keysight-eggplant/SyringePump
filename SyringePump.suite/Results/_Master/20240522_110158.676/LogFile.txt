@@ -1,0 +1,17 @@
+﻿2024-05-22 11:01:58.679 -0400	START		Running _Master.script
+2024-05-22 11:01:58.800 -0400	Connect		Syringe Pump Stack:(null)	1	on_connect_to_sut	Connect to SUT.script
+2024-05-22 11:01:58.959 -0400	moveto		at (1536, 864)	9	on_run_an_os_command	/Users/stevbarr/Keysight Sandbox/Suites/Helper Suites/[Run Command Helper Suite].suite/Scripts/Run an OS Command.script
+2024-05-22 11:01:59.691 -0400	typetext		[controlKey]W	13	on_run_an_os_command	/Users/stevbarr/Keysight Sandbox/Suites/Helper Suites/[Run Command Helper Suite].suite/Scripts/Run an OS Command.script
+2024-05-22 11:02:01.736 -0400	typetext		[windowsKey]r	17	on_run_an_os_command	/Users/stevbarr/Keysight Sandbox/Suites/Helper Suites/[Run Command Helper Suite].suite/Scripts/Run an OS Command.script
+2024-05-22 11:02:02.466 -0400	waitfor	OS/Windows/Run Window	found at (37, 841)	18	on_run_an_os_command	/Users/stevbarr/Keysight Sandbox/Suites/Helper Suites/[Run Command Helper Suite].suite/Scripts/Run an OS Command.script
+2024-05-22 11:02:02.488 -0400	typetext		[backspace]	19	on_run_an_os_command	/Users/stevbarr/Keysight Sandbox/Suites/Helper Suites/[Run Command Helper Suite].suite/Scripts/Run an OS Command.script
+2024-05-22 11:02:04.966 -0400	typetext		C:\Syringe Pump\syringe_pump.exe[returnKey]	22	on_run_an_os_command	/Users/stevbarr/Keysight Sandbox/Suites/Helper Suites/[Run Command Helper Suite].suite/Scripts/Run an OS Command.script
+2024-05-22 11:02:10.034 -0400	typetext		[windowsAltKey] 	26	on_run_an_os_command	/Users/stevbarr/Keysight Sandbox/Suites/Helper Suites/[Run Command Helper Suite].suite/Scripts/Run an OS Command.script
+2024-05-22 11:02:14.722 -0400	imagefound	OS/Windows/System Menu/Maximize	Unable to Find Image OS/Windows/System Menu/Maximize	27	on_run_an_os_command	/Users/stevbarr/Keysight Sandbox/Suites/Helper Suites/[Run Command Helper Suite].suite/Scripts/Run an OS Command.script
+2024-05-22 11:02:14.743 -0400	typetext		[escape]	31	on_run_an_os_command	/Users/stevbarr/Keysight Sandbox/Suites/Helper Suites/[Run Command Helper Suite].suite/Scripts/Run an OS Command.script
+2024-05-22 11:02:15.799 -0400	moveto		at (1536, 864)	88	on_run_an_os_command	/Users/stevbarr/Keysight Sandbox/Suites/Helper Suites/[Run Command Helper Suite].suite/Scripts/Run an OS Command.script
+2024-05-22 11:02:17.099 -0400	click	window_SyringePumpStack	at (100, 92)	5	on_launch_pump	Launch Pump.script
+2024-05-22 11:02:18.401 -0400	click	menu_Maximize	at (133, 209)	6	on_launch_pump	Launch Pump.script
+2024-05-22 11:02:18.432 -0400	EndTestCase		(Duration:"19.74683", Errors:"1", Exceptions:"0", StartTime:"2024-05-22 11:01:58 -0400", Successes:"0", TestCase:"_Master.script", Warnings:"0")
+2024-05-22 11:02:18.659 -0400	Error Screen	/Users/stevbarr/Keysight Sandbox/Suites/Syringe_Pump.suite/Results/_Master/20240522_110158.676/Screen_Error.png	CapturedErrorScreenshot	24C4B21A-01CE-49CB-A653-A2E3DFA8ED62
+2024-05-22 11:02:18.661 -0400	FAILURE	Screen_Error.png	SenseTalk Compiler Exception: in syringe:\nSyntax Error at line 63: can't understand "End" at character 1 -- Execution Time 0:00:19 _Master.script

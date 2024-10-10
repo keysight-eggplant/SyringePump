@@ -1,0 +1,47 @@
+{
+	"originalcapturelocation": [
+		1461,
+		73,
+		181,
+		30
+	],
+	"lastmodifieddate": 1716298163.224102,
+	"createddate": 1716297773.4221249,
+	"name": "Syringe/button_StopInjection_darkmode",
+	"lastfounddate": 1727894354.447,
+	"ocrcapturestring": "Stop Injection",
+	"lastfoundlocation": [
+		1461,
+		73,
+		181,
+		30
+	],
+	"testlocationdata": [
+		{
+				"connectionportnum": 5900,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[40,18]",
+					"Tolerance": "_44",
+					"Discrepancy": "_0",
+					"SearchType": "Smoothed for Text"
+				},
+				"sutinfo": {
+					"type": "Unknown VNC"
+				},
+				"name": "Syringe/Stop Injection/button_StopInjection_darkmode.png",
+				"connectionname": "Syringe Pump Stack",
+				"type": 1,
+				"capturerect": [
+					1461,
+					73,
+					181,
+					30
+				],
+				"connectionserverid": "PWIN01-BARRJCKNJ",
+				"capturedocrtext": "Stop Injection"
+			}
+	]
+}

@@ -1,0 +1,4 @@
+﻿2024-10-10 14:05:21.089 -0400	START		Running _Master.script
+2024-10-10 14:05:28.717 -0400	Connect		NewSingleSystem:(null)	4	on_connect_to_sut	Connect to SUT.script
+2024-10-10 14:05:29.860 -0400	EndTestCase		(Duration:"8.755", Errors:"1", Exceptions:"0", StartTime:"2024-10-10 14:05:21 -0400", Successes:"0", TestCase:"_Master.script", Warnings:"0")
+2024-10-10 14:05:29.872 -0400	ABORTED		Execution Time 0:00:08 _Master.script

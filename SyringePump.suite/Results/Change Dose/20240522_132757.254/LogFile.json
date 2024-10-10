@@ -1,0 +1,46 @@
+{
+  "entries" : [
+    {
+      "identifier" : "START",
+      "message" : "Running Change Dose.script",
+      "timestamp" : "2024-05-22 13:27:57.256 -0400"
+    },
+    {
+      "handlerName" : "on_change_dose",
+      "message" : "at (1721, 47)",
+      "identifier" : "click",
+      "image" : "Syringe\/field_Dose",
+      "handlerLine" : 2,
+      "timestamp" : "2024-05-22 13:27:58.526 -0400",
+      "scriptName" : "Change Dose.script"
+    },
+    {
+      "handlerName" : "on_change_dose",
+      "message" : "10.000",
+      "timestamp" : "2024-05-22 13:27:59.311 -0400",
+      "identifier" : "typetext",
+      "scriptName" : "Change Dose.script",
+      "handlerLine" : 3
+    },
+    {
+      "handlerName" : "on_change_dose",
+      "message" : "at (1544, 55)",
+      "identifier" : "click",
+      "image" : "Syringe\/Start Injection",
+      "handlerLine" : 5,
+      "timestamp" : "2024-05-22 13:28:00.611 -0400",
+      "scriptName" : "Change Dose.script"
+    },
+    {
+      "identifier" : "EndTestCase",
+      "message" : "(Duration:\"3.372889\", Errors:\"0\", Exceptions:\"0\", StartTime:\"2024-05-22 13:27:57 -0400\", Successes:\"1\", TestCase:\"Change Dose.script\", Warnings:\"0\")",
+      "timestamp" : "2024-05-22 13:28:00.630 -0400"
+    },
+    {
+      "identifier" : "SUCCESS",
+      "message" : "Execution Time 0:00:03 Change Dose.script",
+      "timestamp" : "2024-05-22 13:28:00.639 -0400"
+    }
+  ],
+  "createdTimestamp" : "2024-05-22 13:27:57.257 -0400"
+}

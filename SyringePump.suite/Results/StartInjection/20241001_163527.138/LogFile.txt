@@ -1,0 +1,4 @@
+﻿2024-10-01 16:35:27.145 -0400	START		Running StartInjection.script
+2024-10-01 16:35:39.450 -0400	Exception	(TEXT:"Syringe ")	Unable To Find Image "(TEXT:"Syringe ")". Text not found.	8	on_startinjection	StartInjection.script
+2024-10-01 16:35:39.556 -0400	EndTestCase		(Duration:"12.405", Errors:"1", Exceptions:"1", StartTime:"2024-10-01 16:35:27 -0400", Successes:"0", TestCase:"StartInjection.script", Warnings:"0")
+2024-10-01 16:35:39.578 -0400	ABORTED		Execution Time 0:00:12 StartInjection.script

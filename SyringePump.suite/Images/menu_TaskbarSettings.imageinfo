@@ -1,0 +1,20 @@
+﻿{
+    CaptureDate = "2024-05-24 20:21:04 +0000";
+    CaptureHost = "Syringe Pump Stack";
+    CaptureScreenSize = (
+        1920,
+        1080);
+    HasAlpha = 1;
+    HotSpotX = 10;
+    HotSpotY = 8;
+    LastKnownLocationX = 0;
+    LastKnownLocationY = 0;
+    OriginalLocationX = 693;
+    OriginalLocationY = 1027;
+    Precise = 0;
+    Pulsing = 0;
+    Scale = 1;
+    SearchAlgorithm = "TextSmoothSquare";
+    SearchObjectName = "menu_TaskbarSettings";
+    tags = ();
+}

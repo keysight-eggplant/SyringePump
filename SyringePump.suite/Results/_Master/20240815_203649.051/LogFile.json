@@ -1,0 +1,651 @@
+{
+  "entries" : [
+    {
+      "identifier" : "START",
+      "message" : "Running _Master.script",
+      "timestamp" : "2024-08-15 20:36:49.054 -0400"
+    },
+    {
+      "handlerName" : "on_connect_to_sut",
+      "message" : "Windows 11:(null)",
+      "timestamp" : "2024-08-15 20:36:49.334 -0400",
+      "identifier" : "Connect",
+      "scriptName" : "Connect to SUT.script",
+      "handlerLine" : 4
+    },
+    {
+      "handlerName" : "on__master",
+      "message" : "\/Users\/stevbarr\/Keysight Sandbox\/Suites\/Syringe_Pump.suite\/Results\/_Master\/20240815_203649.051\/Syringe Pump.mp4",
+      "timestamp" : "2024-08-15 20:36:49.444 -0400",
+      "identifier" : "startmovie",
+      "scriptName" : "_Master.script",
+      "handlerLine" : 5
+    },
+    {
+      "handlerName" : "on_launch_pump",
+      "message" : "Unable to Find Image button_Windows_Start",
+      "identifier" : "imagefound",
+      "image" : "button_Windows_Start",
+      "handlerLine" : 1,
+      "timestamp" : "2024-08-15 20:36:51.832 -0400",
+      "scriptName" : "Launch Pump.script"
+    },
+    {
+      "handlerName" : "on_launch_pump",
+      "message" : "Unable to Find Image window_SyringePumpStack",
+      "identifier" : "imagefound",
+      "image" : "window_SyringePumpStack",
+      "handlerLine" : 11,
+      "timestamp" : "2024-08-15 20:36:54.353 -0400",
+      "scriptName" : "Launch Pump.script"
+    },
+    {
+      "handlerName" : "on_run_an_os_command",
+      "message" : "at (1536, 864)",
+      "timestamp" : "2024-08-15 20:36:54.459 -0400",
+      "identifier" : "moveto",
+      "scriptName" : "\/Users\/stevbarr\/Keysight Sandbox\/Suites\/Helper Suites\/[Run Command Helper].suite\/Scripts\/Run an OS Command.script",
+      "handlerLine" : 9
+    },
+    {
+      "handlerName" : "on_run_an_os_command",
+      "message" : "[controlKey]W",
+      "timestamp" : "2024-08-15 20:36:55.185 -0400",
+      "identifier" : "typetext",
+      "scriptName" : "\/Users\/stevbarr\/Keysight Sandbox\/Suites\/Helper Suites\/[Run Command Helper].suite\/Scripts\/Run an OS Command.script",
+      "handlerLine" : 13
+    },
+    {
+      "handlerName" : "on_run_an_os_command",
+      "message" : "[windowsKey]r",
+      "timestamp" : "2024-08-15 20:36:57.219 -0400",
+      "identifier" : "typetext",
+      "scriptName" : "\/Users\/stevbarr\/Keysight Sandbox\/Suites\/Helper Suites\/[Run Command Helper].suite\/Scripts\/Run an OS Command.script",
+      "handlerLine" : 17
+    },
+    {
+      "handlerName" : "on_run_an_os_command",
+      "message" : "found at (67, 8)",
+      "identifier" : "waitfor",
+      "image" : "OS\/Windows\/Run Window",
+      "handlerLine" : 19,
+      "timestamp" : "2024-08-15 20:37:00.201 -0400",
+      "scriptName" : "\/Users\/stevbarr\/Keysight Sandbox\/Suites\/Helper Suites\/[Run Command Helper].suite\/Scripts\/Run an OS Command.script"
+    },
+    {
+      "handlerName" : "on_run_an_os_command",
+      "message" : "[backspace]",
+      "timestamp" : "2024-08-15 20:37:00.246 -0400",
+      "identifier" : "typetext",
+      "scriptName" : "\/Users\/stevbarr\/Keysight Sandbox\/Suites\/Helper Suites\/[Run Command Helper].suite\/Scripts\/Run an OS Command.script",
+      "handlerLine" : 21
+    },
+    {
+      "handlerName" : "on_run_an_os_command",
+      "message" : "C:\\Program Files\\Syringe Pump\\syringe_pump.exe[returnKey]",
+      "timestamp" : "2024-08-15 20:37:02.842 -0400",
+      "identifier" : "typetext",
+      "scriptName" : "\/Users\/stevbarr\/Keysight Sandbox\/Suites\/Helper Suites\/[Run Command Helper].suite\/Scripts\/Run an OS Command.script",
+      "handlerLine" : 24
+    },
+    {
+      "handlerName" : "on_run_an_os_command",
+      "message" : "[windowsAltKey] ",
+      "timestamp" : "2024-08-15 20:37:07.897 -0400",
+      "identifier" : "typetext",
+      "scriptName" : "\/Users\/stevbarr\/Keysight Sandbox\/Suites\/Helper Suites\/[Run Command Helper].suite\/Scripts\/Run an OS Command.script",
+      "handlerLine" : 29
+    },
+    {
+      "handlerName" : "on_run_an_os_command",
+      "message" : "Unable to Find Image OS\/Windows\/System Menu\/Maximize",
+      "identifier" : "imagefound",
+      "image" : "OS\/Windows\/System Menu\/Maximize",
+      "handlerLine" : 30,
+      "timestamp" : "2024-08-15 20:37:11.690 -0400",
+      "scriptName" : "\/Users\/stevbarr\/Keysight Sandbox\/Suites\/Helper Suites\/[Run Command Helper].suite\/Scripts\/Run an OS Command.script"
+    },
+    {
+      "handlerName" : "on_run_an_os_command",
+      "message" : "[escape]",
+      "timestamp" : "2024-08-15 20:37:11.715 -0400",
+      "identifier" : "typetext",
+      "scriptName" : "\/Users\/stevbarr\/Keysight Sandbox\/Suites\/Helper Suites\/[Run Command Helper].suite\/Scripts\/Run an OS Command.script",
+      "handlerLine" : 40
+    },
+    {
+      "handlerName" : "on_run_an_os_command",
+      "message" : "at (1536, 864)",
+      "timestamp" : "2024-08-15 20:37:12.770 -0400",
+      "identifier" : "moveto",
+      "scriptName" : "\/Users\/stevbarr\/Keysight Sandbox\/Suites\/Helper Suites\/[Run Command Helper].suite\/Scripts\/Run an OS Command.script",
+      "handlerLine" : 98
+    },
+    {
+      "handlerName" : "on_launch_pump",
+      "message" : "at (179, 170)",
+      "identifier" : "click",
+      "image" : "window_SyringePumpStack",
+      "handlerLine" : 16,
+      "timestamp" : "2024-08-15 20:37:13.855 -0400",
+      "scriptName" : "Launch Pump.script"
+    },
+    {
+      "handlerName" : "on_launch_pump",
+      "message" : "at (215, 287)",
+      "identifier" : "click",
+      "image" : "menu_Maximize",
+      "handlerLine" : 17,
+      "timestamp" : "2024-08-15 20:37:14.737 -0400",
+      "scriptName" : "Launch Pump.script"
+    },
+    {
+      "handlerLine" : 23,
+      "handlerName" : "on_launch_pump",
+      "timestamp" : "2024-08-15 20:37:15.909 -0400",
+      "identifier" : "capturescreen",
+      "image" : "Initial state of Syringe Pump.png",
+      "scriptName" : "Launch Pump.script"
+    },
+    {
+      "handlerName" : "on_needle_1",
+      "message" : "SEARCHRECTANGLE = [\"Syringe\/1\/rect_A\",\"Syringe\/1\/rect_B\"]",
+      "timestamp" : "2024-08-15 20:37:16.286 -0400",
+      "identifier" : "set",
+      "scriptName" : "Syringe.script",
+      "handlerLine" : 2
+    },
+    {
+      "handlerName" : "on_needle_1",
+      "message" : "(202,74,406,139)",
+      "timestamp" : "2024-08-15 20:37:16.698 -0400",
+      "identifier" : "readtext",
+      "scriptName" : "Syringe.script",
+      "handlerLine" : 3
+    },
+    {
+      "handlerName" : "on_needle_1",
+      "message" : "(1648,24,1906,133)",
+      "timestamp" : "2024-08-15 20:37:17.039 -0400",
+      "identifier" : "readtext",
+      "scriptName" : "Syringe.script",
+      "handlerLine" : 14
+    },
+    {
+      "handlerName" : "on_inject_doseage",
+      "message" : "at (1721, 47)",
+      "identifier" : "click",
+      "image" : "Syringe\/field_Dose",
+      "handlerLine" : 4,
+      "timestamp" : "2024-08-15 20:37:17.297 -0400",
+      "scriptName" : "Inject Doseage.script"
+    },
+    {
+      "handlerName" : "on_inject_doseage",
+      "message" : "1.000",
+      "timestamp" : "2024-08-15 20:37:18.063 -0400",
+      "identifier" : "typetext",
+      "scriptName" : "Inject Doseage.script",
+      "handlerLine" : 5
+    },
+    {
+      "handlerName" : "on_inject_doseage",
+      "message" : "at (1544, 55)",
+      "identifier" : "click",
+      "image" : "Syringe\/Start Injection",
+      "handlerLine" : 6,
+      "timestamp" : "2024-08-15 20:37:19.050 -0400",
+      "scriptName" : "Inject Doseage.script"
+    },
+    {
+      "handlerName" : "on_needle_1",
+      "message" : "SEARCHRECTANGLE = ",
+      "timestamp" : "2024-08-15 20:37:23.091 -0400",
+      "identifier" : "set",
+      "scriptName" : "Syringe.script",
+      "handlerLine" : 26
+    },
+    {
+      "handlerLine" : 27,
+      "handlerName" : "on_needle_1",
+      "timestamp" : "2024-08-15 20:37:23.275 -0400",
+      "identifier" : "capturescreen",
+      "image" : "Status of Needle #1's Injection.png",
+      "scriptName" : "Syringe.script"
+    },
+    {
+      "handlerName" : "on_needle_2",
+      "message" : "SEARCHRECTANGLE = [\"Syringe\/2\/rect_A\",\"Syringe\/2\/rect_B\"]",
+      "timestamp" : "2024-08-15 20:37:23.779 -0400",
+      "identifier" : "set",
+      "scriptName" : "Syringe.script",
+      "handlerLine" : 2
+    },
+    {
+      "handlerName" : "on_needle_2",
+      "message" : "(202,218,406,283)",
+      "timestamp" : "2024-08-15 20:37:24.191 -0400",
+      "identifier" : "readtext",
+      "scriptName" : "Syringe.script",
+      "handlerLine" : 3
+    },
+    {
+      "handlerName" : "on_needle_2",
+      "message" : "(1648,168,1906,277)",
+      "timestamp" : "2024-08-15 20:37:24.519 -0400",
+      "identifier" : "readtext",
+      "scriptName" : "Syringe.script",
+      "handlerLine" : 14
+    },
+    {
+      "handlerName" : "on_inject_doseage",
+      "message" : "at (1721, 191)",
+      "identifier" : "click",
+      "image" : "Syringe\/field_Dose",
+      "handlerLine" : 4,
+      "timestamp" : "2024-08-15 20:37:24.763 -0400",
+      "scriptName" : "Inject Doseage.script"
+    },
+    {
+      "handlerName" : "on_inject_doseage",
+      "message" : "3.500",
+      "timestamp" : "2024-08-15 20:37:25.530 -0400",
+      "identifier" : "typetext",
+      "scriptName" : "Inject Doseage.script",
+      "handlerLine" : 5
+    },
+    {
+      "handlerName" : "on_inject_doseage",
+      "message" : "at (1544, 199)",
+      "identifier" : "click",
+      "image" : "Syringe\/Start Injection",
+      "handlerLine" : 6,
+      "timestamp" : "2024-08-15 20:37:26.535 -0400",
+      "scriptName" : "Inject Doseage.script"
+    },
+    {
+      "handlerName" : "on_inject_doseage",
+      "message" : "at (1553, 266)",
+      "identifier" : "click",
+      "image" : "Syringe\/Refill Injection",
+      "handlerLine" : 9,
+      "timestamp" : "2024-08-15 20:37:30.834 -0400",
+      "scriptName" : "Inject Doseage.script"
+    },
+    {
+      "handlerName" : "on_needle_2",
+      "message" : "SEARCHRECTANGLE = ",
+      "timestamp" : "2024-08-15 20:37:30.864 -0400",
+      "identifier" : "set",
+      "scriptName" : "Syringe.script",
+      "handlerLine" : 26
+    },
+    {
+      "handlerLine" : 27,
+      "handlerName" : "on_needle_2",
+      "timestamp" : "2024-08-15 20:37:31.057 -0400",
+      "identifier" : "capturescreen",
+      "image" : "Status of Needle #2's Injection.png",
+      "scriptName" : "Syringe.script"
+    },
+    {
+      "handlerName" : "on_needle_3",
+      "message" : "SEARCHRECTANGLE = [\"Syringe\/3\/rect_A\",\"Syringe\/3\/rect_B\"]",
+      "timestamp" : "2024-08-15 20:37:31.940 -0400",
+      "identifier" : "set",
+      "scriptName" : "Syringe.script",
+      "handlerLine" : 2
+    },
+    {
+      "handlerName" : "on_needle_3",
+      "message" : "(202,362,406,427)",
+      "timestamp" : "2024-08-15 20:37:32.358 -0400",
+      "identifier" : "readtext",
+      "scriptName" : "Syringe.script",
+      "handlerLine" : 3
+    },
+    {
+      "handlerName" : "on_needle_3",
+      "message" : "(1648,312,1906,421)",
+      "timestamp" : "2024-08-15 20:37:32.674 -0400",
+      "identifier" : "readtext",
+      "scriptName" : "Syringe.script",
+      "handlerLine" : 14
+    },
+    {
+      "handlerName" : "on_inject_doseage",
+      "message" : "at (1721, 335)",
+      "identifier" : "click",
+      "image" : "Syringe\/field_Dose",
+      "handlerLine" : 4,
+      "timestamp" : "2024-08-15 20:37:32.921 -0400",
+      "scriptName" : "Inject Doseage.script"
+    },
+    {
+      "handlerName" : "on_inject_doseage",
+      "message" : "6.500",
+      "timestamp" : "2024-08-15 20:37:33.687 -0400",
+      "identifier" : "typetext",
+      "scriptName" : "Inject Doseage.script",
+      "handlerLine" : 5
+    },
+    {
+      "handlerName" : "on_inject_doseage",
+      "message" : "at (1544, 343)",
+      "identifier" : "click",
+      "image" : "Syringe\/Start Injection",
+      "handlerLine" : 6,
+      "timestamp" : "2024-08-15 20:37:34.654 -0400",
+      "scriptName" : "Inject Doseage.script"
+    },
+    {
+      "handlerName" : "on_needle_3",
+      "message" : "SEARCHRECTANGLE = ",
+      "timestamp" : "2024-08-15 20:37:38.692 -0400",
+      "identifier" : "set",
+      "scriptName" : "Syringe.script",
+      "handlerLine" : 26
+    },
+    {
+      "handlerLine" : 27,
+      "handlerName" : "on_needle_3",
+      "timestamp" : "2024-08-15 20:37:38.871 -0400",
+      "identifier" : "capturescreen",
+      "image" : "Status of Needle #3's Injection.png",
+      "scriptName" : "Syringe.script"
+    },
+    {
+      "handlerName" : "on_needle_4",
+      "message" : "SEARCHRECTANGLE = [\"Syringe\/4\/rect_A\",\"Syringe\/4\/rect_B\"]",
+      "timestamp" : "2024-08-15 20:37:39.393 -0400",
+      "identifier" : "set",
+      "scriptName" : "Syringe.script",
+      "handlerLine" : 2
+    },
+    {
+      "handlerName" : "on_needle_4",
+      "message" : "(202,506,406,571)",
+      "timestamp" : "2024-08-15 20:37:39.793 -0400",
+      "identifier" : "readtext",
+      "scriptName" : "Syringe.script",
+      "handlerLine" : 3
+    },
+    {
+      "handlerName" : "on_needle_4",
+      "message" : "(1648,456,1906,565)",
+      "timestamp" : "2024-08-15 20:37:40.143 -0400",
+      "identifier" : "readtext",
+      "scriptName" : "Syringe.script",
+      "handlerLine" : 14
+    },
+    {
+      "handlerName" : "on_inject_doseage",
+      "message" : "at (1721, 479)",
+      "identifier" : "click",
+      "image" : "Syringe\/field_Dose",
+      "handlerLine" : 4,
+      "timestamp" : "2024-08-15 20:37:40.390 -0400",
+      "scriptName" : "Inject Doseage.script"
+    },
+    {
+      "handlerName" : "on_inject_doseage",
+      "message" : "2.500",
+      "timestamp" : "2024-08-15 20:37:41.155 -0400",
+      "identifier" : "typetext",
+      "scriptName" : "Inject Doseage.script",
+      "handlerLine" : 5
+    },
+    {
+      "handlerName" : "on_inject_doseage",
+      "message" : "at (1544, 487)",
+      "identifier" : "click",
+      "image" : "Syringe\/Start Injection",
+      "handlerLine" : 6,
+      "timestamp" : "2024-08-15 20:37:42.139 -0400",
+      "scriptName" : "Inject Doseage.script"
+    },
+    {
+      "handlerName" : "on_inject_doseage",
+      "message" : "at (1553, 554)",
+      "identifier" : "click",
+      "image" : "Syringe\/Refill Injection",
+      "handlerLine" : 9,
+      "timestamp" : "2024-08-15 20:37:46.419 -0400",
+      "scriptName" : "Inject Doseage.script"
+    },
+    {
+      "handlerName" : "on_needle_4",
+      "message" : "SEARCHRECTANGLE = ",
+      "timestamp" : "2024-08-15 20:37:46.453 -0400",
+      "identifier" : "set",
+      "scriptName" : "Syringe.script",
+      "handlerLine" : 26
+    },
+    {
+      "handlerLine" : 27,
+      "handlerName" : "on_needle_4",
+      "timestamp" : "2024-08-15 20:37:46.636 -0400",
+      "identifier" : "capturescreen",
+      "image" : "Status of Needle #4's Injection.png",
+      "scriptName" : "Syringe.script"
+    },
+    {
+      "handlerName" : "on_needle_5",
+      "message" : "SEARCHRECTANGLE = [\"Syringe\/5\/rect_A\",\"Syringe\/5\/rect_B\"]",
+      "timestamp" : "2024-08-15 20:37:47.571 -0400",
+      "identifier" : "set",
+      "scriptName" : "Syringe.script",
+      "handlerLine" : 2
+    },
+    {
+      "handlerName" : "on_needle_5",
+      "message" : "(202,650,406,715)",
+      "timestamp" : "2024-08-15 20:37:47.993 -0400",
+      "identifier" : "readtext",
+      "scriptName" : "Syringe.script",
+      "handlerLine" : 3
+    },
+    {
+      "handlerName" : "on_needle_5",
+      "message" : "(1648,600,1906,709)",
+      "timestamp" : "2024-08-15 20:37:48.360 -0400",
+      "identifier" : "readtext",
+      "scriptName" : "Syringe.script",
+      "handlerLine" : 14
+    },
+    {
+      "handlerName" : "on_inject_doseage",
+      "message" : "at (1721, 623)",
+      "identifier" : "click",
+      "image" : "Syringe\/field_Dose",
+      "handlerLine" : 4,
+      "timestamp" : "2024-08-15 20:37:48.610 -0400",
+      "scriptName" : "Inject Doseage.script"
+    },
+    {
+      "handlerName" : "on_inject_doseage",
+      "message" : "3.800",
+      "timestamp" : "2024-08-15 20:37:49.375 -0400",
+      "identifier" : "typetext",
+      "scriptName" : "Inject Doseage.script",
+      "handlerLine" : 5
+    },
+    {
+      "handlerName" : "on_inject_doseage",
+      "message" : "at (1544, 631)",
+      "identifier" : "click",
+      "image" : "Syringe\/Start Injection",
+      "handlerLine" : 6,
+      "timestamp" : "2024-08-15 20:37:50.361 -0400",
+      "scriptName" : "Inject Doseage.script"
+    },
+    {
+      "handlerName" : "on_inject_doseage",
+      "message" : "at (1553, 698)",
+      "identifier" : "click",
+      "image" : "Syringe\/Refill Injection",
+      "handlerLine" : 9,
+      "timestamp" : "2024-08-15 20:37:54.629 -0400",
+      "scriptName" : "Inject Doseage.script"
+    },
+    {
+      "handlerName" : "on_needle_5",
+      "message" : "SEARCHRECTANGLE = ",
+      "timestamp" : "2024-08-15 20:37:54.666 -0400",
+      "identifier" : "set",
+      "scriptName" : "Syringe.script",
+      "handlerLine" : 26
+    },
+    {
+      "handlerLine" : 27,
+      "handlerName" : "on_needle_5",
+      "timestamp" : "2024-08-15 20:37:54.847 -0400",
+      "identifier" : "capturescreen",
+      "image" : "Status of Needle #5's Injection.png",
+      "scriptName" : "Syringe.script"
+    },
+    {
+      "handlerName" : "on_needle_6",
+      "message" : "SEARCHRECTANGLE = [\"Syringe\/6\/rect_A\",\"Syringe\/6\/rect_B\"]",
+      "timestamp" : "2024-08-15 20:37:55.679 -0400",
+      "identifier" : "set",
+      "scriptName" : "Syringe.script",
+      "handlerLine" : 2
+    },
+    {
+      "handlerName" : "on_needle_6",
+      "message" : "(202,794,406,859)",
+      "timestamp" : "2024-08-15 20:37:56.094 -0400",
+      "identifier" : "readtext",
+      "scriptName" : "Syringe.script",
+      "handlerLine" : 3
+    },
+    {
+      "handlerName" : "on_needle_6",
+      "message" : "(1648,744,1906,853)",
+      "timestamp" : "2024-08-15 20:37:56.420 -0400",
+      "identifier" : "readtext",
+      "scriptName" : "Syringe.script",
+      "handlerLine" : 14
+    },
+    {
+      "handlerName" : "on_inject_doseage",
+      "message" : "at (1721, 767)",
+      "identifier" : "click",
+      "image" : "Syringe\/field_Dose",
+      "handlerLine" : 4,
+      "timestamp" : "2024-08-15 20:37:56.666 -0400",
+      "scriptName" : "Inject Doseage.script"
+    },
+    {
+      "handlerName" : "on_inject_doseage",
+      "message" : "8.000",
+      "timestamp" : "2024-08-15 20:37:57.428 -0400",
+      "identifier" : "typetext",
+      "scriptName" : "Inject Doseage.script",
+      "handlerLine" : 5
+    },
+    {
+      "handlerName" : "on_inject_doseage",
+      "message" : "at (1544, 775)",
+      "identifier" : "click",
+      "image" : "Syringe\/Start Injection",
+      "handlerLine" : 6,
+      "timestamp" : "2024-08-15 20:37:58.402 -0400",
+      "scriptName" : "Inject Doseage.script"
+    },
+    {
+      "handlerName" : "on_needle_6",
+      "message" : "SEARCHRECTANGLE = ",
+      "timestamp" : "2024-08-15 20:38:02.444 -0400",
+      "identifier" : "set",
+      "scriptName" : "Syringe.script",
+      "handlerLine" : 26
+    },
+    {
+      "handlerLine" : 27,
+      "handlerName" : "on_needle_6",
+      "timestamp" : "2024-08-15 20:38:02.615 -0400",
+      "identifier" : "capturescreen",
+      "image" : "Status of Needle #6's Injection.png",
+      "scriptName" : "Syringe.script"
+    },
+    {
+      "handlerName" : "on_needle_7",
+      "message" : "SEARCHRECTANGLE = [\"Syringe\/7\/rect_A\",\"Syringe\/7\/rect_B\"]",
+      "timestamp" : "2024-08-15 20:38:03.022 -0400",
+      "identifier" : "set",
+      "scriptName" : "Syringe.script",
+      "handlerLine" : 2
+    },
+    {
+      "handlerName" : "on_needle_7",
+      "message" : "(202,938,406,1003)",
+      "timestamp" : "2024-08-15 20:38:03.438 -0400",
+      "identifier" : "readtext",
+      "scriptName" : "Syringe.script",
+      "handlerLine" : 3
+    },
+    {
+      "handlerName" : "on_needle_7",
+      "message" : "(1648,888,1906,997)",
+      "timestamp" : "2024-08-15 20:38:03.774 -0400",
+      "identifier" : "readtext",
+      "scriptName" : "Syringe.script",
+      "handlerLine" : 14
+    },
+    {
+      "handlerName" : "on_inject_doseage",
+      "message" : "at (1721, 911)",
+      "identifier" : "click",
+      "image" : "Syringe\/field_Dose",
+      "handlerLine" : 4,
+      "timestamp" : "2024-08-15 20:38:04.038 -0400",
+      "scriptName" : "Inject Doseage.script"
+    },
+    {
+      "handlerName" : "on_inject_doseage",
+      "message" : "3.000",
+      "timestamp" : "2024-08-15 20:38:04.799 -0400",
+      "identifier" : "typetext",
+      "scriptName" : "Inject Doseage.script",
+      "handlerLine" : 5
+    },
+    {
+      "handlerName" : "on_inject_doseage",
+      "message" : "at (1544, 919)",
+      "identifier" : "click",
+      "image" : "Syringe\/Start Injection",
+      "handlerLine" : 6,
+      "timestamp" : "2024-08-15 20:38:05.758 -0400",
+      "scriptName" : "Inject Doseage.script"
+    },
+    {
+      "handlerName" : "on_needle_7",
+      "message" : "SEARCHRECTANGLE = ",
+      "timestamp" : "2024-08-15 20:38:09.798 -0400",
+      "identifier" : "set",
+      "scriptName" : "Syringe.script",
+      "handlerLine" : 26
+    },
+    {
+      "handlerLine" : 27,
+      "handlerName" : "on_needle_7",
+      "timestamp" : "2024-08-15 20:38:09.974 -0400",
+      "identifier" : "capturescreen",
+      "image" : "Status of Needle #7's Injection.png",
+      "scriptName" : "Syringe.script"
+    },
+    {
+      "identifier" : "EndTestCase",
+      "message" : "(Duration:\"84.197432\", Errors:\"1\", Exceptions:\"0\", StartTime:\"2024-08-15 20:36:49 -0400\", Successes:\"0\", TestCase:\"_Master.script\", Warnings:\"0\")",
+      "timestamp" : "2024-08-15 20:38:13.252 -0400"
+    },
+    {
+      "identifier" : "ABORTED",
+      "message" : "Execution Time 0:01:24 _Master.script",
+      "timestamp" : "2024-08-15 20:38:13.255 -0400"
+    }
+  ],
+  "createdTimestamp" : "2024-08-15 20:36:49.054 -0400"
+}

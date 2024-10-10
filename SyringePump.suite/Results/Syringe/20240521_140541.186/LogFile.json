@@ -1,0 +1,60 @@
+{
+  "entries" : [
+    {
+      "identifier" : "START",
+      "message" : "Running Syringe.script",
+      "timestamp" : "2024-05-21 14:05:41.190 -0400"
+    },
+    {
+      "handlerName" : "on_syringe",
+      "message" : "SEARCHRECTANGLE = [\"Syringe\/1\/Area\/rect_A\",\"Syringe\/1\/Area\/rect_B\"]",
+      "timestamp" : "2024-05-21 14:05:45.981 -0400",
+      "identifier" : "set",
+      "scriptName" : "Syringe.script",
+      "handlerLine" : 1
+    },
+    {
+      "handlerName" : "on_syringe",
+      "message" : "(203,75,405,143)",
+      "timestamp" : "2024-05-21 14:05:47.545 -0400",
+      "identifier" : "readtext",
+      "scriptName" : "Syringe.script",
+      "handlerLine" : 2
+    },
+    {
+      "handlerName" : "on_syringe",
+      "message" : "(1652,28,1906,133)",
+      "timestamp" : "2024-05-21 14:05:51.419 -0400",
+      "identifier" : "readtext",
+      "scriptName" : "Syringe.script",
+      "handlerLine" : 14
+    },
+    {
+      "handlerName" : "on_syringe",
+      "message" : "4. 000\\tDose [ml]\\n1.000\\tInfusion Rate [ml\/s]\\n10.000\\tCurrent Volume\\t[ml]\\n0.000\\tRemaining Dose\\t[ml]",
+      "timestamp" : "2024-05-21 14:05:59.520 -0400",
+      "identifier" : "Log",
+      "scriptName" : "Syringe.script",
+      "handlerLine" : 1
+    },
+    {
+      "handlerName" : "on_syringe",
+      "message" : "4. 000\\nDose [ml]\\n1.000\\nInfusion Rate [ml\/s]\\n10.000\\nCurrent Volume\\n[ml]\\n0.000\\nRemaining Dose\\n[ml]",
+      "timestamp" : "2024-05-21 14:06:17.472 -0400",
+      "identifier" : "Log",
+      "scriptName" : "Syringe.script",
+      "handlerLine" : 1
+    },
+    {
+      "identifier" : "EndTestCase",
+      "message" : "(Duration:\"50.079313\", Errors:\"1\", Exceptions:\"0\", StartTime:\"2024-05-21 14:05:41 -0400\", Successes:\"0\", TestCase:\"Syringe.script\", Warnings:\"0\")",
+      "timestamp" : "2024-05-21 14:06:31.270 -0400"
+    },
+    {
+      "identifier" : "ABORTED",
+      "message" : "Execution Time 0:00:50 Syringe.script",
+      "timestamp" : "2024-05-21 14:06:31.272 -0400"
+    }
+  ],
+  "createdTimestamp" : "2024-05-21 14:05:41.190 -0400"
+}

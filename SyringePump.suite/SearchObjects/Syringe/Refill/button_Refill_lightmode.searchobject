@@ -1,0 +1,47 @@
+{
+	"originalcapturelocation": [
+		1461,
+		107,
+		181,
+		30
+	],
+	"lastmodifieddate": 1716398971.667186,
+	"createddate": 1716398971.667186,
+	"name": "Syringe/Refill/button_Refill_lightmode",
+	"lastfounddate": 1727107275.332,
+	"ocrcapturestring": "Ref i 1 1",
+	"lastfoundlocation": [
+		1461,
+		683,
+		181,
+		30
+	],
+	"testlocationdata": [
+		{
+				"connectionportnum": 5900,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[127,23]",
+					"Tolerance": "_29",
+					"Discrepancy": "_0",
+					"SearchType": "Smoothed for Text"
+				},
+				"sutinfo": {
+					"type": "Unknown VNC"
+				},
+				"name": "Syringe/Refill/button_Refill_lightmode.png",
+				"connectionname": "Syringe Pump Stack",
+				"type": 1,
+				"capturerect": [
+					1461,
+					107,
+					181,
+					30
+				],
+				"connectionserverid": "PWIN01-BARRJCKNJ",
+				"capturedocrtext": "Ref i 1 1"
+			}
+	]
+}

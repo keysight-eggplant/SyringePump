@@ -1,0 +1,45 @@
+{
+  "lastmodifieddate" : 1716582509.3621869,
+  "testlocationdata" : [
+    {
+      "name" : "area_Taskbar.png",
+      "sutinfo" : {
+        "type" : "Unknown VNC"
+      },
+      "connectionname" : "Syringe Pump Stack",
+      "connectionportnum" : 5900,
+      "properties" : {
+        "Rotate" : 0,
+        "Scale" : "    1",
+        "SearchType" : "Tolerant of Background",
+        "Discrepancy" : "_0",
+        "Tolerance" : "_45",
+        "HotSpot" : "[72,14]",
+        "CropRectangle" : "[0,0,0,0]"
+      },
+      "type" : 1,
+      "connectionserverid" : "PWIN01-BARRJCKNJ",
+      "capturerect" : [
+        610,
+        1045,
+        145,
+        28
+      ]
+    }
+  ],
+  "createddate" : 1716582048.7809339,
+  "lastfoundlocation" : [
+    610,
+    1045,
+    29,
+    28
+  ],
+  "originalcapturelocation" : [
+    610,
+    1045,
+    145,
+    28
+  ],
+  "lastfounddate" : 1716582861.8930459,
+  "name" : "area_Taskbar"
+}

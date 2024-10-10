@@ -1,0 +1,8 @@
+﻿2024-04-29 21:27:58.848 -0400	START		Running _Master.script
+2024-04-29 21:27:59.389 -0400	Connect		Syringe Pump Stack:(null)	1	on_connect_to_sut	Connect to SUT.script
+2024-04-29 21:27:59.841 -0400	moveto		at (1536, 864)	9	on_run_an_os_command	/Users/stevbarr/Keysight Sandbox/Suites/Helper Suites/[Run Command Helper Suite].suite/Scripts/Run an OS Command.script
+2024-04-29 21:28:00.573 -0400	typetext		[controlKey]W	13	on_run_an_os_command	/Users/stevbarr/Keysight Sandbox/Suites/Helper Suites/[Run Command Helper Suite].suite/Scripts/Run an OS Command.script
+2024-04-29 21:28:02.630 -0400	typetext		[windowsKey]r	17	on_run_an_os_command	/Users/stevbarr/Keysight Sandbox/Suites/Helper Suites/[Run Command Helper Suite].suite/Scripts/Run an OS Command.script
+2024-04-29 21:29:14.202 -0400	Exception	OS/Windows/Run Window	Unable To Find Any Image On Screen "OS/Windows/Run Window" within 8.00 seconds	18	on_run_an_os_command	/Users/stevbarr/Keysight Sandbox/Suites/Helper Suites/[Run Command Helper Suite].suite/Scripts/Run an OS Command.script
+2024-04-29 21:29:14.328 -0400	EndTestCase		(Duration:"75.478963", Errors:"1", Exceptions:"1", StartTime:"2024-04-29 21:27:58 -0400", Successes:"0", TestCase:"_Master.script", Warnings:"0")
+2024-04-29 21:29:14.331 -0400	ABORTED		Execution Time 0:01:15 _Master.script

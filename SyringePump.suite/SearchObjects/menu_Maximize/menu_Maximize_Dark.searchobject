@@ -1,0 +1,48 @@
+{
+	"originalcapturelocation": [
+		240,
+		232,
+		110,
+		35
+	],
+	"lastmodifieddate": 1727375534.214,
+	"createddate": 1727375055.2620001,
+	"name": "menu_Maximize/menu_Maximize_Dark",
+	"lastfounddate": 1727380941.0700002,
+	"ocrcapturestring": "O Syringe Pump",
+	"lastfoundlocation": [
+		38,
+		30,
+		102,
+		22
+	],
+	"testlocationdata": [
+		{
+				"connectionportnum": 50594,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[35,9]",
+					"Tolerance": "_72",
+					"Discrepancy": "_0",
+					"SearchType": "Smoothed for Text"
+				},
+				"sutinfo": {
+					"type": "Unknown VNC"
+				},
+				"name": "window_SyringePumpStack/window_SyringePumpStack_Dark.png",
+				"connectionname": "Single System",
+				"type": 1,
+				"connectionserverid": "127.0.0.1",
+				"capturerect": [
+					240,
+					232,
+					110,
+					35
+				],
+				"connectiontype": "Single System",
+				"capturedocrtext": "O Syringe Pump"
+			}
+	]
+}

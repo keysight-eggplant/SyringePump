@@ -1,0 +1,47 @@
+{
+  "lastmodifieddate" : 1716581854.588665,
+  "ocrcapturestring" : "■M ■■",
+  "testlocationdata" : [
+    {
+      "name" : "button_Windows_Start.png",
+      "sutinfo" : {
+        "type" : "Unknown VNC"
+      },
+      "connectionname" : "Syringe Pump Stack",
+      "connectionportnum" : 5900,
+      "capturedocrtext" : "■M ■■",
+      "properties" : {
+        "Rotate" : 0,
+        "Scale" : "    1",
+        "SearchType" : "Tolerant of Background",
+        "Discrepancy" : "_0",
+        "Tolerance" : "_45",
+        "HotSpot" : "[10,9]",
+        "CropRectangle" : "[0,0,0,0]"
+      },
+      "type" : 1,
+      "connectionserverid" : "PWIN01-BARRJCKNJ",
+      "capturerect" : [
+        14,
+        1049,
+        22,
+        22
+      ]
+    }
+  ],
+  "createddate" : 1716581854.5886641,
+  "lastfoundlocation" : [
+    14,
+    1049,
+    22,
+    22
+  ],
+  "originalcapturelocation" : [
+    14,
+    1049,
+    22,
+    22
+  ],
+  "lastfounddate" : 1716582861.341907,
+  "name" : "button_Windows_Start"
+}

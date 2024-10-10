@@ -1,0 +1,19 @@
+﻿params mySyringeNumber
+
+If mySyringeNumber is empty then
+	Ask "What syringe number do you want to activate?" with "1" title "Syringe Number"
+	Put IT into mySyringeNumber
+	
+End If
+
+put readtext(195,25,416,1016)
+
+Repeat 7 times
+	Click "Syringe/Start Injection/button_StartInjection_darkmode"
+End repeat
+
+
+
+
+
+put ImageRectangle(text:"Syringe"&&mySyringeNumber, waitFor:1, SearchRectangle: (195,25,416,1016), validWords:yes)

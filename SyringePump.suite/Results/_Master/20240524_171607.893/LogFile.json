@@ -1,0 +1,79 @@
+{
+  "entries" : [
+    {
+      "identifier" : "START",
+      "message" : "Running _Master.script",
+      "timestamp" : "2024-05-24 17:16:07.895 -0400"
+    },
+    {
+      "handlerName" : "on_connect_to_sut",
+      "message" : "Syringe Pump Stack:(null)",
+      "timestamp" : "2024-05-24 17:16:08.176 -0400",
+      "identifier" : "Connect",
+      "scriptName" : "Connect to SUT.script",
+      "handlerLine" : 1
+    },
+    {
+      "handlerName" : "on__master",
+      "message" : "\/Users\/stevbarr\/Keysight Sandbox\/Suites\/Syringe_Pump.suite\/Results\/_Master\/20240524_171607.893\/Syringe Pump.mp4",
+      "timestamp" : "2024-05-24 17:16:08.284 -0400",
+      "identifier" : "startmovie",
+      "scriptName" : "_Master.script",
+      "handlerLine" : 5
+    },
+    {
+      "handlerName" : "on_launch_pump",
+      "message" : "Unable to Find Image button_Windows_Start",
+      "identifier" : "imagefound",
+      "image" : "button_Windows_Start",
+      "handlerLine" : 1,
+      "timestamp" : "2024-05-24 17:16:13.087 -0400",
+      "scriptName" : "Launch Pump.script"
+    },
+    {
+      "handlerName" : "on_launch_pump",
+      "message" : "found at (8, 10)",
+      "identifier" : "imagefound",
+      "image" : "window_SyringePumpStack",
+      "handlerLine" : 11,
+      "timestamp" : "2024-05-24 17:16:14.098 -0400",
+      "scriptName" : "Launch Pump.script"
+    },
+    {
+      "handlerLine" : 23,
+      "handlerName" : "on_launch_pump",
+      "timestamp" : "2024-05-24 17:16:15.625 -0400",
+      "identifier" : "capturescreen",
+      "image" : "Initial state of Syringe Pump.png",
+      "scriptName" : "Launch Pump.script"
+    },
+    {
+      "handlerName" : "on_syringe2",
+      "message" : "SEARCHRECTANGLE = [\"Syringe\/1\/rect_A\",\"Syringe\/1\/rect_B\"]",
+      "timestamp" : "2024-05-24 17:16:22.304 -0400",
+      "identifier" : "set",
+      "scriptName" : "Syringe2.script",
+      "handlerLine" : 3
+    },
+    {
+      "handlerName" : "on_syringe2",
+      "message" : "(202,74,406,139)",
+      "timestamp" : "2024-05-24 17:16:26.037 -0400",
+      "identifier" : "readtext",
+      "scriptName" : "Syringe2.script",
+      "handlerLine" : 4
+    },
+    {
+      "identifier" : "EndTestCase",
+      "message" : "(Duration:\"27.000202\", Errors:\"1\", Exceptions:\"0\", StartTime:\"2024-05-24 17:16:07 -0400\", Successes:\"0\", TestCase:\"_Master.script\", Warnings:\"0\")",
+      "timestamp" : "2024-05-24 17:16:34.897 -0400"
+    },
+    {
+      "message" : "InvalidCommandOrRange: Not a valid command, or else incorrect types given for a range (must be numbers, date\/times, or single characters -- got \"1\" TO \"{Concentration:\"0...\") -- Execution Time 0:00:27 _Master.script",
+      "timestamp" : "2024-05-24 17:16:35.502 -0400",
+      "identifier" : "FAILURE",
+      "image" : "Screen_Error.png"
+    }
+  ],
+  "createdTimestamp" : "2024-05-24 17:16:07.896 -0400"
+}

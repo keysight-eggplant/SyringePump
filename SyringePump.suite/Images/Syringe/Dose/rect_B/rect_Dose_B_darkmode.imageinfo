@@ -1,0 +1,19 @@
+﻿{
+    CaptureDate = "2024-05-21 17:37:32 +0000";
+    CaptureHost = "Syringe Pump Stack";
+    CaptureScreenSize = (
+        1920,
+        1080);
+    HasAlpha = 1;
+    HotSpotX = 165;
+    HotSpotY = 26;
+    LastKnownLocationX = 0;
+    LastKnownLocationY = 0;
+    OriginalLocationX = 1741;
+    OriginalLocationY = 107;
+    Precise = 0;
+    Pulsing = 0;
+    Scale = 1;
+    SearchAlgorithm = "TextSmoothSquare";
+    tags = ();
+}

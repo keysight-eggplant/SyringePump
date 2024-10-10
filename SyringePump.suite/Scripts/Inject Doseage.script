@@ -1,0 +1,11 @@
+﻿Params parmSyringeNumber
+
+Repeat for each item of global varData whose "Syringe Number" is parmSyringeNumber
+	Click "Syringe/field_Dose"
+	TypeText it's Dose
+	Click "Syringe/Start Injection"
+	Wait 4
+	If it's Refill is "Y"
+		Click "Syringe/Refill Injection"
+	End If
+End Repeat

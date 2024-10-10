@@ -1,0 +1,5 @@
+﻿2024-05-21 08:31:16.389 -0400	START		Running Syringe.script
+2024-05-21 08:31:21.490 -0400	set		SEARCHRECTANGLE = ["Syringe/1/rect_A","Syringe/1/rect_B"]	1	on_syringe	Syringe.script
+2024-05-21 08:31:29.651 -0400	readtext		(198,28,1911,153)	2	on_syringe	Syringe.script
+2024-05-21 08:38:05.614 -0400	EndTestCase		(Duration:"409.223404", Errors:"1", Exceptions:"0", StartTime:"2024-05-21 08:31:16 -0400", Successes:"0", TestCase:"Syringe.script", Warnings:"0")
+2024-05-21 08:38:05.615 -0400	ABORTED		Execution Time 0:06:49 Syringe.script

@@ -1,0 +1,28 @@
+{
+	"entries": [
+		{
+				"message": "Running _Master.script",
+				"identifier": "START",
+				"timestamp": "2024-10-10 14:05:21.089 -0400"
+			},
+		{
+				"handlerName": "on_connect_to_sut",
+				"timestamp": "2024-10-10 14:05:28.717 -0400",
+				"message": "NewSingleSystem:(null)",
+				"scriptName": "Connect to SUT.script",
+				"handlerLine": 4,
+				"identifier": "Connect"
+			},
+		{
+				"message": "(Duration:\"8.755\", Errors:\"1\", Exceptions:\"0\", StartTime:\"2024-10-10 14:05:21 -0400\", Successes:\"0\", TestCase:\"_Master.script\", Warnings:\"0\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2024-10-10 14:05:29.860 -0400"
+			},
+		{
+				"message": "Execution Time 0:00:08 _Master.script",
+				"identifier": "ABORTED",
+				"timestamp": "2024-10-10 14:05:29.872 -0400"
+			}
+	],
+	"createdTimestamp": "2024-10-10 14:05:21.092 -0400"
+}

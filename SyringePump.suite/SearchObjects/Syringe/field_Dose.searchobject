@@ -1,0 +1,47 @@
+{
+	"originalcapturelocation": [
+		1741,
+		42,
+		81,
+		17
+	],
+	"lastmodifieddate": 1716311368.838284,
+	"createddate": 1716311269.3867059,
+	"name": "Syringe/field_Dose",
+	"lastfounddate": 1727107287.8839998,
+	"ocrcapturestring": "Dose [ml]",
+	"lastfoundlocation": [
+		1741,
+		906,
+		81,
+		17
+	],
+	"testlocationdata": [
+		{
+				"connectionportnum": 5900,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[-20,5]",
+					"Tolerance": "_69",
+					"Discrepancy": "_0",
+					"SearchType": "Smoothed for Text"
+				},
+				"sutinfo": {
+					"type": "Unknown VNC"
+				},
+				"name": "Syringe/field_Dose/field_Dose_lightmode.png",
+				"connectionname": "Syringe Pump Stack",
+				"type": 1,
+				"capturerect": [
+					1741,
+					42,
+					81,
+					17
+				],
+				"connectionserverid": "PWIN01-BARRJCKNJ",
+				"capturedocrtext": "Dose [ml]"
+			}
+	]
+}

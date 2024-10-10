@@ -1,0 +1,12 @@
+﻿2024-05-24 17:17:46.549 -0400	START		Running _Master.script
+2024-05-24 17:17:46.842 -0400	Connect		Syringe Pump Stack:(null)	1	on_connect_to_sut	Connect to SUT.script
+2024-05-24 17:17:46.948 -0400	startmovie		/Users/stevbarr/Keysight Sandbox/Suites/Syringe_Pump.suite/Results/_Master/20240524_171746.546/Syringe Pump.mp4	5	on__master	_Master.script
+2024-05-24 17:17:51.719 -0400	imagefound	button_Windows_Start	Unable to Find Image button_Windows_Start	1	on_launch_pump	Launch Pump.script
+2024-05-24 17:17:52.720 -0400	imagefound	window_SyringePumpStack	found at (8, 10)	11	on_launch_pump	Launch Pump.script
+2024-05-24 17:17:54.296 -0400	capturescreen	Initial state of Syringe Pump.png		23	on_launch_pump	Launch Pump.script
+2024-05-24 17:17:58.947 -0400	set		SEARCHRECTANGLE = ["Syringe/1/rect_A","Syringe/1/rect_B"]	3	on_syringe2	Syringe2.script
+2024-05-24 17:18:02.947 -0400	readtext		(202,74,406,139)	4	on_syringe2	Syringe2.script
+2024-05-24 17:18:24.613 -0400	Log			1	on_syringe2	Syringe2.script
+2024-05-24 17:18:35.695 -0400	Log		thisthat	1	on_syringe2	Syringe2.script
+2024-05-24 17:20:13.521 -0400	EndTestCase		(Duration:"146.97079", Errors:"1", Exceptions:"0", StartTime:"2024-05-24 17:17:46 -0400", Successes:"0", TestCase:"_Master.script", Warnings:"0")
+2024-05-24 17:20:13.523 -0400	ABORTED		Execution Time 0:02:26 _Master.script

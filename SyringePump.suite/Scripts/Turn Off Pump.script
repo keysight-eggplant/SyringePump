@@ -1,0 +1,10 @@
+﻿Click (Image:"window_SyringePumpStack", WaitFor:3)
+Click "menu_Minimize"
+Wait 1
+
+If ImageFound("window_SyringePumpStack")
+	Click "window_SyringePumpStack"
+	Click "menu_Close"
+Else
+	Click "window_MQTT"
+End If

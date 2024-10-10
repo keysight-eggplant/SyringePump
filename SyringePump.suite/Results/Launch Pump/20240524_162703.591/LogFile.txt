@@ -1,0 +1,6 @@
+﻿2024-05-24 16:27:03.593 -0400	START		Running Launch Pump.script
+2024-05-24 16:27:08.421 -0400	imagefound	button_Windows_Start	Unable to Find Image button_Windows_Start	1	on_launch_pump	Launch Pump.script
+2024-05-24 16:27:08.917 -0400	imagefound	window_SyringePumpStack	found at (8, 10)	11	on_launch_pump	Launch Pump.script
+2024-05-24 16:27:10.456 -0400	capturescreen	Initial state of Syringe Pump.png		23	on_launch_pump	Launch Pump.script
+2024-05-24 16:27:10.478 -0400	EndTestCase		(Duration:"6.883362", Errors:"0", Exceptions:"0", StartTime:"2024-05-24 16:27:03 -0400", Successes:"1", TestCase:"Launch Pump.script", Warnings:"0")
+2024-05-24 16:27:10.486 -0400	SUCCESS		Execution Time 0:00:06 Launch Pump.script

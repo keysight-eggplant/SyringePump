@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+ <testsuite name="Turn Off Pump_script" package="Syringe_Pump.suite" timestamp="2024-09-26 16:02:13.717 -0400"
+ tests="1"  failures="0" errors="0" time="8.959000">
+  <properties>
+   <property name="RunDate" value="2024-09-26 16:02:13.717 -0400"/>
+   <property name="Status" value="Success"/>
+  </properties>
+  <testcase name="Turn Off Pump.script" assertions="1" status="success"  time="8.951">
+  </testcase>
+ </testsuite>
+</testsuites>

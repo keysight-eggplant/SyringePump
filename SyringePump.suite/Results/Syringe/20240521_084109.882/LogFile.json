@@ -1,0 +1,36 @@
+{
+  "entries" : [
+    {
+      "identifier" : "START",
+      "message" : "Running Syringe.script",
+      "timestamp" : "2024-05-21 08:41:09.884 -0400"
+    },
+    {
+      "handlerName" : "on_syringe",
+      "message" : "SEARCHRECTANGLE = [\"Syringe\/1\/rect_A\",\"Syringe\/1\/rect_B\"]",
+      "timestamp" : "2024-05-21 08:41:15.083 -0400",
+      "identifier" : "set",
+      "scriptName" : "Syringe.script",
+      "handlerLine" : 1
+    },
+    {
+      "handlerName" : "on_syringe",
+      "message" : "(198,28,1911,153)",
+      "timestamp" : "2024-05-21 08:41:18.740 -0400",
+      "identifier" : "readtext",
+      "scriptName" : "Syringe.script",
+      "handlerLine" : 2
+    },
+    {
+      "identifier" : "EndTestCase",
+      "message" : "(Duration:\"64.991139\", Errors:\"1\", Exceptions:\"0\", StartTime:\"2024-05-21 08:41:09 -0400\", Successes:\"0\", TestCase:\"Syringe.script\", Warnings:\"0\")",
+      "timestamp" : "2024-05-21 08:42:14.877 -0400"
+    },
+    {
+      "identifier" : "ABORTED",
+      "message" : "Execution Time 0:01:04 Syringe.script",
+      "timestamp" : "2024-05-21 08:42:14.878 -0400"
+    }
+  ],
+  "createdTimestamp" : "2024-05-21 08:41:09.885 -0400"
+}

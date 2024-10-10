@@ -1,0 +1,48 @@
+{
+	"originalcapturelocation": [
+		82,
+		84,
+		248,
+		38
+	],
+	"lastmodifieddate": 1727381626.9790001,
+	"createddate": 1727380534.1399999,
+	"name": "menu_Close/close",
+	"lastfounddate": 1727816596.569,
+	"ocrcapturestring": "C:\\ C:\\Program Files\\Syringe Purr X",
+	"lastfoundlocation": [
+		238,
+		240,
+		248,
+		38
+	],
+	"testlocationdata": [
+		{
+				"connectionportnum": 50594,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[223,13]",
+					"Tolerance": "_72",
+					"Discrepancy": "_0",
+					"SearchType": "Smoothed for Text"
+				},
+				"sutinfo": {
+					"type": "Unknown VNC"
+				},
+				"name": "window_MQTT.png",
+				"connectionname": "Single System",
+				"type": 1,
+				"connectionserverid": "127.0.0.1",
+				"capturerect": [
+					82,
+					84,
+					248,
+					38
+				],
+				"connectiontype": "Single System",
+				"capturedocrtext": "C:\\ C:\\Program Files\\Syringe Purr X"
+			}
+	]
+}

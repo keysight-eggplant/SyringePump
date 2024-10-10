@@ -1,0 +1,5 @@
+﻿2024-05-22 13:26:14.972 -0400	START		Running Change Dose.script
+2024-05-22 13:26:16.234 -0400	click	Syringe/field_Dose	at (1721, 47)	2	on_change_dose	Change Dose.script
+2024-05-22 13:26:17.007 -0400	typetext		2.000	3	on_change_dose	Change Dose.script
+2024-05-22 13:26:17.021 -0400	EndTestCase		(Duration:"2.047794", Errors:"0", Exceptions:"0", StartTime:"2024-05-22 13:26:14 -0400", Successes:"1", TestCase:"Change Dose.script", Warnings:"0")
+2024-05-22 13:26:17.037 -0400	SUCCESS		Execution Time 0:00:02 Change Dose.script

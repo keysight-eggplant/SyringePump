@@ -1,0 +1,80 @@
+﻿2024-05-24 10:23:00.189 -0400	START		Running _Master.script
+2024-05-24 10:23:00.493 -0400	Connect		Syringe Pump Stack:(null)	1	on_connect_to_sut	Connect to SUT.script
+2024-05-24 10:23:00.707 -0400	startmovie		/Users/stevbarr/Keysight Sandbox/Suites/Syringe_Pump.suite/Results/_Master/20240524_102300.186/Syringe Pump.mp4	5	on__master	_Master.script
+2024-05-24 10:23:00.798 -0400	moveto		at (1536, 864)	9	on_run_an_os_command	/Users/stevbarr/Keysight Sandbox/Suites/Helper Suites/[Run Command Helper Suite].suite/Scripts/Run an OS Command.script
+2024-05-24 10:23:01.531 -0400	typetext		[controlKey]W	13	on_run_an_os_command	/Users/stevbarr/Keysight Sandbox/Suites/Helper Suites/[Run Command Helper Suite].suite/Scripts/Run an OS Command.script
+2024-05-24 10:23:03.571 -0400	typetext		[windowsKey]r	17	on_run_an_os_command	/Users/stevbarr/Keysight Sandbox/Suites/Helper Suites/[Run Command Helper Suite].suite/Scripts/Run an OS Command.script
+2024-05-24 10:23:04.307 -0400	waitfor	OS/Windows/Run Window	found at (37, 841)	18	on_run_an_os_command	/Users/stevbarr/Keysight Sandbox/Suites/Helper Suites/[Run Command Helper Suite].suite/Scripts/Run an OS Command.script
+2024-05-24 10:23:04.331 -0400	typetext		[backspace]	19	on_run_an_os_command	/Users/stevbarr/Keysight Sandbox/Suites/Helper Suites/[Run Command Helper Suite].suite/Scripts/Run an OS Command.script
+2024-05-24 10:23:06.792 -0400	typetext		C:\Syringe Pump\syringe_pump.exe[returnKey]	22	on_run_an_os_command	/Users/stevbarr/Keysight Sandbox/Suites/Helper Suites/[Run Command Helper Suite].suite/Scripts/Run an OS Command.script
+2024-05-24 10:23:11.847 -0400	typetext		[windowsAltKey] 	26	on_run_an_os_command	/Users/stevbarr/Keysight Sandbox/Suites/Helper Suites/[Run Command Helper Suite].suite/Scripts/Run an OS Command.script
+2024-05-24 10:23:16.475 -0400	imagefound	OS/Windows/System Menu/Maximize	Unable to Find Image OS/Windows/System Menu/Maximize	27	on_run_an_os_command	/Users/stevbarr/Keysight Sandbox/Suites/Helper Suites/[Run Command Helper Suite].suite/Scripts/Run an OS Command.script
+2024-05-24 10:23:16.497 -0400	typetext		[escape]	31	on_run_an_os_command	/Users/stevbarr/Keysight Sandbox/Suites/Helper Suites/[Run Command Helper Suite].suite/Scripts/Run an OS Command.script
+2024-05-24 10:23:17.548 -0400	moveto		at (1536, 864)	88	on_run_an_os_command	/Users/stevbarr/Keysight Sandbox/Suites/Helper Suites/[Run Command Helper Suite].suite/Scripts/Run an OS Command.script
+2024-05-24 10:23:18.857 -0400	click	window_SyringePumpStack	at (256, 248)	5	on_launch_pump	Launch Pump.script
+2024-05-24 10:23:20.120 -0400	click	menu_Maximize	at (289, 365)	6	on_launch_pump	Launch Pump.script
+2024-05-24 10:23:21.219 -0400	imagefound	Syringe/checkbox_DarkMode_false	found at (16, 519)	7	on_launch_pump	Launch Pump.script
+2024-05-24 10:23:21.883 -0400	click	Syringe/checkbox_DarkMode_false	at (16, 519)	8	on_launch_pump	Launch Pump.script
+2024-05-24 10:23:23.501 -0400	capturescreen	Initial state of Syringe Pump.png		11	on_launch_pump	Launch Pump.script
+2024-05-24 10:23:25.150 -0400	set		SEARCHRECTANGLE = ["Syringe/1/Area/rect_A","Syringe/1/Area/rect_B"]	2	on_needle_1	Syringe.script
+2024-05-24 10:23:29.857 -0400	readtext		(203,75,405,143)	3	on_needle_1	Syringe.script
+2024-05-24 10:23:32.191 -0400	readtext		(1652,28,1906,133)	14	on_needle_1	Syringe.script
+2024-05-24 10:23:33.440 -0400	click	Syringe/field_Dose	at (1721, 47)	25	on_needle_1	Syringe.script
+2024-05-24 10:23:34.214 -0400	typetext		1.000	26	on_needle_1	Syringe.script
+2024-05-24 10:23:35.547 -0400	click	Syringe/Start Injection	at (1544, 55)	27	on_needle_1	Syringe.script
+2024-05-24 10:23:39.588 -0400	set		SEARCHRECTANGLE = 	34	on_needle_1	Syringe.script
+2024-05-24 10:23:40.194 -0400	capturescreen	Status of Needle #1's Injection.png		35	on_needle_1	Syringe.script
+2024-05-24 10:23:41.348 -0400	set		SEARCHRECTANGLE = ["Syringe/2/rect_A","Syringe/2/rect_B"]	2	on_needle_2	Syringe.script
+2024-05-24 10:23:43.096 -0400	readtext		(203,220,405,288)	3	on_needle_2	Syringe.script
+2024-05-24 10:23:45.452 -0400	readtext		(1652,173,1906,278)	14	on_needle_2	Syringe.script
+2024-05-24 10:23:46.665 -0400	click	Syringe/field_Dose	at (1721, 192)	25	on_needle_2	Syringe.script
+2024-05-24 10:23:47.435 -0400	typetext		3.500	26	on_needle_2	Syringe.script
+2024-05-24 10:23:48.734 -0400	click	Syringe/Start Injection	at (1544, 200)	27	on_needle_2	Syringe.script
+2024-05-24 10:23:53.379 -0400	click	Syringe/Refill Injection	at (1553, 268)	30	on_needle_2	Syringe.script
+2024-05-24 10:23:53.399 -0400	set		SEARCHRECTANGLE = 	34	on_needle_2	Syringe.script
+2024-05-24 10:23:53.591 -0400	capturescreen	Status of Needle #2's Injection.png		35	on_needle_2	Syringe.script
+2024-05-24 10:23:55.071 -0400	set		SEARCHRECTANGLE = ["Syringe/3/rect_A","Syringe/3/rect_B"]	2	on_needle_3	Syringe.script
+2024-05-24 10:23:56.746 -0400	readtext		(203,365,405,433)	3	on_needle_3	Syringe.script
+2024-05-24 10:23:58.854 -0400	readtext		(1652,318,1906,423)	14	on_needle_3	Syringe.script
+2024-05-24 10:23:59.974 -0400	click	Syringe/field_Dose	at (1721, 337)	25	on_needle_3	Syringe.script
+2024-05-24 10:24:00.747 -0400	typetext		6.500	26	on_needle_3	Syringe.script
+2024-05-24 10:24:02.030 -0400	click	Syringe/Start Injection	at (1544, 345)	27	on_needle_3	Syringe.script
+2024-05-24 10:24:06.071 -0400	set		SEARCHRECTANGLE = 	34	on_needle_3	Syringe.script
+2024-05-24 10:24:06.345 -0400	capturescreen	Status of Needle #3's Injection.png		35	on_needle_3	Syringe.script
+2024-05-24 10:24:06.912 -0400	set		SEARCHRECTANGLE = ["Syringe/4/rect_A","Syringe/4/rect_B"]	2	on_needle_4	Syringe.script
+2024-05-24 10:24:07.556 -0400	readtext		(203,510,405,578)	3	on_needle_4	Syringe.script
+2024-05-24 10:24:08.407 -0400	readtext		(1652,463,1906,568)	14	on_needle_4	Syringe.script
+2024-05-24 10:24:08.926 -0400	click	Syringe/field_Dose	at (1721, 482)	25	on_needle_4	Syringe.script
+2024-05-24 10:24:09.698 -0400	typetext		2.500	26	on_needle_4	Syringe.script
+2024-05-24 10:24:10.990 -0400	click	Syringe/Start Injection	at (1544, 490)	27	on_needle_4	Syringe.script
+2024-05-24 10:24:15.603 -0400	click	Syringe/Refill Injection	at (1553, 558)	30	on_needle_4	Syringe.script
+2024-05-24 10:24:15.621 -0400	set		SEARCHRECTANGLE = 	34	on_needle_4	Syringe.script
+2024-05-24 10:24:15.812 -0400	capturescreen	Status of Needle #4's Injection.png		35	on_needle_4	Syringe.script
+2024-05-24 10:24:17.429 -0400	set		SEARCHRECTANGLE = ["Syringe/5/rect_A","Syringe/5/rect_B"]	2	on_needle_5	Syringe.script
+2024-05-24 10:24:19.174 -0400	readtext		(203,656,405,724)	3	on_needle_5	Syringe.script
+2024-05-24 10:24:21.495 -0400	readtext		(1652,609,1906,714)	14	on_needle_5	Syringe.script
+2024-05-24 10:24:22.725 -0400	click	Syringe/field_Dose	at (1721, 628)	25	on_needle_5	Syringe.script
+2024-05-24 10:24:23.498 -0400	typetext		3.800	26	on_needle_5	Syringe.script
+2024-05-24 10:24:24.792 -0400	click	Syringe/Start Injection	at (1544, 636)	27	on_needle_5	Syringe.script
+2024-05-24 10:24:29.443 -0400	click	Syringe/Refill Injection	at (1553, 704)	30	on_needle_5	Syringe.script
+2024-05-24 10:24:29.461 -0400	set		SEARCHRECTANGLE = 	34	on_needle_5	Syringe.script
+2024-05-24 10:24:29.654 -0400	capturescreen	Status of Needle #5's Injection.png		35	on_needle_5	Syringe.script
+2024-05-24 10:24:31.712 -0400	set		SEARCHRECTANGLE = ["Syringe/6/rect_A","Syringe/6/rect_B"]	2	on_needle_6	Syringe.script
+2024-05-24 10:24:33.453 -0400	readtext		(203,801,405,869)	3	on_needle_6	Syringe.script
+2024-05-24 10:24:35.797 -0400	readtext		(1652,754,1906,859)	14	on_needle_6	Syringe.script
+2024-05-24 10:24:37.016 -0400	click	Syringe/field_Dose	at (1721, 773)	25	on_needle_6	Syringe.script
+2024-05-24 10:24:37.786 -0400	typetext		8.000	26	on_needle_6	Syringe.script
+2024-05-24 10:24:39.114 -0400	click	Syringe/Start Injection	at (1544, 781)	27	on_needle_6	Syringe.script
+2024-05-24 10:24:43.161 -0400	set		SEARCHRECTANGLE = 	34	on_needle_6	Syringe.script
+2024-05-24 10:24:43.423 -0400	capturescreen	Status of Needle #6's Injection.png		35	on_needle_6	Syringe.script
+2024-05-24 10:24:44.192 -0400	set		SEARCHRECTANGLE = ["Syringe/7/rect_A","Syringe/7/rect_B"]	2	on_needle_7	Syringe.script
+2024-05-24 10:24:44.943 -0400	readtext		(203,946,405,1014)	3	on_needle_7	Syringe.script
+2024-05-24 10:24:45.931 -0400	readtext		(1652,899,1906,1004)	14	on_needle_7	Syringe.script
+2024-05-24 10:24:46.498 -0400	click	Syringe/field_Dose	at (1721, 918)	25	on_needle_7	Syringe.script
+2024-05-24 10:24:47.269 -0400	typetext		3.000	26	on_needle_7	Syringe.script
+2024-05-24 10:24:48.583 -0400	click	Syringe/Start Injection	at (1544, 926)	27	on_needle_7	Syringe.script
+2024-05-24 10:24:53.241 -0400	click	Syringe/Refill Injection	at (1553, 994)	30	on_needle_7	Syringe.script
+2024-05-24 10:24:53.260 -0400	set		SEARCHRECTANGLE = 	34	on_needle_7	Syringe.script
+2024-05-24 10:24:53.450 -0400	capturescreen	Status of Needle #7's Injection.png		35	on_needle_7	Syringe.script
+2024-05-24 10:24:53.701 -0400	EndTestCase		(Duration:"113.507625", Errors:"0", Exceptions:"0", StartTime:"2024-05-24 10:23:00 -0400", Successes:"1", TestCase:"_Master.script", Warnings:"0")
+2024-05-24 10:24:53.711 -0400	SUCCESS		Execution Time 0:01:53 _Master.script

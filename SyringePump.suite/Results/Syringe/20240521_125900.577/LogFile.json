@@ -1,0 +1,43 @@
+{
+  "entries" : [
+    {
+      "identifier" : "START",
+      "message" : "Running Syringe.script",
+      "timestamp" : "2024-05-21 12:59:00.580 -0400"
+    },
+    {
+      "handlerName" : "on_syringe",
+      "message" : "SEARCHRECTANGLE = [\"Syringe\/1\/Area\/rect_A\",\"Syringe\/1\/Area\/rect_B\"]",
+      "timestamp" : "2024-05-21 12:59:04.804 -0400",
+      "identifier" : "set",
+      "scriptName" : "Syringe.script",
+      "handlerLine" : 1
+    },
+    {
+      "handlerName" : "on_syringe",
+      "message" : "(202,73,406,138)",
+      "timestamp" : "2024-05-21 12:59:07.863 -0400",
+      "identifier" : "readtext",
+      "scriptName" : "Syringe.script",
+      "handlerLine" : 6
+    },
+    {
+      "identifier" : "EndTestCase",
+      "message" : "(Duration:\"16.89242\", Errors:\"1\", Exceptions:\"0\", StartTime:\"2024-05-21 12:59:00 -0400\", Successes:\"0\", TestCase:\"Syringe.script\", Warnings:\"0\")",
+      "timestamp" : "2024-05-21 12:59:17.474 -0400"
+    },
+    {
+      "message" : "CapturedErrorScreenshot",
+      "timestamp" : "2024-05-21 12:59:18.227 -0400",
+      "identifier" : "Error Screen",
+      "image" : "\/Users\/stevbarr\/Keysight Sandbox\/Suites\/Syringe_Pump.suite\/Results\/Syringe\/20240521_125900.577\/Screen_Error.png"
+    },
+    {
+      "message" : "Invalid Range: Only numeric, date\/time, and character ranges are supported (got \"{Medication:\"Morp...\" TO \"\"). -- Execution Time 0:00:16 Syringe.script",
+      "timestamp" : "2024-05-21 12:59:18.228 -0400",
+      "identifier" : "FAILURE",
+      "image" : "Screen_Error.png"
+    }
+  ],
+  "createdTimestamp" : "2024-05-21 12:59:00.581 -0400"
+}

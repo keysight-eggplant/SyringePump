@@ -1,0 +1,55 @@
+{
+  "entries" : [
+    {
+      "identifier" : "START",
+      "message" : "Running _Master.script",
+      "timestamp" : "2024-08-15 19:48:10.973 -0400"
+    },
+    {
+      "handlerName" : "on_connect_to_sut",
+      "message" : "Windows 11:(null)",
+      "timestamp" : "2024-08-15 19:48:11.280 -0400",
+      "identifier" : "Connect",
+      "scriptName" : "Connect to SUT.script",
+      "handlerLine" : 4
+    },
+    {
+      "handlerName" : "on__master",
+      "message" : "\/Users\/stevbarr\/Keysight Sandbox\/Suites\/Syringe_Pump.suite\/Results\/_Master\/20240815_194810.970\/Syringe Pump.mp4",
+      "timestamp" : "2024-08-15 19:48:11.385 -0400",
+      "identifier" : "startmovie",
+      "scriptName" : "_Master.script",
+      "handlerLine" : 5
+    },
+    {
+      "handlerName" : "on_launch_pump",
+      "message" : "Unable to Find Image button_Windows_Start",
+      "identifier" : "imagefound",
+      "image" : "button_Windows_Start",
+      "handlerLine" : 1,
+      "timestamp" : "2024-08-15 19:48:13.764 -0400",
+      "scriptName" : "Launch Pump.script"
+    },
+    {
+      "handlerName" : "on_launch_pump",
+      "message" : "Unable to Find Image window_SyringePumpStack",
+      "identifier" : "imagefound",
+      "image" : "window_SyringePumpStack",
+      "handlerLine" : 11,
+      "timestamp" : "2024-08-15 19:48:16.292 -0400",
+      "scriptName" : "Launch Pump.script"
+    },
+    {
+      "identifier" : "EndTestCase",
+      "message" : "(Duration:\"15.926707\", Errors:\"1\", Exceptions:\"0\", StartTime:\"2024-08-15 19:48:10 -0400\", Successes:\"0\", TestCase:\"_Master.script\", Warnings:\"0\")",
+      "timestamp" : "2024-08-15 19:48:26.901 -0400"
+    },
+    {
+      "message" : "SenseTalk Compiler Exception: in run_an_os_command:\\nSyntax Error at line 41: can't understand \"...\" at character 4 -- Execution Time 0:00:15 _Master.script",
+      "timestamp" : "2024-08-15 19:48:27.090 -0400",
+      "identifier" : "FAILURE",
+      "image" : "Screen_Error.png"
+    }
+  ],
+  "createdTimestamp" : "2024-08-15 19:48:10.974 -0400"
+}

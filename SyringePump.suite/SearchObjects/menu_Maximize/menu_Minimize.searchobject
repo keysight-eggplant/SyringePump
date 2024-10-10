@@ -1,0 +1,48 @@
+{
+	"originalcapturelocation": [
+		10,
+		94,
+		91,
+		17
+	],
+	"lastmodifieddate": 1727375261.973,
+	"createddate": 1727372935.6009998,
+	"name": "menu_Maximize/menu_Minimize",
+	"lastfounddate": 1727816594.4070001,
+	"ocrcapturestring": "Minimize",
+	"lastfoundlocation": [
+		10,
+		94,
+		91,
+		17
+	],
+	"testlocationdata": [
+		{
+				"connectionportnum": 50594,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[45,8]",
+					"Tolerance": "_73",
+					"Discrepancy": "_0",
+					"SearchType": "Smoothed for Text"
+				},
+				"sutinfo": {
+					"type": "Unknown VNC"
+				},
+				"name": "menu_Minimize/menu_Minimize1.png",
+				"connectionname": "Single System",
+				"type": 1,
+				"connectionserverid": "127.0.0.1",
+				"capturerect": [
+					10,
+					94,
+					91,
+					17
+				],
+				"connectiontype": "Single System",
+				"capturedocrtext": "Minimize"
+			}
+	]
+}

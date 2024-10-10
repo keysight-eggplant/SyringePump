@@ -1,0 +1,52 @@
+{
+  "entries" : [
+    {
+      "identifier" : "START",
+      "message" : "Running Syringe.script",
+      "timestamp" : "2024-05-21 14:11:55.937 -0400"
+    },
+    {
+      "handlerName" : "on_syringe",
+      "message" : "SEARCHRECTANGLE = [\"Syringe\/1\/Area\/rect_A\",\"Syringe\/1\/Area\/rect_B\"]",
+      "timestamp" : "2024-05-21 14:12:00.270 -0400",
+      "identifier" : "set",
+      "scriptName" : "Syringe.script",
+      "handlerLine" : 1
+    },
+    {
+      "handlerName" : "on_syringe",
+      "message" : "(202,74,406,139)",
+      "timestamp" : "2024-05-21 14:12:01.832 -0400",
+      "identifier" : "readtext",
+      "scriptName" : "Syringe.script",
+      "handlerLine" : 2
+    },
+    {
+      "handlerName" : "on_syringe",
+      "message" : "(1648,24,1906,133)",
+      "timestamp" : "2024-05-21 14:12:04.512 -0400",
+      "identifier" : "readtext",
+      "scriptName" : "Syringe.script",
+      "handlerLine" : 14
+    },
+    {
+      "handlerName" : "on_syringe",
+      "message" : "4. 000\\n1. 000\\n10.000\\n0. 000\\nDose [ml]\\nInfusion Rate [ml\/s]\\nCurrent Volume [ml]\\nRemaining Dose [ml]",
+      "timestamp" : "2024-05-21 14:12:10.529 -0400",
+      "identifier" : "Log",
+      "scriptName" : "Syringe.script",
+      "handlerLine" : 1
+    },
+    {
+      "identifier" : "EndTestCase",
+      "message" : "(Duration:\"159.628905\", Errors:\"1\", Exceptions:\"0\", StartTime:\"2024-05-21 14:11:55 -0400\", Successes:\"0\", TestCase:\"Syringe.script\", Warnings:\"0\")",
+      "timestamp" : "2024-05-21 14:14:35.567 -0400"
+    },
+    {
+      "identifier" : "ABORTED",
+      "message" : "Execution Time 0:02:39 Syringe.script",
+      "timestamp" : "2024-05-21 14:14:35.569 -0400"
+    }
+  ],
+  "createdTimestamp" : "2024-05-21 14:11:55.938 -0400"
+}

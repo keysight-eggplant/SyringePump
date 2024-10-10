@@ -1,0 +1,25 @@
+﻿2024-08-15 20:18:39.298 -0400	START		Running _Master.script
+2024-08-15 20:18:39.598 -0400	Connect		Windows 11:(null)	4	on_connect_to_sut	Connect to SUT.script
+2024-08-15 20:18:39.703 -0400	startmovie		/Users/stevbarr/Keysight Sandbox/Suites/Syringe_Pump.suite/Results/_Master/20240815_201839.296/Syringe Pump.mp4	5	on__master	_Master.script
+2024-08-15 20:18:42.127 -0400	imagefound	button_Windows_Start	Unable to Find Image button_Windows_Start	1	on_launch_pump	Launch Pump.script
+2024-08-15 20:18:44.647 -0400	imagefound	window_SyringePumpStack	Unable to Find Image window_SyringePumpStack	11	on_launch_pump	Launch Pump.script
+2024-08-15 20:18:44.718 -0400	moveto		at (1536, 864)	9	on_run_an_os_command	/Users/stevbarr/Keysight Sandbox/Suites/Helper Suites/[Run Command Helper].suite/Scripts/Run an OS Command.script
+2024-08-15 20:18:45.450 -0400	typetext		[controlKey]W	13	on_run_an_os_command	/Users/stevbarr/Keysight Sandbox/Suites/Helper Suites/[Run Command Helper].suite/Scripts/Run an OS Command.script
+2024-08-15 20:18:47.481 -0400	typetext		[windowsKey]r	17	on_run_an_os_command	/Users/stevbarr/Keysight Sandbox/Suites/Helper Suites/[Run Command Helper].suite/Scripts/Run an OS Command.script
+2024-08-15 20:18:50.523 -0400	waitfor	OS/Windows/Run Window	found at (67, 8)	19	on_run_an_os_command	/Users/stevbarr/Keysight Sandbox/Suites/Helper Suites/[Run Command Helper].suite/Scripts/Run an OS Command.script
+2024-08-15 20:18:50.565 -0400	typetext		[backspace]	21	on_run_an_os_command	/Users/stevbarr/Keysight Sandbox/Suites/Helper Suites/[Run Command Helper].suite/Scripts/Run an OS Command.script
+2024-08-15 20:18:53.171 -0400	typetext		C:\Program Files\Syringe Pump\syringe_pump.exe[returnKey]	24	on_run_an_os_command	/Users/stevbarr/Keysight Sandbox/Suites/Helper Suites/[Run Command Helper].suite/Scripts/Run an OS Command.script
+2024-08-15 20:18:58.222 -0400	typetext		[windowsAltKey] 	29	on_run_an_os_command	/Users/stevbarr/Keysight Sandbox/Suites/Helper Suites/[Run Command Helper].suite/Scripts/Run an OS Command.script
+2024-08-15 20:19:02.023 -0400	imagefound	OS/Windows/System Menu/Maximize	Unable to Find Image OS/Windows/System Menu/Maximize	30	on_run_an_os_command	/Users/stevbarr/Keysight Sandbox/Suites/Helper Suites/[Run Command Helper].suite/Scripts/Run an OS Command.script
+2024-08-15 20:19:02.045 -0400	typetext		[escape]	40	on_run_an_os_command	/Users/stevbarr/Keysight Sandbox/Suites/Helper Suites/[Run Command Helper].suite/Scripts/Run an OS Command.script
+2024-08-15 20:19:03.088 -0400	moveto		at (1536, 864)	98	on_run_an_os_command	/Users/stevbarr/Keysight Sandbox/Suites/Helper Suites/[Run Command Helper].suite/Scripts/Run an OS Command.script
+2024-08-15 20:19:04.211 -0400	click	window_SyringePumpStack	at (179, 170)	16	on_launch_pump	Launch Pump.script
+2024-08-15 20:19:05.132 -0400	click	menu_Maximize	at (215, 287)	17	on_launch_pump	Launch Pump.script
+2024-08-15 20:19:06.309 -0400	capturescreen	Initial state of Syringe Pump.png		23	on_launch_pump	Launch Pump.script
+2024-08-15 20:19:23.135 -0400	Log		0	1	on__master	_Master.script
+2024-08-15 20:19:33.536 -0400	Log		1	1	on__master	_Master.script
+2024-08-15 20:19:40.444 -0400	Log		1	1	on_syringe2	Syringe2.script
+2024-08-15 20:20:18.393 -0400	set		SEARCHRECTANGLE = ["Syringe/1/rect_A","Syringe/1/rect_B"]	3	on_syringe2	Syringe2.script
+2024-08-15 20:20:28.075 -0400	readtext		(202,74,406,139)	4	on_syringe2	Syringe2.script
+2024-08-15 20:22:37.831 -0400	EndTestCase		(Duration:"238.531665", Errors:"1", Exceptions:"0", StartTime:"2024-08-15 20:18:39 -0400", Successes:"0", TestCase:"_Master.script", Warnings:"0")
+2024-08-15 20:22:37.988 -0400	FAILURE	Screen_Error.png	InvalidCommandOrRange: Not a valid command, or else incorrect types given for a range (must be numbers, date/times, or single characters -- got "1" TO "{Concentration:"0...") -- Execution Time 0:03:58 _Master.script

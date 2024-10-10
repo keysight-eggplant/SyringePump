@@ -1,0 +1,17 @@
+﻿global myRectangle
+
+Repeat 7 times
+	put ImageRectangle(text:"Syringe"&&RepeatIndex(), waitFor:1) into myRectangle.("Syringe"&repeatIndex())
+	put myRectangle.("Syringe"&repeatIndex()) + (1246,-17,1638,92) into myRectangle.("Activity"&repeatIndex())
+	put ImageRectangle(text:"Dose", waitFor:1,SearchRectangle:myRectangle.("Activity"&repeatIndex())) into myRectangle.("Dose"&repeatIndex())
+	put myRectangle.("Dose"&repeatIndex()) - (76, 2,38,-4) into myRectangle.("DoseRegion"&repeatIndex())
+	put ImageRectangle(text:"Infusion", waitFor:1,SearchRectangle:myRectangle.("Activity"&repeatIndex())) into myRectangle.("Infusion"&repeatIndex())
+	put myRectangle.("Infusion"&repeatIndex()) - (76, 2,63,-4) into myRectangle.("InfusionRegion"&repeatIndex())
+	put ImageRectangle(text:"Current", waitFor:1,SearchRectangle:myRectangle.("Activity"&repeatIndex())) into myRectangle.("Current"&repeatIndex())
+	put myRectangle.("Current"&repeatIndex()) - (76, 2,63,-4) into myRectangle.("CurrentRegion"&repeatIndex())
+	put ImageRectangle(text:"Remaining", waitFor:1,SearchRectangle:myRectangle.("Activity"&repeatIndex())) into myRectangle.("Remaining"&repeatIndex())
+	put myRectangle.("Remaining"&repeatIndex()) - (76, 2,73,-4) into myRectangle.("RemainingRegion"&repeatIndex())
+End repeat
+
+
+

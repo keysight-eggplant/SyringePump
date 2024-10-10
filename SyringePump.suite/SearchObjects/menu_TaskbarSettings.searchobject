@@ -1,0 +1,47 @@
+{
+  "lastmodifieddate" : 1716582077.286463,
+  "ocrcapturestring" : "O Taskbar settings",
+  "testlocationdata" : [
+    {
+      "name" : "menu_TaskbarSettings.png",
+      "sutinfo" : {
+        "type" : "Unknown VNC"
+      },
+      "connectionname" : "Syringe Pump Stack",
+      "connectionportnum" : 5900,
+      "capturedocrtext" : "O Taskbar settings",
+      "properties" : {
+        "Rotate" : 0,
+        "Scale" : "    1",
+        "SearchType" : "Smoothed for Text",
+        "Discrepancy" : "_0",
+        "Tolerance" : "_69",
+        "HotSpot" : "[10,8]",
+        "CropRectangle" : "[0,0,0,0]"
+      },
+      "type" : 1,
+      "connectionserverid" : "PWIN01-BARRJCKNJ",
+      "capturerect" : [
+        693,
+        1027,
+        108,
+        16
+      ]
+    }
+  ],
+  "createddate" : 1716582077.2864618,
+  "lastfoundlocation" : [
+    773,
+    1025,
+    108,
+    16
+  ],
+  "originalcapturelocation" : [
+    693,
+    1027,
+    108,
+    16
+  ],
+  "lastfounddate" : 1716582863.2454572,
+  "name" : "menu_TaskbarSettings"
+}

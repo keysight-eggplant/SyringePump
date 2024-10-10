@@ -1,0 +1,55 @@
+{
+	"entries": [
+		{
+				"message": "Running _Master.script",
+				"identifier": "START",
+				"timestamp": "2024-10-01 08:27:08.140 -0400"
+			},
+		{
+				"handlerName": "on_connect_to_sut",
+				"timestamp": "2024-10-01 08:27:08.230 -0400",
+				"message": "NewSingleSystem:(null)",
+				"scriptName": "Connect to SUT.script",
+				"handlerLine": 4,
+				"identifier": "Connect"
+			},
+		{
+				"handlerName": "on__master",
+				"timestamp": "2024-10-01 08:27:08.251 -0400",
+				"message": "C:/ScriptRepositories/Syringe_Pump.suite/Results/_Master/20241001_082708.133/Syringe Pump.mp4",
+				"scriptName": "_Master.script",
+				"handlerLine": 5,
+				"identifier": "startmovie"
+			},
+		{
+				"handlerName": "on_launch_pump",
+				"timestamp": "2024-10-01 08:27:10.980 -0400",
+				"scriptName": "Launch Pump.script",
+				"message": "Unable to Find Image button_Windows_Start",
+				"image": "button_Windows_Start",
+				"handlerLine": 1,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_launch_pump",
+				"timestamp": "2024-10-01 08:27:14.360 -0400",
+				"scriptName": "Launch Pump.script",
+				"message": "Unable to Find Image window_SyringePumpStack",
+				"image": "window_SyringePumpStack",
+				"handlerLine": 11,
+				"identifier": "imagefound"
+			},
+		{
+				"message": "(Duration:\"6.252\", Errors:\"1\", Exceptions:\"0\", StartTime:\"2024-10-01 08:27:08 -0400\", Successes:\"0\", TestCase:\"_Master.script\", Warnings:\"0\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2024-10-01 08:27:14.396 -0400"
+			},
+		{
+				"image": "Screen_Error.png",
+				"message": "BadValue: Bad value for Object expression.  Looking for an object or script identifier, got 'Run an OS Command'. -- Execution Time 0:00:06 _Master.script",
+				"identifier": "FAILURE",
+				"timestamp": "2024-10-01 08:27:14.788 -0400"
+			}
+	],
+	"createdTimestamp": "2024-10-01 08:27:08.143 -0400"
+}

@@ -1,0 +1,72 @@
+﻿Date Run,Status,Time,# of Errors,# of Warnings,# of Exceptions,Log File,Return Value,Error Message,# of Successes
+2024-05-24 10:23:00.186 -0400,"Success",0:01:53,0,0,0,"20240524_102300.186/LogFile.txt","","",1
+2024-05-24 16:34:20.284 -0400,"Failure",0:00:32,1,0,0,"20240524_163420.284/LogFile.txt","","File Not Found -- set Error - Could Not Open Image: Syringe/1/Area/rect_A",0
+2024-05-24 16:35:34.710 -0400,"Success",0:01:33,0,0,0,"20240524_163534.710/LogFile.txt","","",1
+2024-05-24 16:49:40.239 -0400,"Aborted",0:01:44,1,0,0,"20240524_164940.239/LogFile.txt","","",0
+2024-05-24 16:56:41.557 -0400,"Failure",0:00:33,1,0,0,"20240524_165641.557/LogFile.txt","","BadValue -- Bad value for Object expression.  Looking for an object or script identifier, got 'Inject Dosage'.",0
+2024-05-24 16:57:47.243 -0400,"Failure",0:00:11,1,0,0,"20240524_165747.243/LogFile.txt","","BadValue -- Bad value for Object expression.  Looking for an object or script identifier, got 'Inject Dosage'.",0
+2024-05-24 16:58:23.492 -0400,"Failure",0:00:12,1,0,0,"20240524_165823.492/LogFile.txt","","BadValue -- Bad value for Object expression.  Looking for an object or script identifier, got 'Inject Dosage'.",0
+2024-05-24 16:58:54.459 -0400,"Failure",0:00:11,1,0,0,"20240524_165854.459/LogFile.txt","","BadValue -- Bad value for Object expression.  Looking for an object or script identifier, got 'Inject Dosage'.",0
+2024-05-24 16:59:55.522 -0400,"Aborted",0:01:19,1,0,0,"20240524_165955.522/LogFile.txt","","",0
+2024-05-24 17:01:24.077 -0400,"Success",0:01:51,0,0,0,"20240524_170124.077/LogFile.txt","","",1
+2024-05-24 17:06:36.353 -0400,"Aborted",0:02:26,1,0,0,"20240524_170636.353/LogFile.txt","","",0
+2024-05-24 17:11:27.418 -0400,"Failure",0:00:48,1,0,0,"20240524_171127.418/LogFile.txt","","InvalidCommandOrRange -- Not a valid command, or else incorrect types given for a range (must be numbers, date/times, or single characters -- got ""1"" TO ""{Concentration:""0..."")",0
+2024-05-24 17:16:07.893 -0400,"Failure",0:00:27,1,0,0,"20240524_171607.893/LogFile.txt","","InvalidCommandOrRange -- Not a valid command, or else incorrect types given for a range (must be numbers, date/times, or single characters -- got ""1"" TO ""{Concentration:""0..."")",0
+2024-05-24 17:16:56.678 -0400,"Failure",0:00:29,1,0,0,"20240524_171656.678/LogFile.txt","","InvalidCommandOrRange -- Not a valid command, or else incorrect types given for a range (must be numbers, date/times, or single characters -- got ""1"" TO ""{Concentration:""0..."")",0
+2024-05-24 17:17:46.546 -0400,"Aborted",0:02:26,1,0,0,"20240524_171746.546/LogFile.txt","","",0
+2024-08-15 17:47:51.572 -0400,"Aborted",0:01:15,1,0,0,"20240815_174751.572/LogFile.txt","","",0
+2024-08-15 17:55:27.722 -0400,"Aborted",0:00:46,1,0,0,"20240815_175527.722/LogFile.txt","","",0
+2024-08-15 19:15:25.830 -0400,"Aborted",0:01:49,1,0,0,"20240815_191525.830/LogFile.txt","","",0
+2024-08-15 19:48:10.970 -0400,"Failure",0:00:15,1,0,0,"20240815_194810.970/LogFile.txt","","SenseTalk Compiler Exception -- in run_an_os_command:\nSyntax Error at line 41: can't understand ""..."" at character 4",0
+2024-08-15 19:51:24.621 -0400,"Aborted",0:00:37,1,0,0,"20240815_195124.621/LogFile.txt","","",0
+2024-08-15 20:16:25.985 -0400,"Failure",0:00:47,1,0,0,"20240815_201625.985/LogFile.txt","","InvalidCommandOrRange -- Not a valid command, or else incorrect types given for a range (must be numbers, date/times, or single characters -- got ""1"" TO ""{Concentration:""0..."")",0
+2024-08-15 20:18:39.296 -0400,"Failure",0:03:58,1,0,0,"20240815_201839.296/LogFile.txt","","InvalidCommandOrRange -- Not a valid command, or else incorrect types given for a range (must be numbers, date/times, or single characters -- got ""1"" TO ""{Concentration:""0..."")",0
+2024-08-15 20:23:39.479 -0400,"Aborted",0:12:09,1,0,0,"20240815_202339.479/LogFile.txt","","",0
+2024-08-15 20:36:49.051 -0400,"Aborted",0:01:24,1,0,0,"20240815_203649.051/LogFile.txt","","",0
+2024-09-23 11:55:07.330 -0400,"Failure",0:00:00,1,0,0,"20240923_115507.330/LogFile.txt","","Connection Failed -- Unable to connect to Server:Windows 11 on port:0\nInvalid hostname or IP address: No such host is known. \n",0
+2024-09-23 11:57:44.104 -0400,"Success",0:01:51,0,0,0,"20240923_115744.104/LogFile.txt","","",1
+2024-09-23 11:59:58.536 -0400,"Success",0:01:36,0,0,0,"20240923_115958.536/LogFile.txt","","",1
+2024-09-24 18:38:56.736 -0400,"Success",0:01:29,0,0,0,"20240924_183856.736/LogFile.txt","","",1
+2024-09-25 13:26:09.352 -0400,"Success",0:01:29,0,0,0,"20240925_132609.352/LogFile.txt","","",1
+2024-09-25 14:16:37.722 -0400,"Success",0:01:30,0,0,0,"20240925_141637.722/LogFile.txt","","",1
+2024-09-25 14:32:49.955 -0400,"Success",0:01:29,0,0,0,"20240925_143249.955/LogFile.txt","","",1
+2024-09-25 15:12:02.000 -0400,"Success",0:01:26,0,0,0,"20240925_151202.000/LogFile.txt","","",1
+2024-09-25 15:36:31.954 -0400,"Success",0:01:25,0,0,0,"20240925_153631.954/LogFile.txt","","",1
+2024-09-25 16:32:04.743 -0400,"Success",0:01:24,0,0,0,"20240925_163204.743/LogFile.txt","","",1
+2024-09-25 17:29:36.927 -0400,"Success",0:01:24,0,0,0,"20240925_172936.927/LogFile.txt","","",1
+2024-09-25 17:48:15.563 -0400,"Success",0:01:24,0,0,0,"20240925_174815.563/LogFile.txt","","",1
+2024-09-25 20:53:04.056 -0400,"Success",0:01:24,0,0,0,"20240925_205304.056/LogFile.txt","","",1
+2024-09-25 21:30:04.065 -0400,"Success",0:01:25,0,0,0,"20240925_213004.065/LogFile.txt","","",1
+2024-09-26 14:43:15.181 -0400,"Aborted",0:17:32,1,0,0,"20240926_144315.181/LogFile.txt","","",0
+2024-09-26 17:23:36.015 -0400,"Aborted",0:01:06,1,0,0,"20240926_172336.015/LogFile.txt","","",0
+2024-09-30 14:21:04.906 -0400,"Success",0:01:47,0,0,0,"20240930_142104.906/LogFile.txt","","",1
+2024-10-01 08:26:13.342 -0400,"Failure",0:00:00,1,0,0,"20241001_082613.342/LogFile.txt","","Connection Failed -- Unable to connect to Server:Windows 11 on port:0\nInvalid hostname or IP address: No such host is known. \n",0
+2024-10-01 08:26:51.206 -0400,"Failure",0:00:00,1,0,0,"20241001_082651.206/LogFile.txt","","Connection Failed -- Unable to connect to Server:New Single System on port:0\nInvalid hostname or IP address: No such host is known. \n",0
+2024-10-01 08:27:08.133 -0400,"Failure",0:00:06,1,0,0,"20241001_082708.133/LogFile.txt","","BadValue -- Bad value for Object expression.  Looking for an object or script identifier, got 'Run an OS Command'.",0
+2024-10-01 08:28:56.436 -0400,"Aborted",0:00:29,1,0,1,"20241001_082856.436/LogFile.txt","","",0
+2024-10-01 08:33:25.042 -0400,"Aborted",0:00:28,1,0,1,"20241001_083325.042/LogFile.txt","","",0
+2024-10-01 08:34:28.143 -0400,"Aborted",0:00:25,1,0,0,"20241001_083428.143/LogFile.txt","","",0
+2024-10-01 08:35:43.954 -0400,"Success",0:01:11,0,0,0,"20241001_083543.954/LogFile.txt","","",1
+2024-10-01 16:19:00.817 -0400,"Aborted",0:03:17,1,0,0,"20241001_161900.817/LogFile.txt","","",0
+2024-10-01 16:22:50.867 -0400,"Aborted",0:01:04,1,0,0,"20241001_162250.867/LogFile.txt","","",0
+2024-10-01 16:59:22.752 -0400,"Aborted",0:03:16,1,0,0,"20241001_165922.752/LogFile.txt","","",0
+2024-10-02 14:13:59.560 -0400,"Aborted",0:01:02,1,0,1,"20241002_141359.560/LogFile.txt","","",0
+2024-10-02 14:15:15.058 -0400,"Aborted",0:00:26,1,0,0,"20241002_141515.058/LogFile.txt","","",0
+2024-10-02 14:34:38.722 -0400,"Aborted",0:00:04,1,0,0,"20241002_143438.722/LogFile.txt","","",0
+2024-10-02 16:31:23.270 -0400,"Aborted",0:04:35,1,0,0,"20241002_163123.270/LogFile.txt","","",0
+2024-10-02 16:36:33.233 -0400,"Aborted",0:01:04,1,0,0,"20241002_163633.233/LogFile.txt","","",0
+2024-10-02 16:38:43.879 -0400,"Aborted",0:00:38,1,0,1,"20241002_163843.879/LogFile.txt","","",0
+2024-10-02 16:43:04.146 -0400,"Aborted",0:00:06,1,0,0,"20241002_164304.146/LogFile.txt","","",0
+2024-10-02 16:43:52.704 -0400,"Aborted",0:09:28,1,0,0,"20241002_164352.704/LogFile.txt","","",0
+2024-10-02 16:56:07.039 -0400,"Aborted",0:04:32,1,0,0,"20241002_165607.039/LogFile.txt","","",0
+2024-10-02 17:09:59.720 -0400,"Aborted",0:03:14,1,7,0,"20241002_170959.720/LogFile.txt","","",0
+2024-10-02 17:13:16.500 -0400,"Aborted",0:03:25,1,7,0,"20241002_171316.500/LogFile.txt","","",0
+2024-10-02 17:17:02.451 -0400,"Aborted",0:00:21,1,0,0,"20241002_171702.451/LogFile.txt","","",0
+2024-10-02 17:17:53.242 -0400,"Aborted",0:02:14,1,7,0,"20241002_171753.242/LogFile.txt","","",0
+2024-10-02 17:21:43.118 -0400,"Aborted",0:00:03,1,0,0,"20241002_172143.118/LogFile.txt","","",0
+2024-10-02 17:21:55.755 -0400,"Aborted",0:12:16,1,1,0,"20241002_172155.755/LogFile.txt","","",6
+2024-10-02 17:42:06.570 -0400,"Aborted",0:00:15,1,0,1,"20241002_174206.570/LogFile.txt","","",0
+2024-10-02 17:42:36.707 -0400,"Aborted",0:01:40,1,1,0,"20241002_174236.707/LogFile.txt","","",6
+2024-10-10 14:05:21.084 -0400,"Aborted",0:00:08,1,0,0,"20241010_140521.084/LogFile.txt","","",0
+2024-10-10 14:05:37.310 -0400,"Aborted",0:28:09,1,1,0,"20241010_140537.310/LogFile.txt","","",6
+2024-10-10 14:44:15.314 -0400,"Aborted",0:19:58,1,0,0,"20241010_144415.314/LogFile.txt","","",0

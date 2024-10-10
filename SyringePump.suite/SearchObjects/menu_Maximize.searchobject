@@ -1,0 +1,74 @@
+{
+	"originalcapturelocation": [
+		224,
+		333,
+		78,
+		13
+	],
+	"lastmodifieddate": 1727107107.3010001,
+	"createddate": 1714441237.022965,
+	"name": "menu_Maximize",
+	"lastfounddate": 1723758958.335938,
+	"ocrcapturestring": "□ Maximize",
+	"lastfoundlocation": [
+		1315,
+		765,
+		78,
+		13
+	],
+	"testlocationdata": [
+		{
+				"connectionportnum": 5900,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[39,6]",
+					"Tolerance": "_70",
+					"Discrepancy": "_0",
+					"SearchType": "Smoothed for Text"
+				},
+				"sutinfo": {
+					"type": "Unknown VNC"
+				},
+				"name": "menu_Maximizee/menu_Maximize_Light_onFocus.png",
+				"connectionname": "Syringe Pump Stack",
+				"type": 1,
+				"capturerect": [
+					224,
+					333,
+					78,
+					13
+				],
+				"connectionserverid": "PWIN01-BARRJCKNJ",
+				"capturedocrtext": "□ Maximize"
+			},
+		{
+				"connectionportnum": 54588,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[39,6]",
+					"Tolerance": "_30",
+					"Discrepancy": "_0",
+					"SearchType": "Adaptive to Image"
+				},
+				"sutinfo": {
+					"type": "Unknown VNC"
+				},
+				"name": "menu_Maximize/menu_Maximize_Light_onFocus.png",
+				"connectionname": "Single System",
+				"type": 1,
+				"connectionserverid": "127.0.0.1",
+				"capturerect": [
+					224,
+					333,
+					78,
+					13
+				],
+				"connectiontype": "Single System",
+				"capturedocrtext": "□ Maximize"
+			}
+	]
+}

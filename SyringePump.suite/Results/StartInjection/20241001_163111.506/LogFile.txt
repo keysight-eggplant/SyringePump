@@ -1,0 +1,3 @@
+﻿2024-10-01 16:31:11.506 -0400	START		Running StartInjection.script
+2024-10-01 16:31:14.419 -0400	EndTestCase		(Duration:"2.902", Errors:"0", Exceptions:"0", StartTime:"2024-10-01 16:31:11 -0400", Successes:"1", TestCase:"StartInjection.script", Warnings:"0")
+2024-10-01 16:31:14.483 -0400	SUCCESS		Execution Time 0:00:02 StartInjection.script
