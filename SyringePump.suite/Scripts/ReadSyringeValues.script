@@ -7,5 +7,5 @@ Repeat 7 times
 	put trimAll(ReadText(myRectangle.("InfusionRegion"&repeatIndex()))) into myRectangle.("InfusionValue"&repeatIndex()&sequence)
 	put trimAll(ReadText(myRectangle.("CurrentRegion"&repeatIndex()))) into myRectangle.("CurrentValue"&repeatIndex()&sequence)
 	put trimAll(ReadText(myRectangle.("RemainingRegion"&repeatIndex()))) into myRectangle.("RemainingValue"&repeatIndex()&sequence)
-	Log "The dose value is"&&myRectangle.("DoseValue"&repeatIndex()&"final")&&"and the current value is"&&myRectangle.("CurrentValue"&repeatIndex()&"final")
+	Log "The dose value is"&&myRectangle.("DoseValue"&repeatIndex()&sequence)&&"and the current value is"&&myRectangle.("CurrentValue"&repeatIndex()&sequence)
 End Repeat
