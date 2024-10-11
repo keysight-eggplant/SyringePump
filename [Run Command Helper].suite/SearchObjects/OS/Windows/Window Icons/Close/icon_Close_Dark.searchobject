@@ -1,0 +1,48 @@
+{
+  "lastmodifieddate" : 1723765434.4857841,
+  "ocrcapturestring" : "□ X",
+  "testlocationdata" : [
+    {
+      "connectionserverid" : "10.211.55.30",
+      "sutinfo" : {
+        "type" : "Unknown VNC"
+      },
+      "connectionname" : "Windows 11",
+      "connectionportnum" : 55903,
+      "connectiontype" : "RDP",
+      "capturedocrtext" : "□ X",
+      "properties" : {
+        "Rotate" : 0,
+        "Scale" : "    1",
+        "SearchType" : "Tolerant of Background",
+        "Discrepancy" : "_0",
+        "Tolerance" : "_45",
+        "HotSpot" : "[105,11]",
+        "CropRectangle" : "[0,0,0,0]"
+      },
+      "type" : 1,
+      "name" : "OS\/Windows\/Window Icons\/Close\/icon_Close_Dark.png",
+      "capturerect" : [
+        1191,
+        217,
+        121,
+        23
+      ]
+    }
+  ],
+  "createddate" : 1723765434.4857831,
+  "lastfoundlocation" : [
+    1191,
+    217,
+    121,
+    23
+  ],
+  "originalcapturelocation" : [
+    1191,
+    217,
+    121,
+    23
+  ],
+  "lastfounddate" : 1723765435.0615239,
+  "name" : "OS\/Windows\/Window Icons\/Close\/icon_Close_Dark"
+}

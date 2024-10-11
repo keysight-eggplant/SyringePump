@@ -1,0 +1,48 @@
+{
+  "lastmodifieddate" : 1723758841.5563579,
+  "ocrcapturestring" : "□ Maximize",
+  "testlocationdata" : [
+    {
+      "connectionserverid" : "10.211.55.30",
+      "sutinfo" : {
+        "type" : "Unknown RDP"
+      },
+      "connectionname" : "Windows 11",
+      "connectionportnum" : 3389,
+      "connectiontype" : "RDP",
+      "capturedocrtext" : "□ Maximize",
+      "properties" : {
+        "Rotate" : 0,
+        "Scale" : "    1",
+        "SearchType" : "Smoothed for Text",
+        "Discrepancy" : "_0",
+        "Tolerance" : "_62",
+        "HotSpot" : "[42,9]",
+        "CropRectangle" : "[0,0,0,0]"
+      },
+      "type" : 1,
+      "name" : "OS\/Windows\/System Menu\/Maximize\/menu_Maximize_Dark_onFocus.png",
+      "capturerect" : [
+        265,
+        136,
+        85,
+        19
+      ]
+    }
+  ],
+  "createddate" : 1709806204.049124,
+  "lastfoundlocation" : [
+    19,
+    132,
+    85,
+    19
+  ],
+  "originalcapturelocation" : [
+    265,
+    136,
+    85,
+    19
+  ],
+  "lastfounddate" : 1721853182.098454,
+  "name" : "OS\/Windows\/System Menu\/Maximize\/menu_Maximize_Dark_Enabled"
+}

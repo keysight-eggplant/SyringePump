@@ -1,0 +1,8 @@
+﻿2024-10-11 10:24:40.079 -0400	START		Running _Master.script
+2024-10-11 10:24:40.155 -0400	Connect		NewSingleSystem:(null)	4	on_connect_to_sut	Connect to SUT.script
+2024-10-11 10:24:40.233 -0400	waitfor	WindowsStartButton_blue	found at (673, 1059)	6	on_connect_to_sut	Connect to SUT.script
+2024-10-11 10:24:42.987 -0400	imagefound	button_Windows_Start	Unable to Find Image button_Windows_Start	1	on_launch_pump	Launch Pump.script
+2024-10-11 10:24:45.682 -0400	imagefound	window_SyringePumpStack	Unable to Find Image window_SyringePumpStack	11	on_launch_pump	Launch Pump.script
+2024-10-11 10:24:45.727 -0400	EndTestCase		(Duration:"5.645", Errors:"1", Exceptions:"0", StartTime:"2024-10-11 10:24:40 -0400", Successes:"0", TestCase:"_Master.script", Warnings:"0")
+2024-10-11 10:24:46.151 -0400	Error Screen	C:/ScriptRepositories/SyringePump/SyringePump.suite/Results/_Master/20241011_102440.075/Screen_Error.png	CapturedErrorScreenshot	82B0DA08-8B81-6A0A-5037-7F143751EF4F
+2024-10-11 10:24:46.153 -0400	FAILURE	Screen_Error.png	BadValue: Bad value for Object expression.  Looking for an object or script identifier, got 'Run an OS Command'. -- Execution Time 0:00:05 _Master.script

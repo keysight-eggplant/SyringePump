@@ -1,0 +1,21 @@
+﻿{
+    CaptureDate = "2024-06-19 01:58:43 +0000";
+    CaptureHost = "Windows 11 via VNC";
+    CaptureScreenSize = (
+        "2056",
+        "1286");
+    HasAlpha = 1;
+    HotSpotX = 74;
+    HotSpotY = 11;
+    ImageDescription = <>;
+    LastKnownLocationX = 0;
+    LastKnownLocationY = 0;
+    OriginalLocationX = 254;
+    OriginalLocationY = 256;
+    Precise = 0;
+    Pulsing = 0;
+    Scale = 1;
+    SearchAlgorithm = "TextSmoothSquare";
+    SearchObjectName = "OS/Windows/System Menu/Maximize/menu_Maximize_Light_Enabled_2";
+    tags = ();
+}

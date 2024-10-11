@@ -1,0 +1,19 @@
+﻿{
+    CaptureDate = "2024-08-15 23:43:45 +0000";
+    CaptureHost = "Windows 11";
+    CaptureScreenSize = (
+        1920,
+        1080);
+    HasAlpha = 1;
+    HotSpotX = 105;
+    HotSpotY = 11;
+    LastKnownLocationX = 0;
+    LastKnownLocationY = 0;
+    OriginalLocationX = 1191;
+    OriginalLocationY = 217;
+    Precise = 0;
+    Pulsing = 0;
+    Scale = 1;
+    SearchObjectName = "OS/Windows/Window Icons/Close/icon_Close_Dark";
+    tags = ();
+}

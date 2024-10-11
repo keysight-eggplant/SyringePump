@@ -1,0 +1,21 @@
+﻿{
+    CaptureDate = "2024-08-15 21:51:43 +0000";
+    CaptureHost = "Windows 11";
+    CaptureScreenSize = (
+        "1920",
+        "1080");
+    HasAlpha = 1;
+    HotSpotX = 38;
+    HotSpotY = 6;
+    ImageDescription = <>;
+    LastKnownLocationX = 0;
+    LastKnownLocationY = 0;
+    OriginalLocationX = 202;
+    OriginalLocationY = 307;
+    Precise = 0;
+    Pulsing = 0;
+    Scale = 1;
+    SearchAlgorithm = "TextSmoothSquare";
+    SearchObjectName = "OS/Windows/System Menu/Maximize/menu_Maximize_Light_Enabled_3";
+    tags = ();
+}

@@ -1,0 +1,21 @@
+﻿{
+    CaptureDate = "2024-02-13 18:44:57 +0000";
+    CaptureHost = "Windows 11 via VNC";
+    CaptureScreenSize = (
+        "2988",
+        "1788");
+    HasAlpha = 1;
+    HotSpotX = 41;
+    HotSpotY = 14;
+    ImageDescription = <>;
+    LastKnownLocationX = 0;
+    LastKnownLocationY = 0;
+    OriginalLocationX = 39;
+    OriginalLocationY = 1260;
+    Precise = 0;
+    Pulsing = 0;
+    Scale = 1;
+    SearchAlgorithm = "Adaptive";
+    SearchObjectName = "OS/Windows/Run Window/icon_Run_new";
+    tags = ();
+}

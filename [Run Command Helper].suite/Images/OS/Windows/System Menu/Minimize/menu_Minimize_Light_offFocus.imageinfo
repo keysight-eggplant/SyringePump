@@ -1,0 +1,21 @@
+﻿{
+    CaptureDate = "2024-02-13 15:20:35 +0000";
+    CaptureHost = "Windows 11";
+    CaptureScreenSize = (
+        "1920",
+        "1080");
+    HasAlpha = 1;
+    HotSpotX = 41;
+    HotSpotY = 7;
+    ImageDescription = <>;
+    LastKnownLocationX = 0;
+    LastKnownLocationY = 0;
+    OriginalLocationX = 12;
+    OriginalLocationY = 95;
+    Precise = 0;
+    Pulsing = 0;
+    Scale = 1;
+    SearchAlgorithm = "TextSmoothSquare";
+    SearchObjectName = "OS/Windows/System Menu/Minimize/menu_Minimize_Light_Enabled";
+    tags = ();
+}

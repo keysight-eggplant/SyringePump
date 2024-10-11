@@ -1,0 +1,48 @@
+{
+  "lastmodifieddate" : 1723765293.40293,
+  "ocrcapturestring" : "s> X",
+  "testlocationdata" : [
+    {
+      "connectionserverid" : "10.211.55.30",
+      "sutinfo" : {
+        "type" : "Unknown VNC"
+      },
+      "connectionname" : "Windows 11",
+      "connectionportnum" : 55903,
+      "connectiontype" : "RDP",
+      "capturedocrtext" : "s> X",
+      "properties" : {
+        "Rotate" : 0,
+        "Scale" : "    1",
+        "SearchType" : "Tolerant of Background",
+        "Discrepancy" : "_0",
+        "Tolerance" : "_45",
+        "HotSpot" : "[55,9]",
+        "CropRectangle" : "[0,0,0,0]"
+      },
+      "type" : 1,
+      "name" : "OS\/Windows\/Window Icons\/Restore\/icon_Restore_Light.png",
+      "capturerect" : [
+        1792,
+        0,
+        121,
+        23
+      ]
+    }
+  ],
+  "createddate" : 1723765293.4029288,
+  "lastfoundlocation" : [
+    1792,
+    0,
+    121,
+    23
+  ],
+  "originalcapturelocation" : [
+    1792,
+    0,
+    121,
+    23
+  ],
+  "lastfounddate" : 1723765297.7269249,
+  "name" : "OS\/Windows\/Window Icons\/Restore\/icon_Restore_Light"
+}

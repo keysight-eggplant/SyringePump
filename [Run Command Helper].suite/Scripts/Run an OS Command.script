@@ -1,0 +1,80 @@
+﻿params parmCommand, parmOS, parmWindowPosition
+
+// Valid values for parmOS is Windows, Mac, or Ubuntu
+// Valid values for parmWindowPosition are the following:
+//      when parmOS is Windows: Maximize, Minimize, Restore, Top Left, Top Right, Bottom Left, Bottom Right, Left, Right, or N/A
+//      when parmOS is Mac:  TBD
+//      when parmOS is Ubuntu:  TBD
+
+MoveTo the RemoteScreenSize*[0.8,0.8]
+
+If parmOS ...
+	... is "Windows" then
+		TypeText controlKey, "W"     -- closes active window
+		--	TypeText altKey, F4
+		wait 2
+		TypeText windowsKey, "r"     -- open Window's Run Command
+		WaitFor 8.0, "OS/Windows/Run Window"
+		TypeText backspace
+		Wait 2
+		// Enter command in Run Window
+		TypeText quote&parmCommand&quote, returnKey
+		Wait 2
+		If parmWindowPosition ...
+			... is "Maximize" then
+				TypeText altKey, spacebar
+				If ImageFound(Image:"OS/Windows/System Menu/Maximize", WaitFor:3)
+					Click (Image:"OS/Windows/System Menu/Maximize")
+					Wait 1
+				Else
+					TypeText escapeKey
+					Wait 1
+				End If
+			... is "Mimimize" then
+				TypeText altKey, spacebar
+				If ImageFound(Image:"OS/Windows/System Menu/Minimize", WaitFor:3)
+					Click (Image:"OS/Windows/System Menu/Minimize")
+					Wait 1
+				Else
+					TypeText escapeKey
+					Wait 1
+				End If
+			... is "Restore" then
+				TypeText altKey, spacebar
+				If ImageFound(Image:"OS/Windows/System Menu/Restore", WaitFor:3)
+					Click (Image:"OS/Windows/System Menu/Restore")
+					Wait 1
+				Else
+					TypeText escapeKey
+					Wait 1
+				End If
+			... is "Top Left" then
+				TypeText windowsKey, leftArrow, upArrow
+			... is "Top Right" then
+				TypeText windowsKey, rightArrow, upArrow
+			... is "Bottom Left" then
+				TypeText windowsKey, leftArrow, downArrow
+			... is "Bottom Right" then
+				TypeText windowsKey, rightArrow, downArrow
+			... is "Left" then
+				TypeText windowsKey, leftArrow
+			... is "Right" then
+				TypeText windowsKey, rightArrow
+			... is "N/A" then 
+				Log "This is a valid value but can't allow Eggplant to send shortcut keys or will break this one client app"
+			Else 
+				Throw "parmWindowPosition", "Invalid value passed when used in " & parmOS
+		End If
+	... is "Mac" then
+	// Open Apple's Spotlight
+		--	TypeText commandKey, "M"
+		--	Wait 1
+		TypeText commandKey, spacebar
+		TypeText backspace
+		WaitFor 8, "OS/macOS/field_SpotlightSearch"
+		TypeText parmCommand, returnKey
+	... is "Ubuntu" then
+		TypeText altKey, F2
+		TypeText parmCommand
+End If
+MoveTo the RemoteScreenSize*[0.8,0.8]

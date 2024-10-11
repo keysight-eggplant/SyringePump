@@ -1,5 +1,13 @@
 ﻿<?xml version="1.0" encoding="UTF-8" ?>
 <statistics>
+ <script name="_Master">
+  <LastStatus>Failure</LastStatus>
+  <NumberOfRuns>34</NumberOfRuns>
+  <NumberOfFails>16</NumberOfFails>
+  <FirstRun>2024-05-24 10:23:00 -0400</FirstRun>
+  <LastRun>2024-10-11 10:24:40 -0400</LastRun>
+  <TotalTimeOnSuccess>1656.000000</TotalTimeOnSuccess>
+ </script>
  <script name="PlotSyringeActivity">
   <LastStatus>Success</LastStatus>
   <NumberOfRuns>2</NumberOfRuns>
@@ -7,22 +15,6 @@
   <FirstRun>2024-10-02 15:08:33 -0400</FirstRun>
   <LastRun>2024-10-02 15:09:51 -0400</LastRun>
   <TotalTimeOnSuccess>48.000000</TotalTimeOnSuccess>
- </script>
- <script name="Launch Pump">
-  <LastStatus>Success</LastStatus>
-  <NumberOfRuns>4</NumberOfRuns>
-  <NumberOfFails>0</NumberOfFails>
-  <FirstRun>2024-05-24 16:26:20 -0400</FirstRun>
-  <LastRun>2024-10-02 14:24:21 -0400</LastRun>
-  <TotalTimeOnSuccess>92.000000</TotalTimeOnSuccess>
- </script>
- <script name="_Master">
-  <LastStatus>Success</LastStatus>
-  <NumberOfRuns>33</NumberOfRuns>
-  <NumberOfFails>15</NumberOfFails>
-  <FirstRun>2024-05-24 10:23:00 -0400</FirstRun>
-  <LastRun>2024-10-01 08:35:43 -0400</LastRun>
-  <TotalTimeOnSuccess>1656.000000</TotalTimeOnSuccess>
  </script>
  <script name="Turn Off Pump">
   <LastStatus>Success</LastStatus>
@@ -39,5 +31,13 @@
   <FirstRun>2024-10-01 16:31:11 -0400</FirstRun>
   <LastRun>2024-10-01 16:34:02 -0400</LastRun>
   <TotalTimeOnSuccess>20.000000</TotalTimeOnSuccess>
+ </script>
+ <script name="Launch Pump">
+  <LastStatus>Success</LastStatus>
+  <NumberOfRuns>4</NumberOfRuns>
+  <NumberOfFails>0</NumberOfFails>
+  <FirstRun>2024-05-24 16:26:20 -0400</FirstRun>
+  <LastRun>2024-10-02 14:24:21 -0400</LastRun>
+  <TotalTimeOnSuccess>92.000000</TotalTimeOnSuccess>
  </script>
 </statistics>

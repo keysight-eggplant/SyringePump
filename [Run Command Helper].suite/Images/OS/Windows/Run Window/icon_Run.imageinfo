@@ -1,0 +1,22 @@
+﻿{
+    CaptureDate = "2023-01-05 01:03:08 +0000";
+    CaptureHost = "Windows 11";
+    CaptureScreenSize = (
+        "1920",
+        "1080");
+    HasAlpha = 1;
+    HotSpotX = 26;
+    HotSpotY = 8;
+    ImageDescription = <7b5c7274 66315c61 6e73695c 616e7369 63706731 3235325c 636f636f 61727466 32373539 0a5c636f 636f6174 65787473 63616c69 6e67305c 636f636f 61706c61 74666f72 6d307b5c 666f6e74 74626c7d 0a7b5c63 6f6c6f72 74626c3b 5c726564 3235355c 67726565 6e323535 5c626c75 65323535 3b7d0a7b 5c2a5c65 7870616e 64656463 6f6c6f72 74626c3b 3b7d0a7d>;
+    ImageTolerance = 45;
+    LastKnownLocationX = 0;
+    LastKnownLocationY = 0;
+    OriginalLocationX = 23;
+    OriginalLocationY = 822;
+    Precise = 0;
+    Pulsing = 0;
+    Scale = 1;
+    SearchAlgorithm = "Adaptive";
+    SearchObjectName = "OS/Windows/Run";
+    tags = ();
+}

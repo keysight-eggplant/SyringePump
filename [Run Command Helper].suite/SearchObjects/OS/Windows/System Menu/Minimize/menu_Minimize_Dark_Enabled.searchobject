@@ -1,0 +1,48 @@
+{
+  "lastmodifieddate" : 1723758875.6104422,
+  "ocrcapturestring" : "imize",
+  "testlocationdata" : [
+    {
+      "connectionserverid" : "10.211.55.30",
+      "sutinfo" : {
+        "type" : "Unknown RDP"
+      },
+      "connectionname" : "Windows 11",
+      "connectionportnum" : 3389,
+      "connectiontype" : "RDP",
+      "capturedocrtext" : "imize",
+      "properties" : {
+        "Rotate" : 0,
+        "Scale" : "    1",
+        "SearchType" : "Smoothed for Text",
+        "Discrepancy" : "_0",
+        "Tolerance" : "_62",
+        "HotSpot" : "[42,9]",
+        "CropRectangle" : "[0,0,0,0]"
+      },
+      "type" : 1,
+      "name" : "OS\/Windows\/System Menu\/Minimize\/menu_Minimize_Dark_offFocus.png",
+      "capturerect" : [
+        265,
+        113,
+        85,
+        19
+      ]
+    }
+  ],
+  "createddate" : 1709806232.046315,
+  "lastfoundlocation" : [
+    265,
+    113,
+    85,
+    19
+  ],
+  "originalcapturelocation" : [
+    265,
+    113,
+    85,
+    19
+  ],
+  "lastfounddate" : 1709806267.093647,
+  "name" : "OS\/Windows\/System Menu\/Minimize\/menu_Minimize_Dark_Enabled"
+}

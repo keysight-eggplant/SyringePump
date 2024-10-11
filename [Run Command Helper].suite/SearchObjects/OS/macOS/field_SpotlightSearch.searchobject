@@ -1,0 +1,73 @@
+{
+  "lastmodifieddate" : 1679019459.509896,
+  "ocrcapturestring" : "Q Spotlight Search",
+  "testlocationdata" : [
+    {
+      "name" : "OS\/macOS\/field_SpotlightSearch\/field_SpotlightSearch.png",
+      "sutinfo" : {
+        "type" : "Unknown VNC"
+      },
+      "connectionname" : "MacBook Pro",
+      "connectionportnum" : 5900,
+      "capturedocrtext" : "Q Spotlight Search",
+      "properties" : {
+        "Rotate" : 0,
+        "Scale" : "    1",
+        "SearchType" : "Smoothed for Text",
+        "Discrepancy" : "_0",
+        "Tolerance" : "_36",
+        "HotSpot" : "[214,33]",
+        "CropRectangle" : "[0,0,0,0]"
+      },
+      "type" : 1,
+      "connectionserverid" : "192.168.69.38",
+      "capturerect" : [
+        779,
+        383,
+        429,
+        67
+      ]
+    },
+    {
+      "name" : "OS\/macOS\/field_SpotlightSearch\/field_SpotlightSearch2.png",
+      "sutinfo" : {
+        "type" : "Unknown VNC"
+      },
+      "connectionname" : "MacBook Pro",
+      "connectionportnum" : 5900,
+      "capturedocrtext" : "Q Spotlight Search",
+      "properties" : {
+        "Rotate" : 0,
+        "Scale" : "    1",
+        "SearchType" : "Smoothed for Text",
+        "Discrepancy" : "_0",
+        "Tolerance" : "_36",
+        "HotSpot" : "[214,33]",
+        "CropRectangle" : "[0,0,0,0]"
+      },
+      "type" : 1,
+      "connectionserverid" : "192.168.69.38",
+      "capturerect" : [
+        779,
+        383,
+        429,
+        67
+      ]
+    }
+  ],
+  "createddate" : 1679018067.7627912,
+  "lastfoundlocation" : [
+    779,
+    383,
+    429,
+    67
+  ],
+  "originalcapturelocation" : [
+    779,
+    383,
+    429,
+    67
+  ],
+  "lastfounddate" : 1679019487.9870901,
+  "name" : "OS\/macOS\/field_SpotlightSearch"
+}

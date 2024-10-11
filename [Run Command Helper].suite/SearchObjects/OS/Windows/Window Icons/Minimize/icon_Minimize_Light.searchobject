@@ -1,0 +1,48 @@
+{
+  "lastmodifieddate" : 1723765161.8782902,
+  "ocrcapturestring" : "□ X",
+  "testlocationdata" : [
+    {
+      "connectionserverid" : "10.211.55.30",
+      "sutinfo" : {
+        "type" : "Unknown VNC"
+      },
+      "connectionname" : "Windows 11",
+      "connectionportnum" : 55903,
+      "connectiontype" : "RDP",
+      "capturedocrtext" : "□ X",
+      "properties" : {
+        "Rotate" : 0,
+        "Scale" : "    1",
+        "SearchType" : "Tolerant of Background",
+        "Discrepancy" : "_0",
+        "Tolerance" : "_45",
+        "HotSpot" : "[18,9]",
+        "CropRectangle" : "[0,0,0,0]"
+      },
+      "type" : 1,
+      "name" : "OS\/Windows\/Window Icons\/Minimize\/icon_Minimize_Light.png",
+      "capturerect" : [
+        998,
+        237,
+        121,
+        23
+      ]
+    }
+  ],
+  "createddate" : 1723765161.878289,
+  "lastfoundlocation" : [
+    998,
+    237,
+    121,
+    23
+  ],
+  "originalcapturelocation" : [
+    998,
+    237,
+    121,
+    23
+  ],
+  "lastfounddate" : 1723765234.8839269,
+  "name" : "OS\/Windows\/Window Icons\/Minimize\/icon_Minimize_Light"
+}

@@ -1,0 +1,48 @@
+{
+  "lastmodifieddate" : 1707838019.4085,
+  "ocrcapturestring" : "O Restore",
+  "testlocationdata" : [
+    {
+      "connectionserverid" : "10.211.55.30",
+      "sutinfo" : {
+        "type" : "Unknown RDP"
+      },
+      "connectionname" : "Windows 11",
+      "connectionportnum" : 3389,
+      "connectiontype" : "RDP",
+      "capturedocrtext" : "O Restore",
+      "properties" : {
+        "Rotate" : 0,
+        "Scale" : "    1",
+        "SearchType" : "Smoothed for Text",
+        "Discrepancy" : "_0",
+        "Tolerance" : "_73",
+        "HotSpot" : "[36,6]",
+        "CropRectangle" : "[0,0,0,0]"
+      },
+      "type" : 1,
+      "name" : "OS\/Windows\/System Menu\/Restore\/menu_Restore_Light_Enabled.png",
+      "capturerect" : [
+        12,
+        29,
+        73,
+        13
+      ]
+    }
+  ],
+  "createddate" : 1707838019.408499,
+  "lastfoundlocation" : [
+    12,
+    29,
+    73,
+    13
+  ],
+  "originalcapturelocation" : [
+    12,
+    29,
+    73,
+    13
+  ],
+  "lastfounddate" : 1707838243.061713,
+  "name" : "OS\/Windows\/System Menu\/Restore\/menu_Restore_Light_Enabled"
+}

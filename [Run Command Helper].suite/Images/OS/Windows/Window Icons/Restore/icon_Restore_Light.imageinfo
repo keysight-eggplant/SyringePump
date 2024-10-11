@@ -1,0 +1,19 @@
+﻿{
+    CaptureDate = "2024-08-15 23:41:11 +0000";
+    CaptureHost = "Windows 11";
+    CaptureScreenSize = (
+        1920,
+        1080);
+    HasAlpha = 1;
+    HotSpotX = 55;
+    HotSpotY = 9;
+    LastKnownLocationX = 0;
+    LastKnownLocationY = 0;
+    OriginalLocationX = 1792;
+    OriginalLocationY = 0;
+    Precise = 0;
+    Pulsing = 0;
+    Scale = 1;
+    SearchObjectName = "OS/Windows/Window Icons/Restore/icon_Restore_Light";
+    tags = ();
+}

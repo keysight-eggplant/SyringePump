@@ -1,0 +1,19 @@
+﻿{
+    CaptureDate = "2023-03-17 02:17:39 +0000";
+    CaptureHost = "MacBook Pro";
+    CaptureScreenSize = (
+        2880,
+        1800);
+    HasAlpha = 1;
+    HotSpotX = 214;
+    HotSpotY = 33;
+    LastKnownLocationX = 0;
+    LastKnownLocationY = 0;
+    OriginalLocationX = 779;
+    OriginalLocationY = 383;
+    Precise = 0;
+    Pulsing = 0;
+    Scale = 1;
+    SearchAlgorithm = "TextSmoothSquare";
+    SearchObjectName = "OS/macOS/field_SpotlightSearch";
+}

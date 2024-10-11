@@ -859,4 +859,16 @@ Invalid hostname or IP address: No such host is known.
   <ReturnValue></ReturnValue>
   <ErrorMessage></ErrorMessage>
  </run>
+ <run>
+  <RunDate>2024-10-11 10:24:40.075 -0400</RunDate>
+  <Status>Failure</Status>
+  <Duration>5.651000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20241011_102440.075/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>BadValue -- Bad value for Object expression.  Looking for an object or script identifier, got &#x27;Run an OS Command&#x27;.</ErrorMessage>
+ </run>
 </runHistory>

@@ -1,0 +1,73 @@
+{
+  "lastmodifieddate" : 1708482381.7634501,
+  "ocrcapturestring" : "Run",
+  "testlocationdata" : [
+    {
+      "name" : "OS\/Windows\/Run Window\/icon_Run_new.png",
+      "sutinfo" : {
+        "type" : "Unknown VNC"
+      },
+      "connectionname" : "Windows 11 via VNC",
+      "connectionportnum" : 5900,
+      "capturedocrtext" : "Run",
+      "properties" : {
+        "Rotate" : 0,
+        "Scale" : "    1",
+        "SearchType" : "Smoothed for Text",
+        "Discrepancy" : "_0",
+        "Tolerance" : "_73",
+        "HotSpot" : "[41,14]",
+        "CropRectangle" : "[0,0,0,0]"
+      },
+      "type" : 1,
+      "connectionserverid" : "10.211.55.30",
+      "capturerect" : [
+        39,
+        1260,
+        83,
+        29
+      ]
+    },
+    {
+      "name" : "OS\/Windows\/Run Window\/icon_Run_new.png",
+      "sutinfo" : {
+        "type" : "Unknown VNC"
+      },
+      "connectionname" : "Windows 11 via VNC",
+      "connectionportnum" : 5900,
+      "capturedocrtext" : "Run",
+      "properties" : {
+        "Rotate" : 0,
+        "Scale" : "    1",
+        "SearchType" : "Adaptive to Image",
+        "Discrepancy" : "_0",
+        "Tolerance" : "_30",
+        "HotSpot" : "[41,14]",
+        "CropRectangle" : "[0,0,0,0]"
+      },
+      "type" : 1,
+      "connectionserverid" : "10.211.55.30",
+      "capturerect" : [
+        39,
+        1260,
+        83,
+        29
+      ]
+    }
+  ],
+  "createddate" : 1707849942.1488891,
+  "lastfoundlocation" : [
+    39,
+    1260,
+    83,
+    29
+  ],
+  "originalcapturelocation" : [
+    39,
+    1260,
+    83,
+    29
+  ],
+  "lastfounddate" : 1708141772.963043,
+  "name" : "OS\/Windows\/Run Window\/icon_Run_new"
+}

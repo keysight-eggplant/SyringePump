@@ -1,0 +1,48 @@
+{
+  "lastmodifieddate" : 1723765482.2116699,
+  "ocrcapturestring" : "□ X",
+  "testlocationdata" : [
+    {
+      "connectionserverid" : "10.211.55.30",
+      "sutinfo" : {
+        "type" : "Unknown VNC"
+      },
+      "connectionname" : "Windows 11",
+      "connectionportnum" : 55903,
+      "connectiontype" : "RDP",
+      "capturedocrtext" : "□ X",
+      "properties" : {
+        "Rotate" : 0,
+        "Scale" : "    1",
+        "SearchType" : "Tolerant of Background",
+        "Discrepancy" : "_0",
+        "Tolerance" : "_45",
+        "HotSpot" : "[56,12]",
+        "CropRectangle" : "[0,0,0,0]"
+      },
+      "type" : 1,
+      "name" : "OS\/Windows\/Window Icons\/Restore\/icon_Restore_Dark.png",
+      "capturerect" : [
+        1794,
+        3,
+        121,
+        23
+      ]
+    }
+  ],
+  "createddate" : 1723765482.211669,
+  "lastfoundlocation" : [
+    1794,
+    3,
+    121,
+    23
+  ],
+  "originalcapturelocation" : [
+    1794,
+    3,
+    121,
+    23
+  ],
+  "lastfounddate" : 1723765483.5263031,
+  "name" : "OS\/Windows\/Window Icons\/Restore\/icon_Restore_Dark"
+}

@@ -1,0 +1,48 @@
+{
+  "lastmodifieddate" : 1723758852.1542668,
+  "ocrcapturestring" : "□ Maximize",
+  "testlocationdata" : [
+    {
+      "connectionserverid" : "10.211.55.30",
+      "sutinfo" : {
+        "type" : "Unknown VNC"
+      },
+      "connectionname" : "Windows 11",
+      "connectionportnum" : 55647,
+      "connectiontype" : "RDP",
+      "capturedocrtext" : "□ Maximize",
+      "properties" : {
+        "Rotate" : 0,
+        "Scale" : "    1",
+        "SearchType" : "Smoothed for Text",
+        "Discrepancy" : "_0",
+        "Tolerance" : "_73",
+        "HotSpot" : "[38,6]",
+        "CropRectangle" : "[0,0,0,0]"
+      },
+      "type" : 1,
+      "name" : "OS\/Windows\/System Menu\/Maximize\/menu_Maximize_Light_offFocus.png",
+      "capturerect" : [
+        202,
+        307,
+        77,
+        13
+      ]
+    }
+  ],
+  "createddate" : 1723758743.3568311,
+  "lastfoundlocation" : [
+    202,
+    307,
+    77,
+    13
+  ],
+  "originalcapturelocation" : [
+    202,
+    307,
+    77,
+    13
+  ],
+  "lastfounddate" : 1723758901.5463481,
+  "name" : "OS\/Windows\/System Menu\/Maximize\/menu_Maximize_Light_Enabled_3"
+}

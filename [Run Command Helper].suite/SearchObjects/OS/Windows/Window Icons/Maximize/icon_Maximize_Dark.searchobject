@@ -1,0 +1,48 @@
+{
+  "lastmodifieddate" : 1723765408.2998481,
+  "ocrcapturestring" : "□ X",
+  "testlocationdata" : [
+    {
+      "connectionserverid" : "10.211.55.30",
+      "sutinfo" : {
+        "type" : "Unknown VNC"
+      },
+      "connectionname" : "Windows 11",
+      "connectionportnum" : 55903,
+      "connectiontype" : "RDP",
+      "capturedocrtext" : "□ X",
+      "properties" : {
+        "Rotate" : 0,
+        "Scale" : "    1",
+        "SearchType" : "Tolerant of Background",
+        "Discrepancy" : "_0",
+        "Tolerance" : "_45",
+        "HotSpot" : "[60,13]",
+        "CropRectangle" : "[0,0,0,0]"
+      },
+      "type" : 1,
+      "name" : "OS\/Windows\/Window Icons\/Maximize\/icon_Maximize_Dark.png",
+      "capturerect" : [
+        1191,
+        217,
+        121,
+        23
+      ]
+    }
+  ],
+  "createddate" : 1723765408.2998471,
+  "lastfoundlocation" : [
+    1113,
+    139,
+    121,
+    23
+  ],
+  "originalcapturelocation" : [
+    1191,
+    217,
+    121,
+    23
+  ],
+  "lastfounddate" : 1723766540.2669611,
+  "name" : "OS\/Windows\/Window Icons\/Maximize\/icon_Maximize_Dark"
+}

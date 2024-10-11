@@ -1,0 +1,47 @@
+{
+  "lastmodifieddate" : 1714440763.9428439,
+  "ocrcapturestring" : "Run",
+  "testlocationdata" : [
+    {
+      "name" : "OS\/Windows\/Run Window\/icon_Run_new2.png",
+      "sutinfo" : {
+        "type" : "Unknown VNC"
+      },
+      "connectionname" : "Syringe Pump Stack",
+      "connectionportnum" : 5900,
+      "capturedocrtext" : "Run",
+      "properties" : {
+        "Rotate" : 0,
+        "Scale" : "    1",
+        "SearchType" : "Smoothed for Text",
+        "Discrepancy" : "_0",
+        "Tolerance" : "_73",
+        "HotSpot" : "[15,11]",
+        "CropRectangle" : "[0,0,0,0]"
+      },
+      "type" : 1,
+      "connectionserverid" : "PWIN01-BARRJCKNJ",
+      "capturerect" : [
+        22,
+        830,
+        47,
+        16
+      ]
+    }
+  ],
+  "createddate" : 1714440763.9428439,
+  "lastfoundlocation" : [
+    26,
+    825,
+    47,
+    16
+  ],
+  "originalcapturelocation" : [
+    22,
+    830,
+    47,
+    16
+  ],
+  "lastfounddate" : 1720811986.8065009,
+  "name" : "OS\/Windows\/Run Window\/icon_Run_new2"
+}

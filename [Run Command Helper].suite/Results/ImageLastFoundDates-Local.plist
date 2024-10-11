@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>OS/Windows/Run Window/icon_Run.png</key>
+	<string>2024-07-17 03:49 +0000</string>
+	<key>OS/Windows/Run Window/icon_Run_new.png</key>
+	<string>2024-02-17 03:49 +0000</string>
+	<key>OS/Windows/Run Window/icon_Run_new2.png</key>
+	<string>2024-07-12 19:19 +0000</string>
+	<key>OS/Windows/System Menu/Maximize/menu_Maximize_Dark_onFocus.png</key>
+	<string>2024-07-24 20:33 +0000</string>
+	<key>OS/Windows/System Menu/Maximize/menu_Maximize_Light_offFocus.png</key>
+	<string>2024-08-15 21:55 +0000</string>
+	<key>OS/Windows/System Menu/Maximize/menu_Maximize_Light_onFocus.png</key>
+	<string>2023-03-27 20:38 +0000</string>
+	<key>OS/Windows/System Menu/Maximize/menu_Maximize_Light_onFocus_2.png</key>
+	<string>2024-06-28 14:46 +0000</string>
+	<key>OS/Windows/System Menu/Minimize/menu_Minimize_Dark_offFocus.png</key>
+	<string>2024-03-07 10:11 +0000</string>
+	<key>OS/Windows/System Menu/Minimize/menu_Minimize_Light_offFocus.png</key>
+	<string>2024-02-13 15:21 +0000</string>
+	<key>OS/Windows/System Menu/Restore/menu_Restore_Dark_Enabled.png</key>
+	<string>2024-03-07 10:12 +0000</string>
+	<key>OS/Windows/System Menu/Restore/menu_Restore_Light_Enabled.png</key>
+	<string>2024-02-13 15:30 +0000</string>
+	<key>OS/Windows/Window Icons/Close/icon_Close_Dark.png</key>
+	<string>2024-08-15 23:43 +0000</string>
+	<key>OS/Windows/Window Icons/Close/icon_Close_Light.png</key>
+	<string>2024-08-15 23:40 +0000</string>
+	<key>OS/Windows/Window Icons/Maximize/icon_Maximize_Dark.png</key>
+	<string>2024-08-16 00:02 +0000</string>
+	<key>OS/Windows/Window Icons/Maximize/icon_Maximize_Light.png</key>
+	<string>2024-08-15 23:40 +0000</string>
+	<key>OS/Windows/Window Icons/Minimize/icon_Minimize_Dark.png</key>
+	<string>2024-08-15 23:43 +0000</string>
+	<key>OS/Windows/Window Icons/Minimize/icon_Minimize_Light.png</key>
+	<string>2024-08-15 23:40 +0000</string>
+	<key>OS/Windows/Window Icons/Restore/icon_Restore_Dark.png</key>
+	<string>2024-08-15 23:44 +0000</string>
+	<key>OS/Windows/Window Icons/Restore/icon_Restore_Light.png</key>
+	<string>2024-08-15 23:41 +0000</string>
+	<key>OS/macOS/field_SpotlightSearch/field_SpotlightSearch.png</key>
+	<string>2023-03-17 02:17 +0000</string>
+	<key>OS/macOS/field_SpotlightSearch/field_SpotlightSearch2.png</key>
+	<string>2023-03-17 02:18 +0000</string>
+</dict>
+</plist>

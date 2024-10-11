@@ -1,0 +1,75 @@
+{
+  "lastmodifieddate" : 1723758831.0336962,
+  "ocrcapturestring" : "□ Maximize",
+  "testlocationdata" : [
+    {
+      "connectionserverid" : "10.211.55.30",
+      "sutinfo" : {
+        "type" : "Unknown RDP"
+      },
+      "connectionname" : "Windows 11",
+      "connectionportnum" : 3389,
+      "connectiontype" : "RDP",
+      "capturedocrtext" : "□ Maximize",
+      "properties" : {
+        "Rotate" : 0,
+        "Scale" : "    1",
+        "SearchType" : "Smoothed for Text",
+        "Discrepancy" : "_0",
+        "Tolerance" : "_73",
+        "HotSpot" : "[38,3]",
+        "CropRectangle" : "[0,0,0,0]"
+      },
+      "type" : 1,
+      "name" : "OS\/Windows\/System Menu\/Maximize\/menu_Maximize_Light_onFocus.png",
+      "capturerect" : [
+        276,
+        371,
+        81,
+        13
+      ]
+    },
+    {
+      "connectionserverid" : "10.211.55.30",
+      "sutinfo" : {
+        "type" : "Unknown RDP"
+      },
+      "connectionname" : "Windows 11",
+      "connectionportnum" : 3389,
+      "connectiontype" : "RDP",
+      "capturedocrtext" : "□ Maximize",
+      "properties" : {
+        "Rotate" : 0,
+        "Scale" : "    1",
+        "SearchType" : "Adaptive to Image",
+        "Discrepancy" : "_0",
+        "Tolerance" : 55,
+        "HotSpot" : "[38,3]",
+        "CropRectangle" : "[0,0,0,0]"
+      },
+      "type" : 1,
+      "name" : "OS\/Windows\/System Menu\/Maximize\/menu_Maximize_Light_onFocus.png",
+      "capturerect" : [
+        276,
+        371,
+        81,
+        13
+      ]
+    }
+  ],
+  "createddate" : 1679946385.8974061,
+  "lastfoundlocation" : [
+    276,
+    371,
+    81,
+    13
+  ],
+  "originalcapturelocation" : [
+    276,
+    371,
+    81,
+    13
+  ],
+  "lastfounddate" : 1679949532.7471499,
+  "name" : "OS\/Windows\/System Menu\/Maximize\/menu_Maximize_Light_Enabled"
+}

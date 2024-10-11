@@ -1,0 +1,47 @@
+{
+  "lastmodifieddate" : 1723758865.9651232,
+  "ocrcapturestring" : "□ Maximize",
+  "testlocationdata" : [
+    {
+      "name" : "OS\/Windows\/System Menu\/Maximize\/menu_Maximize_Light_onFocus_2.png",
+      "sutinfo" : {
+        "type" : "Unknown VNC"
+      },
+      "connectionname" : "Windows 11 via VNC",
+      "connectionportnum" : 5900,
+      "capturedocrtext" : "□ Maximize",
+      "properties" : {
+        "Rotate" : 0,
+        "Scale" : "    1",
+        "SearchType" : "Smoothed for Text",
+        "Discrepancy" : "_0",
+        "Tolerance" : "_72",
+        "HotSpot" : "[74,11]",
+        "CropRectangle" : "[0,0,0,0]"
+      },
+      "type" : 1,
+      "connectionserverid" : "10.211.55.30",
+      "capturerect" : [
+        254,
+        256,
+        151,
+        23
+      ]
+    }
+  ],
+  "createddate" : 1718762346.474472,
+  "lastfoundlocation" : [
+    254,
+    256,
+    151,
+    23
+  ],
+  "originalcapturelocation" : [
+    254,
+    256,
+    151,
+    23
+  ],
+  "lastfounddate" : 1719585982.551264,
+  "name" : "OS\/Windows\/System Menu\/Maximize\/menu_Maximize_Light_Enabled_2"
+}
