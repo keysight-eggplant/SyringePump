@@ -1,5 +1,8 @@
 ﻿global myRectangle
 
+
+set the SearchRectangle to (197,27,422,1014)
+
 Repeat 7 times
 	put ImageRectangle(text:"Syringe"&&RepeatIndex(), waitFor:1) into myRectangle.("Syringe"&repeatIndex())
 	put myRectangle.("Syringe"&repeatIndex()) + (1246,-17,1638,92) into myRectangle.("Activity"&repeatIndex())
@@ -13,5 +16,6 @@ Repeat 7 times
 	put myRectangle.("Remaining"&repeatIndex()) - (76, 2,73,-4) into myRectangle.("RemainingRegion"&repeatIndex())
 End repeat
 
+set the SearchRectangle to ""
 
 
