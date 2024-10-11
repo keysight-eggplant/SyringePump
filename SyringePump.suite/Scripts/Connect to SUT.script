@@ -2,3 +2,6 @@
 
 
 Connect "NewSingleSystem"
+
+WaitFor 60.0, "WindowsStartButton_blue"
+
